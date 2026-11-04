@@ -1,0 +1,115 @@
+<title>Srovnání cen Benešov</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  /* Plánový papír a tuš: chladná šedobílá, tmavá břidlice, signální modrá; zisk/ztráta sémanticky */
+  --bg:#f3f5f4; --paper:#ffffff; --ink:#1b2427; --soft:#56646a; --rule:#d5dcdb; --accent:#1d5a73; --accent-soft:#e3eef2;
+  --pos:#1f6b3a; --neg:#a3322a; --warn:#8a5a00; --warn-bg:#fbf1dc;
+  --f-display:"Archivo Narrow","Arial Narrow",system-ui,sans-serif; --f-body:"IBM Plex Sans",system-ui,-apple-system,sans-serif; --f-data:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141a1c;--paper:#1b2326;--ink:#e3e9ea;--soft:#9aa8ad;--rule:#33403f;--accent:#7cc0dc;--accent-soft:#1f3540;--pos:#6fcf8f;--neg:#f08a80;--warn:#e8b65a;--warn-bg:#3a2f18;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141a1c;--paper:#1b2326;--ink:#e3e9ea;--soft:#9aa8ad;--rule:#33403f;--accent:#7cc0dc;--accent-soft:#1f3540;--pos:#6fcf8f;--neg:#f08a80;--warn:#e8b65a;--warn-bg:#3a2f18;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:-.01em}
+h2{font-size:26px;font-weight:700;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+h3{font-size:18px;font-weight:600}
+p{margin:0;max-width:72ch}
+section{display:grid;gap:16px;min-width:0}
+.eyebrow{font-family:var(--f-data);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.ids{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--f-data);font-size:12.5px;color:var(--soft)}
+.ids b{color:var(--ink);font-weight:500}
+.verdict{background:var(--paper);border:1px solid var(--rule);border-left:6px solid var(--neg);padding:18px 20px;display:grid;gap:10px}
+.verdict p.big{font-size:19px;line-height:1.45;max-width:none;font-weight:500}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.kpi{background:var(--paper);border:1px solid var(--rule);padding:12px 14px;display:grid;gap:2px;min-width:0}
+.kpi .v{font-family:var(--f-data);font-size:22px;font-weight:500;font-variant-numeric:tabular-nums}
+.kpi .l{font-size:13px;color:var(--soft)}
+.scroll{overflow-x:auto;min-width:0;border:1px solid var(--rule);background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--rule)}
+thead th{font-size:12.5px;font-weight:600;color:var(--soft);background:var(--paper);position:sticky;top:0;vertical-align:bottom}
+thead th small{font-weight:400}
+tbody th{font-weight:600}
+td.num{font-family:var(--f-data);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;font-size:13px}
+td.strong{font-weight:600;color:var(--accent)}
+.pos{color:var(--pos)} .neg{color:var(--neg)}
+tr.muted td,tr.muted th{color:var(--soft)}
+tr.grp td,tr.grp th{border-top:2px solid var(--rule)}
+tr.sum td{font-weight:600;border-top:2px solid var(--ink)}
+table.dense th,table.dense td{padding:5px 8px}
+th.c,td.mid{text-align:center} th.r{text-align:right} table.vv thead tr+tr th{text-align:right} table.vv td.num{width:16%} table.vv thead tr:first-child th.c{border-left:2px solid var(--rule)} table.vv tbody th{font-weight:500}
+table.narrow{max-width:520px;border:1px solid var(--rule);background:var(--paper)}
+table.costs{min-width:560px} table.costs td.num{width:13%}
+table.costs tbody+tbody{border-top:0}
+tr.sec th{font-family:var(--f-data);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--soft);background:var(--accent-soft);padding-top:7px}
+tr.it th{font-weight:500}
+.tg{all:unset;cursor:pointer;display:inline-flex;gap:6px;align-items:baseline}
+.tg::before{content:"▸";color:var(--accent);display:inline-block;width:10px;transition:transform .15s}
+.tg[aria-expanded="true"]::before{transform:rotate(90deg)}
+.tg:hover{color:var(--accent)} .tg:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+tr.it th:not(:has(.tg)){padding-left:24px}
+tr.sub td{font-size:13px;color:var(--soft);background:var(--bg);border-bottom-style:dotted}
+tr.sub td:first-child{padding-left:24px}
+tr.sub td.num{font-size:12px}
+td.note-row{font-style:italic}
+p.tools{display:flex;justify-content:flex-end}
+.tg-all{font:inherit;font-size:13px;color:var(--accent);background:var(--paper);border:1px solid var(--rule);padding:4px 10px;cursor:pointer}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.cols>*{min-width:0}
+.card{background:var(--paper);border:1px solid var(--rule);padding:14px 16px;display:grid;gap:8px}
+.rank{display:grid;gap:10px;counter-reset:r;padding:0;margin:0;list-style:none}
+.rank li{counter-increment:r;display:grid;grid-template-columns:34px 1fr;gap:10px;background:var(--paper);border:1px solid var(--rule);padding:12px 14px}
+.rank li::before{content:counter(r);font-family:var(--f-data);font-size:20px;color:var(--accent)}
+.rank li p{max-width:none}
+ul.plain{margin:0;padding-left:20px;display:grid;gap:6px}
+ol.steps{margin:0;padding-left:22px;display:grid;gap:8px}
+.note{background:var(--warn-bg);border:1px solid var(--rule);padding:12px 14px;font-size:14px}
+.note b{color:var(--warn)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+figure{margin:0;background:var(--paper);border:1px solid var(--rule);display:grid}
+figure img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;max-width:100%}
+figcaption{font-size:12.5px;padding:6px 8px;color:var(--soft)}
+figcaption code,td code,p code,li code{font-family:var(--f-data);font-size:11.5px;color:var(--ink)}
+.q h3{margin-top:4px}
+.q ol{margin:0;padding-left:22px;display:grid;gap:5px}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+small{font-size:12px}
+footer{font-size:13px;color:var(--soft);display:grid;gap:6px}
+.who{font:500 10.5px/1.5 var(--f-data);letter-spacing:.03em;text-transform:uppercase;border:1px solid currentColor;border-radius:9px;padding:0 6px;margin-left:6px;cursor:help;background:transparent;color:var(--soft);vertical-align:1px;white-space:nowrap}
+.who-F{color:var(--accent)} .who-R{color:var(--pos)} .who-FR{color:var(--warn)}
+.who:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#tip{position:fixed;z-index:10;max-width:min(340px,calc(100vw - 32px));background:var(--ink);color:var(--paper);font-size:13px;line-height:1.45;padding:8px 10px;border-radius:4px;box-shadow:0 4px 14px rgba(0,0,0,.25);pointer-events:none}
+@media (max-width:560px){h2{font-size:22px}.verdict p.big{font-size:17px}}
+</style>
+<div class="wrap">
+<header style="display:grid;gap:12px">
+  <div class="eyebrow">Podklad k propočtu Jana Nohy 1598 · 4. 11. 2026</div>
+  <h1>Srovnání cen bytů a domů v Benešově</h1>
+</header>
+<section aria-labelledby="s6">
+  <h2 id="s6">Srovnávací byty a domy</h2>
+  <div class="kpis">
+    <div class="kpi"><span class="v">61 395 Kč/m²</span><span class="l">ČSÚ, okres Benešov 2025, průměr kupních cen bytů všech stavů (302 převodů 2023–25)</span></div>
+    <div class="kpi"><span class="v">78 750 Kč/m²</span><span class="l">medián 7 prodaných bytů v Benešově 11/2024–9/2026 (REAS)</span></div>
+    <div class="kpi"><span class="v">98 / 85 tis.</span><span class="l">model: malé / velké byty po rekonstrukci, realizovaně</span></div>
+    <div class="kpi"><span class="v">−7,7 %</span><span class="l">medián slevy z nabídky na prodej v Benešově (n = 5); ČR −11 %</span></div>
+  </div>
+  <h3>Prodané byty v Benešově (REAS, reas.cz/prodane/byty/okres-benesov)</h3>
+  <div class="scroll"><table class="dense"><thead><tr><th>Prodáno</th><th>Adresa</th><th>Dispozice / m²</th><th>Cena Kč</th><th>Kč/m²</th><th>Stav</th></tr></thead><tbody>
+    <tr><td>9. 9. 2026</td><td>Na Chmelnici 1998</td><td>1+kk / 30</td><td class='num'>3 450 000</td><td class='num'>115 000</td><td>zánovní, dům 2016</td></tr><tr><td>23. 4. 2026</td><td>Jiráskova 1087</td><td>2+1 / 71</td><td class='num'>5 500 000</td><td class='num'>77 465</td><td>před rekonstrukcí, sleva −19 %</td></tr><tr><td>20. 2. 2026</td><td>Antuškova 1494</td><td>4+1 / 80</td><td class='num'>6 300 000</td><td class='num'>78 750</td><td>rekonstrukce 2017, garáž</td></tr><tr><td>12. 9. 2025</td><td>Rubešova 551</td><td>2+kk / 37</td><td class='num'>4 297 000</td><td class='num'>116 135</td><td>modernizace 2022</td></tr><tr><td>7. 7. 2025</td><td>Kpt. Nálepky 1639</td><td>3+kk / 71</td><td class='num'>5 990 000</td><td class='num'>84 366</td><td>kompletní rekonstrukce, garáž</td></tr><tr><td>5. 6. 2025</td><td>Bezručova 1273</td><td>2+1 / 56</td><td class='num'>4 200 000</td><td class='num'>75 000</td><td>částečná rekonstrukce, třída G</td></tr><tr><td>16. 4. 2025</td><td>Zapova 1286</td><td>2+1 / 70</td><td class='num'>4 600 000</td><td class='num'>65 714</td><td>původní stav, sleva −26 %</td></tr>
+  </tbody></table></div>
+  <h3>Nabízené byty v Benešově (stav ověřen v inzerátu, 4. 11. 2026)</h3>
+  <div class="scroll"><table class="dense"><thead><tr><th>ID</th><th>Ulice</th><th>Disp.</th><th>m²</th><th>Cena Kč</th><th>Kč/m²</th><th>Stav</th><th>Datum</th></tr></thead><tbody>
+    <tr><td><a href='https://www.sreality.cz/detail/prodej/byt/3+1/benesov-benesov-vlasimska/2898395212' target='_blank' rel='noopener'>S1</a></td><td>Vlašimská</td><td>3+1</td><td class='num'>76</td><td class='num'>7 500 000</td><td class='num'>98 684</td><td>po kompletní rekonstrukci, cihla</td><td>nabídka 30. 10. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/2+kk/benesov-benesov-nova-prazska/1693434700' target='_blank' rel='noopener'>S6</a></td><td>Nová Pražská</td><td>2+kk</td><td class='num'>43</td><td class='num'>5 650 000</td><td class='num'>131 395</td><td>po kompletní rekonstrukci, panel; visí 13 měsíců</td><td>nabídka 11. 10. 2025</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/4+kk/benesov-benesov-vlasimska/4061536332' target='_blank' rel='noopener'>S7</a></td><td>Vlašimská</td><td>4+kk</td><td class='num'>85</td><td class='num'>8 300 000</td><td class='num'>97 647</td><td>po rekonstrukci, panel</td><td>nabídka 30. 9. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/4+kk/benesov-benesov-jiriho-franka/3487625292' target='_blank' rel='noopener'>S13</a></td><td>Jiřího Franka</td><td>4+kk</td><td class='num'>75</td><td class='num'>7 490 000</td><td class='num'>99 867</td><td>částečná rekonstrukce 2026, panel</td><td>nabídka 25. 6. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/2+kk/benesov-benesov-f-v-marese/4158046284' target='_blank' rel='noopener'>S16</a></td><td>F. V. Mareše</td><td>2+kk</td><td class='num'>69</td><td class='num'>6 990 000</td><td class='num'>101 747</td><td>po rekonstrukci 2020/21, cihla</td><td>nabídka 28. 8. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/2+1/benesov-benesov-zapova/1971179596' target='_blank' rel='noopener'>S2</a></td><td>Zapová</td><td>2+1</td><td class='num'>62</td><td class='num'>5 397 000</td><td class='num'>87 048</td><td>původní, k rekonstrukci, panel</td><td>nabídka 29. 7. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/3+1/benesov-benesov-na-trzisti/114368588' target='_blank' rel='noopener'>S12</a></td><td>Na Tržišti</td><td>3+1</td><td class='num'>80</td><td class='num'>6 500 000</td><td class='num'>81 250</td><td>udržovaný, cihla, 1. NP</td><td>nabídka 28. 9. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/2+1/benesov-benesov-dukelska/3060183116' target='_blank' rel='noopener'>S18</a></td><td>Dukelská</td><td>2+1</td><td class='num'>62</td><td class='num'>5 250 000</td><td class='num'>84 677</td><td>starší rekonstrukce 1998, panel</td><td>nabídka 18. 4. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/2+kk/benesov-benesov-/3603256140' target='_blank' rel='noopener'>S11</a></td><td>Vlašimská (?)</td><td>2+kk</td><td class='num'>52</td><td class='num'>4 950 000</td><td class='num'>95 192</td><td>udržovaný, panel</td><td>nabídka 16. 3. 2026</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/2+kk/benesov-benesov-rubesova/2659636044' target='_blank' rel='noopener'>S14</a></td><td>Rubešova</td><td>2+kk</td><td class='num'>38</td><td class='num'>4 390 000</td><td class='num'>115 526</td><td>udržovaný, cihla</td><td>nabídka 3. 10. 2025</td></tr><tr><td><a href='https://www.sreality.cz/detail/prodej/byt/3+kk/benesov-benesov-dukelska/3395437388' target='_blank' rel='noopener'>S17</a></td><td>Dukelská</td><td>3+kk</td><td class='num'>83</td><td class='num'>8 000 000</td><td class='num'>96 386</td><td>novostavba 2025, zlevněno z 8,3 mil.</td><td>nabídka 27. 3. 2026</td></tr><tr><td><a href='https://www.mmreality.cz/nemovitosti/937926/' target='_blank' rel='noopener'>M1</a></td><td>Hráského</td><td>3+1</td><td class='num'>66</td><td class='num'>7 500 000</td><td class='num'>113 636</td><td>po rekonstrukci, panel, 6 min od nádraží</td><td>nabídka 3/2026</td></tr>
+  </tbody></table></div>
+  <h3>Celé bytové domy (nabídky Sreality, 2026)</h3>
+  <div class="scroll"><table class="dense"><thead><tr><th>Lokalita</th><th>Popis</th><th>Cena Kč</th><th>Kč/m² bytů</th><th>Sreality ID</th></tr></thead><tbody>
+    <tr><td>Benešov, Na Chmelnici</td><td>4 byty, 206 m², pronajato za 55 000 Kč/měs.</td><td class='num'>12 499 000</td><td class='num'>60 675</td><td><a href='https://www.sreality.cz/api/v1/estates/2905808972' target='_blank' rel='noopener'>2905808972</a></td></tr><tr><td>Petroupim (okr. Benešov)</td><td>5 bytů, 306 m², po rekonstrukci, obsazeno</td><td class='num'>13 490 000</td><td class='num'>44 085</td><td><a href='https://www.sreality.cz/api/v1/estates/1381310540' target='_blank' rel='noopener'>1381310540</a></td></tr><tr><td>Zaječov-Kvaň (okr. Beroun)</td><td>4× 3+1, tuhá paliva, k rekonstrukci, pozemek jen pod domem</td><td class='num'>10 950 000</td><td class='num'>~43 800</td><td><a href='https://www.sreality.cz/api/v1/estates/3265151820' target='_blank' rel='noopener'>3265151820</a></td></tr><tr><td>Mokrovraty (okr. Příbram)</td><td>4 byty, 290 m², projekt 2 podkrovních bytů</td><td class='num'>13 500 000</td><td class='num'>46 552</td><td><a href='https://www.sreality.cz/api/v1/estates/238391372' target='_blank' rel='noopener'>238391372</a></td></tr><tr><td>Kutná Hora, Husova 140</td><td>3 byty + podkroví k dostavbě, inzerováno 12 měsíců</td><td class='num'>13 999 000</td><td class='num'>46 700 (byty)</td><td><a href='https://www.sreality.cz/api/v1/estates/37798732' target='_blank' rel='noopener'>37798732</a></td></tr>
+  </tbody></table></div>
+  <p><small>Dům v dnešním stavu podle srovnání 20 / 29 / 38 tis. Kč/m² bytů, tedy 5,7 / 8,3 / 10,8 mil. (nezávislý odhad 11,5 mil.); po nových fotkách trhlin model bere 5,0 / 7,5 / 11,0 mil., protože kupec odečte statické zajištění. Opravený dům investor koupí asi o 30 % levněji než součet bytů. Nájem v Benešově: medián 15 nabídek 292 (malé) / 315 (velké) Kč/m² měsíčně (4. 11. 2026), model počítá 280. Výsledky soutěží ČD se nezveřejňují; ÚZSVM e-aukce 2025 skončily 17–64 % nad vyvolávací cenou.</small></p>
+</section>
+</div>
