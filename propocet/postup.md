@@ -230,3 +230,9 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 - Nová tabulka „Rozpočet po bytech a DPH“ pod 1. Náklady (`tab_byty()`, `_klic()`, `M2B` v report.py): stavba bez nástavby (bez parkování a přípojky) rozdělená na přímé náklady bytů a společné podle ploch všech 6 bytů (344 m²); test 30 % po jednotkách (§ 56 odst. 5 a 7, GFŘ 1127/26) a čisté DPH s koeficientem § 76. Výpočet a zdůvodnění `polozky/kontrola2/dph-po-jednotkach.md`.
 - Real: A 25,3 %, B 27,1 %, C 24,2 %, D 25,2 % (bez DPH), N1/N2 52,2 % (12 %); souhrnně 31,5 %. DPH 2,09 → 0,34 mil. (−1,76; po dani ~+1,1 mil.). Nejtěsnější B, rezerva 145 tis. bez DPH. Pes: vše nad 30 %; opt: vše pod 30 %.
 - Model výsledek dál počítá souhrnně (konzervativně) do potvrzení daňovým poradcem.
+
+## 5. 11. 2026 – DPH: model počítá test 30 % po bytech (uživatel)
+- `model.py`: u V1/V2 test po jednotkách místo souhrnného (§ 56 odst. 5 a 7, GFŘ 1127/26): přímé náklady A–D = `PRIME_AD` × stavba rekonstrukce (A 12,08 %, B 14,34 %, C 12,15 %, D 9,32 %, z rozpisu report.py), N1/N2 = přestavba nebytové části, nástavba = nové byty (zdanitelné vždy); společné (zbytek rekonstrukce, služby, statika) podle ploch. Odpočet `dph_in_rek` jen za zdaněné byty + společné × koeficient § 76. Výstupy `r["dph_jednotky"]`, `dph_koef`, `dph_K`, `dph_in_rek`, `dph_souhrn` (pro srovnání).
+- `report.py`: tabulka po bytech bere test a DPH z modelu, assert shody klíče reportu (`_klic`) s `PRIME_AD` ±1,5 p. b. (při změně rozpisu bytů přepočítat PRIME_AD).
+- Real V1: A 25,3 / B 27,1 / C 24,1 / D 25,1 % bez DPH, N1/N2 ~51 % s DPH; DPH po odpočtu 2,10 → 0,35 mil.; čistý zisk V1 6,07 mil., V2 6,34 mil. (vč. souběžných změn jiných sezení). Pes: všechny byty nad 30 %; opt: všechny pod.
+- Pozor: `kontrola()` v model.py padá na `dan(1_000_000, "sro")` – změna daně z jiného sezení, nesouvisí s DPH.
