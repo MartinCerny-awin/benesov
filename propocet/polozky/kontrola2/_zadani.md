@@ -16,6 +16,7 @@ Kontroluješ **jednu nákladovou položku** propočtu koupě, rekonstrukce a pro
 - Stavba se dělá kombinací firma + řemeslníci (štítek u každé dílčí položky). Řemeslník neplátce: z jeho práce se DPH neodečítá, z materiálu se odečte 21 %. Svépomoc proto ušetří méně, než ukazují čísla s DPH – zohledni to.
 
 ## Důležité o číslech na webu
+- Čísla v tvém zadání jsou z webu k 5. 11. 13:44. Model mezitím upravují jiná sezení, takže si na začátku přečti aktuální hodnotu své položky (WebFetch https://benesov.noirloop.com, scénář realisticky, nebo lokální `/Users/martincerny/Documents/Benesov/web/index.html`) a pracuj s ní.
 - Dílčí položky v rozpisu jsou **dopočtené na součet z modelu**: vlastní odhady z `propocet/polozky/*.md` se v reportu poměrně škálují, u stavby zhruba **× 1,17** (rezerva v realistickém scénáři je zrušená a ta přirážka teď funguje jako rezerva). Porovnávej proto svůj součet hlavně s hodnotou celé položky.
 - Model: `propocet/model.py` (vstupy ve slovníku `IN`: pes / real / opt; výpočet `projekt()`), report `propocet/report.py` (seznamy dílčích položek `POL`, ř. ~254–380). **Na model.py a report.py souběžně pracují jiná sezení – jen čti.**
 
