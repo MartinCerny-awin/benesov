@@ -34,6 +34,8 @@ Kolik hodin vaší vlastní práce čekám u každé podpoložky z rozpisu nákl
 | **Celkem (s architektem, bez nástavby)** | **739,5** | **223** |
 | Cesty do Benešova a zpět (~63 cest po 2 h, odhad z Prahy) | 126 | |
 | **Celkem s cestami** | **865,5** | |
+| Čas architekta (zdarma, vč. jeho cest, rozpis dole) | 710 | |
+| **Celkem vy a architekt** | **1575,5** | |
 
 Celek odpovídá modelu bez nástavby: 6 bytů (A–D a 2 byty v přízemí), byt B 3+1, všechny prodané. Tohle se přičítá, jen když nastane:
 
@@ -42,6 +44,7 @@ Celek odpovídá modelu bez nástavby: 6 bytů (A–D a 2 byty v přízemí), by
 | Navíc, když řemeslníky nesežene a nekoordinuje architekt | 580 |  |
 | Navíc, když 2 byty před prodejem pronajmete | 76 |  |
 | Navíc: ustupující podlaží (3 byty) | 105,5 |  |
+| Architekt: ustupující podlaží | 500 | |
 
 Pro představu: 865,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou hlavně drážky pro elektro, malby a vyklizení v přízemí, úklid, dveře a kotle. Kdo ji nechce dělat, zaplatí řemeslníky; v nákladech by to bylo dráž. Když řemeslníky nesežene a nekoordinuje architekt, je to největší položka ze všech a celkový čas skoro zdvojnásobí.
 
@@ -442,3 +445,15 @@ Pro představu: 865,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou 
 | Projekty nástavby: koordinátor BOZP, vyjádření a poplatky | 0,5 | Kontrola. |
 | Další 3 jednotky: prohlášení vlastníka, geodet, zvonky, schránky, osvětlení schodiště | 1 | Doplnit prohlášení vlastníka o jednotky v nástavbě. |
 | Prodej 3 bytů v nástavbě | 60 | Fotky, prohlídky, smlouvy, ~20 h na byt. |
+
+## Čas architekta (710 h bez nástavby, s nástavbou +500 h)
+
+Kamarád architekt pracuje zdarma. Jeho hodiny jsou hrubý odhad, v propočtu se přičítají k vašim.
+
+| Položka | Hodin | Co dělá architekt |
+|---|--:|---|
+| Zaměření stávajícího stavu | 40 | Zaměření 3 podlaží, sklepa a střechy na místě (~2 dny), výkresy stávajícího stavu. |
+| Projekt stavebních úprav (ohlášení nebo povolení) | 150 | Výkresy a technická zpráva, vyjádření dotčených orgánů, podání a jednání s úřadem. |
+| Zaměření, projekt, povolení změny užívání a technický dozor | 200 | Projekt 2 bytů v přízemí, posudky, povolení změny užívání, dozor na stavbě. |
+| Projekt, inženýring, povolení, technický a autorský dozor | 500 | Projekt nástavby, povolení stavby, autorský a technický dozor. |
+| Shánění a koordinace řemeslníků, stavbyvedoucí | 320 | Shánění ~15 profesí přes své kontakty (~60 h), koordinace ~10 měsíců po ~4 h týdně (~170 h), cesty na stavbu ~1× týdně (~45 cest po 2 h). |
