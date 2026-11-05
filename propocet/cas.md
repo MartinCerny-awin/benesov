@@ -41,7 +41,7 @@ Celek odpovídá modelu bez nástavby: 6 bytů (A–D a 2 byty v přízemí), by
 |---|--:|--:|
 | Navíc, když řemeslníky nesežene a nekoordinuje architekt | 580 |  |
 | Navíc, když 2 byty před prodejem pronajmete | 76 |  |
-| Navíc: ustupující podlaží (2 byty) | 84 |  |
+| Navíc: ustupující podlaží (3 byty) | 105,5 |  |
 
 Pro představu: 865,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou hlavně drážky pro elektro, malby a vyklizení v přízemí, úklid, dveře a kotle. Kdo ji nechce dělat, zaplatí řemeslníky; v nákladech by to bylo dráž. Když řemeslníky nesežene a nekoordinuje architekt, je to největší položka ze všech a celkový čas skoro zdvojnásobí.
 
@@ -400,46 +400,45 @@ Pro představu: 865,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou 
 | Pronájem: správa do prodeje (~2 roky, 2 byty) | 48 | Vyúčtování, závady, komunikace s nájemníkem, ~1 h měsíčně na byt. |
 | Pronájem: ukončení nájmu a prodej obsazeného nebo uvolněného bytu | 8 | Předávka, případně prohlídky s nájemníkem v bytě. |
 
-## Navíc: ustupující podlaží (2 byty) (84 h)
+## Navíc: ustupující podlaží (3 byty) (105,5 h)
 
 | Podpoložka | Hodin | Co děláte vy |
 |---|--:|---|
-| Konstrukce nástavby: nosný dřevěný rám nebo CLT se stěnami, stropem, obálkou a fasádou (150 m²) | 10 | Vybrat systém (rám nebo CLT) a generálního dodavatele s architektem, smlouva o dílo. |
-| Konstrukce nástavby: demontáž staré střechy (150 m²) | 0,5 | Kontrola. |
-| Střecha nástavby: parozábrana a penetrace (150 m²) | 0,5 | Kontrola. |
-| Střecha nástavby: spádová tepelná izolace PIR (150 m²) | 0,5 | Kontrola. |
-| Střecha nástavby: hydroizolace z PVC fólie vč. lemů (150 m²) | 0,5 | Kontrola. |
-| Střecha nástavby: oplechování atiky | 0,5 | Kontrola. |
+| Konstrukce nástavby: nosný dřevěný rám nebo CLT se stěnami, stropem, obálkou a fasádou (176 m²) | 10 | Vybrat systém (rám nebo CLT) a generálního dodavatele s architektem, smlouva o dílo. |
+| Konstrukce nástavby: demontáž staré střechy (176 m²) | 0,5 | Kontrola. |
+| Střecha nástavby: parozábrana a penetrace (176 m²) | 0,5 | Kontrola. |
+| Střecha nástavby: spádová tepelná izolace PIR (176 m²) | 0,5 | Kontrola. |
+| Střecha nástavby: hydroizolace z PVC fólie vč. lemů (176 m²) | 0,5 | Kontrola. |
+| Střecha nástavby: oplechování atiky (60 m) | 0,5 | Kontrola. |
 | Střecha nástavby: střešní vpusti, přepady a prostupy | 0,5 | Kontrola. |
-| Okna nástavby: plastová okna (14 ks) | 2 | Vybrat okna. |
-| Okna nástavby: balkonové dveře (4 ks) | 0,5 | Kontrola. |
+| Okna nástavby: plastová okna (17 ks) | 2 | Vybrat okna. |
 | Okna nástavby: venkovní žaluzie nebo rolety | 1 | Vybrat žaluzie. |
-| Terasa na zbytku střechy: dlažba na terčích (89 m²) | 2 | Vybrat dlažbu. |
-| Terasa na zbytku střechy: zábradlí (40 m) | 1 | Vybrat zábradlí. |
+| Pás 1 m kolem nástavby: kotvicí body pro údržbu (bez terasy a zábradlí) | 0,5 | Kontrola. |
 | Schodiště do 3. podlaží: ocelové schodiště o 2 ramenech | 1 | Odsouhlasit výkres. |
 | Schodiště do 3. podlaží: otvor ve stropě se statikou | 0,5 | Kontrola. |
 | Schodiště do 3. podlaží: požární obklad a dveře | 0,5 | Kontrola. |
-| Rozvody nástavby: stoupačky a rozvody vody a kanalizace (2 byty) | 0,5 | Kontrola. |
-| Rozvody nástavby: elektro (120 m²) | 0,5 | Kontrola. |
-| Rozvody nástavby: podlahové topení (120 m²) | 0,5 | Kontrola. |
+| Schodiště do 3. podlaží: jádro v líci zahradní fasády (výška nad mezipodestou) | 0,5 | Kontrola. |
+| Rozvody nástavby: stoupačky a rozvody vody a kanalizace (3 byty) | 0,5 | Kontrola. |
+| Rozvody nástavby: elektro (133 m²) | 0,5 | Kontrola. |
+| Rozvody nástavby: podlahové topení (133 m²) | 0,5 | Kontrola. |
 | Rozvody nástavby: tepelné čerpadlo 10 kW do kaskády | 0,5 | Kontrola. |
-| Vybavení bytů: koupelny s WC, obklady a sanitou (2 ks) | 4 | Vybrat obklady a sanitu do 2 koupelen. |
-| Vybavení bytů: kuchyňské linky se spotřebiči (2 ks) | 4 | Navrhnout 2 linky se spotřebiči. |
-| Dokončení nástavby: příčky a předstěny ze sádrokartonu (160 m²) | 0,5 | Kontrola. |
-| Dokončení nástavby: podlahy (120 m²) | 2 | Vybrat podlahy. |
+| Vybavení bytů: koupelny s WC, obklady a sanitou (3 ks) | 6 | Vybrat obklady a sanitu do 3 koupelen. |
+| Vybavení bytů: kuchyňské linky se spotřebiči (3 ks) | 6 | Navrhnout 3 linky se spotřebiči. |
+| Dokončení nástavby: příčky a předstěny ze sádrokartonu (220 m²) | 0,5 | Kontrola. |
+| Dokončení nástavby: podlahy (133 m²) | 2 | Vybrat podlahy. |
 | Dokončení nástavby: sádrokartonový podhled | 0,5 | Kontrola. |
 | Dokončení nástavby: vnitřní dveře | 1 | Vybrat dveře. |
 | Dokončení nástavby: malba | 0,5 | Kontrola. |
 | Lešení a jeřáb: lešení (600 m²) | 0,5 | Kontrola. |
-| Lešení a jeřáb: autojeřáb na montáž panelů (4–5 dnů) | 0,5 | Kontrola. |
+| Lešení a jeřáb: autojeřáb na montáž panelů (5 dnů) | 0,5 | Kontrola. |
 | Lešení a jeřáb: zařízení staveniště a ochrana obyvatel | 0,5 | Kontrola. |
 | Požár a elektro: požární obklad REI 30–45 a ověření stropu nad 2. podlažím | 0,5 | Kontrola. |
-| Požár a elektro: rozšíření rozvaděče o 2 měření a navýšení příkonu pro 2 byty | 1 | Žádost o navýšení příkonu u distributora. |
+| Požár a elektro: rozšíření rozvaděče o 3 měření a navýšení příkonu pro 3 byty | 1 | Žádost o navýšení příkonu u distributora. |
 | Podchycení základů: mikropiloty (60 ks × 8 m) | 1 | Převzít protokoly. |
 | Podchycení základů: železobetonový věnec nad 2. podlažím (68 m) | 0,5 | Kontrola. |
 | Podchycení základů: zkoušky mikropilot a ostatní | 0,5 | Kontrola. |
 | Projekty nástavby: statika, průzkumy a požární řešení | 1 | Odsouhlasit. |
 | Projekty nástavby: prováděcí projekt rozvodů | 0,5 | Kontrola. |
 | Projekty nástavby: koordinátor BOZP, vyjádření a poplatky | 0,5 | Kontrola. |
-| Další 2 jednotky: prohlášení vlastníka, geodet, zvonky, schránky, osvětlení schodiště | 1 | Doplnit prohlášení vlastníka. |
-| Prodej 2 bytů v nástavbě | 40 | Fotky, prohlídky, smlouvy, ~20 h na byt. |
+| Další 3 jednotky: prohlášení vlastníka, geodet, zvonky, schránky, osvětlení schodiště | 1 | Doplnit prohlášení vlastníka o jednotky v nástavbě. |
+| Prodej 3 bytů v nástavbě | 60 | Fotky, prohlídky, smlouvy, ~20 h na byt. |
