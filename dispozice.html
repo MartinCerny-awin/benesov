@@ -65,13 +65,15 @@ ul{margin:0;padding-left:20px;display:grid;gap:4px}
 /* Mobil: o stupeň větší text a menší okraje. Půdorysy mají pevnou min. šířku, posouvají se do stran (.plan). */
 @media (max-width:560px){
   body{font-size:16px}
-  .wrap{padding-block:20px 48px;gap:22px}
-  .sheet{padding:14px 14px 16px;gap:12px}
+  .wrap{padding-block:16px 48px;gap:22px;padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:max(10px,env(safe-area-inset-right,0px))}
+  .sheet{padding:12px 10px 14px;gap:12px}
   h2{font-size:21px}
   h3{font-size:17px}
-  table{font-size:15px}
-  th,td{padding:7px 8px}
-  th{font-size:12.5px}
+  /* Tabulky a půdorysy přes celou šířku okna, menší písmo – ať je vidět popis i čísla najednou. */
+  .tbl,.plan{margin-inline:-10px}
+  table{font-size:14px}
+  th,td{padding:6px 6px}
+  th{font-size:11.5px}
   .disp{font-size:17px}
   .mono{font-size:14px}
   .note,.legend,.pill{font-size:14px}
@@ -89,6 +91,7 @@ ul{margin:0;padding-left:20px;display:grid;gap:4px}
 .topnav a:hover{color:var(--ink)} .topnav a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
 .topnav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:480px){.topnav b{display:none}.topnav div{justify-content:space-between}}
+@media (max-width:560px){.topnav{position:static}.topnav div{padding:0 max(10px,env(safe-area-inset-left,0px))}}
 </style><nav class="topnav" aria-label="Stránky"><div><b>Jana Nohy 1598</b><a href="index.html">Propočet</a><a href="dispozice.html" aria-current="page">Dispozice</a><a href="srovnani.html">Srovnání cen</a></div></nav>
 <div class="wrap">
   <header style="display:grid;gap:10px">

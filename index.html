@@ -96,20 +96,28 @@ header.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-
 /* Mobil: o stupeň větší text a menší okraje. Čísla v tabulkách zůstávají tabulková, široké tabulky se dál posouvají do stran (.scroll). */
 @media (max-width:560px){
   body{font-size:16px}
-  .wrap{padding-block:20px 48px;gap:32px}
+  .wrap{padding-block:16px 48px;gap:28px;padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:max(10px,env(safe-area-inset-right,0px))}
   h2{font-size:22px}
   h3{font-size:17px}
   .verdict{padding:14px 16px}
   .verdict p.big{font-size:18px}
   .kpi .v{font-size:20px}
   .kpi .l{font-size:13px}
-  table{font-size:15px}
-  thead th{font-size:13px}
-  td.num{font-size:14.5px}
-  table.dense th,table.dense td{padding:7px 8px}
-  tr.sec th{font-size:12px}
-  tr.sub td{font-size:14px}
-  tr.sub td.num{font-size:13.5px}
+  /* Tabulky: menší písmo, užší odsazení a tabulka přes celou šířku okna, ať je vidět popis i čísla najednou. */
+  .scroll{margin-inline:calc(-1 * max(10px,env(safe-area-inset-left,0px)));border-inline:0}
+  table{font-size:14px}
+  thead th{font-size:12px}
+  td.num{font-size:13px}
+  table.dense th,table.dense td{padding:6px 6px}
+  table.costs,table.narrow{min-width:0}
+  table.costs td.num,table.vv td.num{width:auto}
+  tr.sec th{font-size:11.5px}
+  tr.sub td{font-size:13px}
+  tr.sub td.num{font-size:12.5px}
+  tr.it th:not(:has(.tg)){padding-left:14px}
+  tr.sub td:first-child{padding-left:14px}
+  tr.sub2 td:first-child{padding-left:26px}
+  tr.grp td:first-child{padding-left:8px}
   .note{font-size:15px}
   figcaption{font-size:13.5px}
   .gallery{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
@@ -129,6 +137,7 @@ header.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-
 .topnav a:hover{color:var(--ink)} .topnav a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
 .topnav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:480px){.topnav b{display:none}.topnav div{justify-content:space-between}}
+@media (max-width:560px){.topnav{position:static}.topnav div{padding:0 max(10px,env(safe-area-inset-left,0px))}}
 </style><nav class="topnav" aria-label="Stránky"><div><b>Jana Nohy 1598</b><a href="index.html" aria-current="page">Propočet</a><a href="dispozice.html">Dispozice</a><a href="srovnani.html">Srovnání cen</a></div></nav>
 <div class="wrap">
 <header class="top">
