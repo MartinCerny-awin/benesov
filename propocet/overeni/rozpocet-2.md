@@ -8,13 +8,13 @@ Zpracováno 4. 11. 2026 pouze z fotek a snímků z videí ve složce `prace/` (o
 - obvod 67,8 m, výška fasády nad terénem s atikou cca 7 m, fasáda k zateplení po odečtení otvorů a s ostěními cca 420 m², sokl 40 m²;
 - střecha 240 m² a atika 68 bm;
 - stěny a stropy bytů k malování cca 910 m² (3,5× podlahová plocha), společné prostory 200 m²;
-- okna: celkem cca 38 otvorů. Plastová (A, C, část 2. NP do zahrady) cca 16 ks. Dřevěná zdvojená z doby stavby (B, E, koupelny, nebytové 1. NP, schodiště) cca 22 ks.
+- okna: celkem cca 38 otvorů. Plastová (A, C, část 2. NP do zahrady) cca 16 ks. Dřevěná zdvojená z doby stavby (B, D, koupelny, nebytové 1. NP, schodiště) cca 22 ks.
 
 ---
 
 ## 1. Stav podle fotek
 
-Cesty k souborům jsou relativní k `/Users/martincerny/Documents/Benesov/prace/obrazky/`. Videa: `PXL_20261103_091024109/` = byt B, `PXL_20261103_091125893/` = byt E, `PXL_20261103_091205223/` a `PXL_20261103_091227435/` = byt C, `PXL_20261103_091854646/` = byt A.
+Cesty k souborům jsou relativní k `/Users/martincerny/Documents/Benesov/prace/obrazky/`. Videa: `PXL_20261103_091024109/` = byt B, `PXL_20261103_091125893/` = byt D, `PXL_20261103_091205223/` a `PXL_20261103_091227435/` = byt C, `PXL_20261103_091854646/` = byt A.
 
 ### Byt A (1. NP, 4+1, cca 95 m²) – nejlepší stav, obyvatelný po úklidu
 - Laminátové podlahy, bílé stěny a plastová okna se žaluziemi: `PXL_20261103_085748234.jpg`, `085804480`, `091854646/0000603`, `0000664`.
@@ -40,7 +40,7 @@ Cesty k souborům jsou relativní k `/Users/martincerny/Documents/Benesov/prace/
 - Koupelna je původní (béžový obklad 80. let, vana, PVC dlažba): `091227435/0000060`, `0000120`. WC má vysokou nádržku a nad ním bojler: `0000362`, `0000421`.
 - Jeden pokoj je modrý se starými vestavěnými skříněmi: `0000301`, `0000542`, `0000602`.
 
-### Byt E (2. NP, 1+1, cca 38 m²) – rozpracovaný, něco už vybouráno
+### Byt D (2. NP, 1+1, cca 38 m²) – rozpracovaný, něco už vybouráno
 - V kuchyni jsou otlučené obklady a vytrhané rozvody: `091125893/0000180`, `0000240`, `0000301`.
 - V pokoji jsou parkety (rybí kost) a dřevěná okna: `091125893/0000543`, `0000603`, `0000664`.
 - **Výrazná šikmá trhlina** v pokoji: `091125893/0000784`.
@@ -64,7 +64,7 @@ Cesty k souborům jsou relativní k `/Users/martincerny/Documents/Benesov/prace/
 - Vodorovné trhliny pod atikou na uliční fasádě odpovídají typickému dilatačnímu pohybu nezateplené střešní desky: `prehledy/fasada_ulice.jpg`.
 - Fasáda je původní břízolitová nebo hrubá omítka, šedá, se stékanci pod okny. Bez zateplení: `prehledy/fasada_zahrada.jpg`.
 - Plochou střechu z fotek nevidím. Podle map na stropech ve 2. NP (B) a stáří (cca 45 let) počítám s tím, že je na konci životnosti.
-- Okna jsou smíšená: plastová (A, C, část 2. NP) a původní dřevěná s odlupujícím se nátěrem (B, E, nebytové prostory): `092231282`, `prehledy/fasada_ulice.jpg`.
+- Okna jsou smíšená: plastová (A, C, část 2. NP) a původní dřevěná s odlupujícím se nátěrem (B, D, nebytové prostory): `092231282`, `prehledy/fasada_ulice.jpg`.
 
 ---
 
@@ -77,11 +77,11 @@ Položky na úrovních 2–4 jsou **jen to, co přibývá** k předchozí úrovn
 | Položka | MJ | Množství O/R/P | JC bez DPH O / R / P (Kč) | Celkem R bez DPH (Kč) | Zdroj |
 |---|---|---|---|---:|---|
 | Dočasné napájení stavby (staveništní rozvaděč / el. centrála) – dům je odpojený | kpl | 1 | 10 000 / 20 000 / 35 000 | 20 000 | ODHAD |
-| Vyklizení bytů B, C, E, dílny, skladů a kotelny vč. nakládky, odvozu a skládkovného | m3 | 35/50/70 | 1 200 / 1 500 / 1 900 | 75 000 | ODHAD; řád ověřen ceníkem FCC 2025 [S6] |
-| Odstranění starých podlahovin (koberce, PVC, linoleum) B, C, E + 2 pokoje A | m2 | 180 | 80 / 100 / 130 | 18 000 | ODHAD |
-| Nová podlaha vinyl/laminát vč. lokální stěrky, podložky, lišt (B, C, E, 2 pokoje A) | m2 | 150 | 750 / 950 / 1 200 | 142 500 | ODHAD; řád 1 100–1 300 Kč/m² vč. stěrky z výsledků vyhledávání (nedatováno) |
-| Renovace parket E (broušení, tmelení, 3× lak) | m2 | 22 | 450 / 600 / 800 | 13 200 | ODHAD |
-| Lokální opravy omítek a vysprávky trhlin (kosmeticky, perlinka + štuk) B, C, E | kpl | 1 | 30 000 / 50 000 / 80 000 | 50 000 | ODHAD |
+| Vyklizení bytů B, C, D, dílny, skladů a kotelny vč. nakládky, odvozu a skládkovného | m3 | 35/50/70 | 1 200 / 1 500 / 1 900 | 75 000 | ODHAD; řád ověřen ceníkem FCC 2025 [S6] |
+| Odstranění starých podlahovin (koberce, PVC, linoleum) B, C, D + 2 pokoje A | m2 | 180 | 80 / 100 / 130 | 18 000 | ODHAD |
+| Nová podlaha vinyl/laminát vč. lokální stěrky, podložky, lišt (B, C, D, 2 pokoje A) | m2 | 150 | 750 / 950 / 1 200 | 142 500 | ODHAD; řád 1 100–1 300 Kč/m² vč. stěrky z výsledků vyhledávání (nedatováno) |
+| Renovace parket D (broušení, tmelení, 3× lak) | m2 | 22 | 450 / 600 / 800 | 13 200 | ODHAD |
+| Lokální opravy omítek a vysprávky trhlin (kosmeticky, perlinka + štuk) B, C, D | kpl | 1 | 30 000 / 50 000 / 80 000 | 50 000 | ODHAD |
 | Odstranění plísní + protiplísňová penetrace (A rohy, C u okna, B strop) | kpl | 1 | 10 000 / 20 000 / 35 000 | 20 000 | ODHAD |
 | Výmalba bytů 2× vč. penetrace a zakrytí (stěny+stropy ≈ 3,5× podlahy) | m2 | 910 | 60 / 80 / 110 | 72 800 | ODHAD; samotná výmalba 35–45 Kč/m² (nejremeslnici.cz reference, nedatováno) |
 | Výmalba společných prostor (chodby, schodiště) | m2 | 200 | 60 / 80 / 110 | 16 000 | ODHAD |
@@ -101,13 +101,13 @@ Profese (21 % DPH) pro tuto úroveň: PENB (průkaz energ. náročnosti – povi
 | Rozvody vody a kanalizace v bytech (PPR, HT, napojení na stoupačky, bytové vodoměry) | byt | 4 | 35 000 / 50 000 / 70 000 | 200 000 | ODHAD |
 | Elektrické zásobníky TV 80–120 l vč. připojení | byt | 4 | 12 000 / 16 000 / 22 000 | 64 000 | ODHAD |
 | Topení v bytech: termost. ventily/hlavice, proplach, tlak. zkouška, výměna vadných těles | byt | 4 | 15 000 / 30 000 / 60 000 | 120 000 | ODHAD |
-| Výměna dřevěných oken v bytech B, E + malá okna koupelen/WC (≈13 ks) vč. demontáže, parapetů, začištění | m2 | 24 | 7 000 / 8 500 / 10 500 | 204 000 | ODHAD; [S5] 4 800–19 200 Kč/okno, průměr 9 600 Kč (2024, sponzorováno) |
+| Výměna dřevěných oken v bytech B, D + malá okna koupelen/WC (≈13 ks) vč. demontáže, parapetů, začištění | m2 | 24 | 7 000 / 8 500 / 10 500 | 204 000 | ODHAD; [S5] 4 800–19 200 Kč/okno, průměr 9 600 Kč (2024, sponzorováno) |
 | Seřízení/oprava kování stávajících plastových oken (A, C, části B) | ks | 16 | 800 / 1 200 / 1 800 | 19 200 | ODHAD |
 | Vstupní bytové dveře bezpečnostní (RC2/EI) vč. zárubně | ks | 4 | 18 000 / 25 000 / 35 000 | 100 000 | ODHAD |
 | Interiérové dveře (O/R nová křídla do ocel. zárubní, P obložkové zárubně) | ks | 21 | 5 000 / 7 000 / 12 000 | 147 000 | ODHAD |
 | Samonivelační stěrka pod všechny nové podlahy bytů | m2 | 220 | 250 / 350 / 450 | 77 000 | ODHAD |
 | Nové podlahy navíc (zbytek bytů mimo jádra – rozšíření z kosmetiky) | m2 | 70 | 750 / 950 / 1 200 | 66 500 | ODHAD |
-| Zapravení drážek, štukování stěn po instalacích (B, C, E) | m2 | 600 | 150 / 220 / 300 | 132 000 | ODHAD |
+| Zapravení drážek, štukování stěn po instalacích (B, C, D) | m2 | 600 | 150 / 220 / 300 | 132 000 | ODHAD |
 
 Profese (21 % DPH) pro tuto úroveň: PENB 8 000 / 12 000 / 18 000 Kč; Projekt elektro + ZTI bytů, návrh jader 60 000 / 100 000 / 150 000 Kč; Statik – vstupní prohlídka a posudek trhlin 15 000 / 30 000 / 50 000 Kč
 

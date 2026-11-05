@@ -5,7 +5,7 @@ Orientace: „vlevo/vpravo“ = když jdu od vstupních dveří bytu dovnitř. S
 Cesty:
 - `F/<id>` = /Users/martincerny/Documents/Benesov/prace/obrazky/PXL_20261103_<id>.jpg
 - `V/<video>/<snímek>` = /Users/martincerny/Documents/Benesov/prace/obrazky/PXL_20261103_<video>/<snímek>.jpg (po 2 s)
-- `H/B/<nnn>`, `H/E/<nnn>` = /Users/martincerny/Documents/Benesov/prace/husto/B|E/<nnn>.jpg (po 0,5 s)
+- `H/B/<nnn>`, `H/D/<nnn>` = /Users/martincerny/Documents/Benesov/prace/husto/B|D/<nnn>.jpg (po 0,5 s)
 
 ## Byt A (1. NP) – fotky F/085637892–085820564, F/092415923, video V/091854646 (23 snímků)
 A-R1. Vstupní dveře ze společné haly, za nimi dlouhá rovná chodba s laminátem; v čelní stěně na konci chodby jsou dveře do koupelny (F/085637892, F/092415923, V/…/0000000).
@@ -28,8 +28,8 @@ C-R4. Na LEVÉ straně v zadní části chodby jsou tmavé dveře (s koštětem)
 C-R5. Na konci chodby je modrý pokoj (1 okno, 2 vestavěné skříně); vedle jeho dveří béžové dveře s dřevěnou koulí (komora/skříň), dále WC (bojler nad mísou) a koupelna (vana) (F/090252348, V/091227435/0000000–0000421).
 C-R6. Okna velkého pokoje a kuchyně směřují na ulici; modrý pokoj má okno na jinou stranu domu.
 
-## Byt E (2. NP) – video H/E/001–065
-E-R1. Vstupní dveře z podesty; přímo vedle nich ve stejné (krátké) stěně předsíně jsou prosklené dveře do pokoje (H/E/027–030, 055–061).
-E-R2. Hned u vstupu je vestavěná šatní skříň (H/E/057–059).
-E-R3. Na jedné podélné stěně předsíně jsou za sebou dveře na WC (nejblíž pokoji/vstupu), do koupelny a do kuchyně (nejdál) (H/E/001–007, 029–036).
+## Byt D (2. NP) – video H/D/001–065
+E-R1. Vstupní dveře z podesty; přímo vedle nich ve stejné (krátké) stěně předsíně jsou prosklené dveře do pokoje (H/D/027–030, 055–061).
+E-R2. Hned u vstupu je vestavěná šatní skříň (H/D/057–059).
+E-R3. Na jedné podélné stěně předsíně jsou za sebou dveře na WC (nejblíž pokoji/vstupu), do koupelny a do kuchyně (nejdál) (H/D/001–007, 029–036).
 E-R4. Pokoj má 3 okna v jedné stěně; kuchyň má 1 okno; koupelna i WC mají malé okno.

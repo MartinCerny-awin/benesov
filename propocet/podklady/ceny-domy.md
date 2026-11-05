@@ -43,7 +43,7 @@ Vyřazeno: Heřmaničky, 550 m² „nájemní dům“ bez ceny a počtu bytů (v
 | Budovy 384,46 m² (typ plochy nejasný) | | **21 660** |
 | Užitná plocha **ODHAD** cca 320 m² (2 NP × ~190 m² bez společných částí cca 15 %) | | **26 020** |
 | Pozemek parc. č. 2113/3, 239 m² | | 34 840 (na m² pozemku) |
-| Byty: ODHAD 4 (A 4+1, B 2+1, C 3+1, E 1+1), cena na byt | | cca 2 080 000 Kč/byt |
+| Byty: ODHAD 4 (A 4+1, B 2+1, C 3+1, D 1+1), cena na byt | | cca 2 080 000 Kč/byt |
 
 Stav: zdevastovaný, svislé a šikmé trhliny, vlhkost a plíseň, starý kotel. Datum inzerátu z podkladů ČD (prohlídka 3. 11. 2026).
 

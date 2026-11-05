@@ -7,10 +7,10 @@ Zpracováno 4. 11. 2026 z fotek a videí z prohlídky 3. 11. 2026. Ceny: stav k 
 **Zkratky cest** (stejné jako v `kolo2-tvrzeni.md`):
 - `F/<id>` = `/Users/martincerny/Documents/Benesov/prace/obrazky/PXL_20261103_<id>.jpg`
 - `V/<video>/<snímek>` = `/Users/martincerny/Documents/Benesov/prace/obrazky/PXL_20261103_<video>/<snímek>.jpg`
-- `H/B/<nnn>`, `H/E/<nnn>` = `/Users/martincerny/Documents/Benesov/prace/husto/B|E/<nnn>.jpg`
+- `H/B/<nnn>`, `H/D/<nnn>` = `/Users/martincerny/Documents/Benesov/prace/husto/B|D/<nnn>.jpg`
 - Koláže: `/Users/martincerny/Documents/Benesov/prace/prehledy/*.jpg` (ext, fotky, v1_091024, v2_091125, v34_0912, v5_091854).
 
-**Co jsem osobně prohlédl** (ne jen popisy): všechny 4 koláže výše, exteriér (F/092212893, 092231282, 092238933, 092258996, 092312348, 092522234), nebytové prostory a kotelnu (F/085829357, 085859709, 085906623, 085917426, 085928709, 085958059, 090003837), rozvaděče (F/091349771, 091419855, 091458505), chodbu 2. NP (F/090150592), trhlinu (F/090113113), pokoj C (F/090207604), pokoj A (F/085748234) a vybrané snímky videí (V/091854646/0000542, 0000845; V/091024109/0000302, 0000363, 0000484, 0000665, 0000786; V/091205223/0000180; V/091227435/0000060; V/091125893/0000784; H/E/040).
+**Co jsem osobně prohlédl** (ne jen popisy): všechny 4 koláže výše, exteriér (F/092212893, 092231282, 092238933, 092258996, 092312348, 092522234), nebytové prostory a kotelnu (F/085829357, 085859709, 085906623, 085917426, 085928709, 085958059, 090003837), rozvaděče (F/091349771, 091419855, 091458505), chodbu 2. NP (F/090150592), trhlinu (F/090113113), pokoj C (F/090207604), pokoj A (F/085748234) a vybrané snímky videí (V/091854646/0000542, 0000845; V/091024109/0000302, 0000363, 0000484, 0000665, 0000786; V/091205223/0000180; V/091227435/0000060; V/091125893/0000784; H/D/040).
 
 **Opravy předchozích podkladů** (podle snímků, které jsem viděl):
 1. V `_spolecne.md` je „vnitřní trhlina F/085958059“ a „plíseň a suť F/085928709“. Ve skutečnosti: **trhlina s obnaženými cihlami = F/090113113**; **vlhká zeď s plísní = F/085958059** (sklad); F/085928709 je průchozí místnost s umyvadlem a trhlinami ve stropě.
@@ -25,7 +25,7 @@ Zpracováno 4. 11. 2026 z fotek a videí z prohlídky 3. 11. 2026. Ceny: stav k 
 | A (4+1, 1. NP) | 95 | 80–110 | 4 pokoje + kuchyň + koupelna + WC + chodba (V/091854646, F/085748234) |
 | B (2+1 + komora, 2. NP) | 55 | 45–65 | H/B/001–099 |
 | C (3+1, 2. NP) | 75 | 65–85 | V/091205223, V/091227435, F/090207604 |
-| E (1+1, 2. NP) | 38 | 32–45 | H/E/001–065 |
+| D (1+1, 2. NP) | 38 | 32–45 | H/D/001–065 |
 | **Byty celkem** | **263** | 222–305 | |
 | Společné (vstup, chodby, schodiště) | 35 | 25–45 | F/092312348, F/090150592 |
 | Nebytové 1. NP (dílna, kotelna, sklady) | 86 | 60–95 | F/085859709, 085906623, 085917426, 085958059, 090003837 |
@@ -44,13 +44,13 @@ Stupnice: **D** = dobrý, **O** = opotřebený, **K** = na konci životnosti, **
 |---|---|---|
 | Střecha (plochá) | **?** (nepřímě spíše **K**) | Žádný snímek střechy. Zatékání/kondenzace pod střechou: stropní skvrny a plíseň v B `V/091024109/0000363`, `0000423`; v C `V/091205223/0000180`, `F/090207604`; žlutá skvrna ve stropě chodby 2. NP `F/090150592`. Exteriér: plochá střecha s atikou, komín s žebříkem `F/092212893`, `F/092522234`. Stáří a skladba neznámé; plochá střecha 60.–70. let bez zateplení se běžně po 30+ letech dožívá. |
 | Fasáda a trhliny | **K** | Hrubá břízolitová omítka, nezateplená. Svislé trhliny od oken k soklu `F/092231282`, `F/092238933`; jedna trhlina opakovaně vyspravená bílým tmelem, tedy pravděpodobně aktivní `F/092258996`, vodorovná trhlina nad ní tamtéž; porost břečťanu a ostružin u soklu `F/092238933`; sokl z obkladových pásků. |
-| Okna | **K** (dřevěná) / **O** (plastová) | Dřevěná původní s oprýskaným nátěrem, kde A `F/085748234`, E `H/E/040`, exteriér `F/092231282`, `F/092238933`, nebytové prostory `F/085958059`, B `V/091024109/0000302`. Plastová: C pokoj 1 s venkovní roletou `F/090207604`, koupelny `V/091227435/0000060`. Schodišťové okno velké, s tmavým rámem `H/E/061–065`. Hrubě: 55–65 % oken původní. |
+| Okna | **K** (dřevěná) / **O** (plastová) | Dřevěná původní s oprýskaným nátěrem, kde A `F/085748234`, D `H/D/040`, exteriér `F/092231282`, `F/092238933`, nebytové prostory `F/085958059`, B `V/091024109/0000302`. Plastová: C pokoj 1 s venkovní roletou `F/090207604`, koupelny `V/091227435/0000060`. Schodišťové okno velké, s tmavým rámem `H/D/061–065`. Hrubě: 55–65 % oken původní. |
 | Elektro rozvody a rozvaděče | **K**/**?** | Elektroměrový rozvaděč: kovová skříň z 90. let, plombovací nálepky „2. pololetí 2002“, ručně psané popisky `F/091419855`. Hlavní domovní rozvaděč: směs starých černých jističů (typ ITV) a dvou nových Eaton `F/091349771`. Stoupací vedení: svazky jednožilových vodičů v barevných izolacích, neuspořádané, volné konce `F/091458505`. Bytové rozvaděče: C (hnědý plech u dveří) `F/090150592`, A neprohlédnuto. Materiál vodičů (Al/Cu) a izolační stav **nejde poznat**. |
 | Voda a odpady / stoupačky | **O**/**?** | Oranžové plastové odpady (novější úseky) `F/085917426`, `V/091024109/0000967`; litinové/ocelové svislé potrubí v místnosti u umyvadla `F/085928709`; šedé plastové rozvody na stěně v koupelně C `V/091227435/0000060`; hlavní uzávěr vody `F/085906623`. Materiál stoupaček a kanalizace pod podlahou nejde poznat. |
-| Topení a kotelna | **K** | 2 kotle na tuhá paliva (uhlí/koks nebo dřevo), jeden s násypníkem, rozdělovač s manometry a čerpadly, olepený starý rozvod, odlupující se strop kotelny `F/090003837`; ve všech bytech litinové články radiátorů `F/085748234`, `V/091024109/0000302`, `V/091227435/0000060`. Teplá voda: elektrické zásobníkové bojlery v koupelnách/WC (A `F/085808012`, B `H/B/064`, C `V/091227435/0000362`, E `H/E/055–065`). **Plyn: ne**, žádný plynový spotřebič ani přípojka viditelné; sporáky v kuchyních A `F/085756949` a C `F/090342148` jsou pravděpodobně elektrické (neověřeno). Komín na střeše `F/092212893`. |
+| Topení a kotelna | **K** | 2 kotle na tuhá paliva (uhlí/koks nebo dřevo), jeden s násypníkem, rozdělovač s manometry a čerpadly, olepený starý rozvod, odlupující se strop kotelny `F/090003837`; ve všech bytech litinové články radiátorů `F/085748234`, `V/091024109/0000302`, `V/091227435/0000060`. Teplá voda: elektrické zásobníkové bojlery v koupelnách/WC (A `F/085808012`, B `H/B/064`, C `V/091227435/0000362`, D `H/D/055–065`). **Plyn: ne**, žádný plynový spotřebič ani přípojka viditelné; sporáky v kuchyních A `F/085756949` a C `F/090342148` jsou pravděpodobně elektrické (neověřeno). Komín na střeše `F/092212893`. |
 | Vlhkost a plíseň | **K** (lokálně) | Spodní polovina zdi ve skladu tmavá/mokrá, výkvěty `F/085958059`; plíseň u paty vnější stěny v A `V/091854646/0000542`, `0000845`; černá plíseň u okna a na stropě C `F/090207604`, `V/091205223/0000180`; plíseň nad obkladem v koupelně C `V/091227435/0000060`; zatékání B `V/091024109/0000363`, mokrá skvrna na podlaze kuchyně B `V/091024109/0000484`. Příčina (tepelný most vs. zatékání vs. vzlínání) **nejde poznat**. |
-| Schodiště a chodby | **O** | Keramická dlažba, kovové svislé zábradlí, vstupní prosklené dveře s hnědým rámem, plechové schránky `F/092312348`, `H/E/061–065`. Chodba 1. NP: holý beton/potěr, oranžový nátěr `F/085641059`, `F/085829357`. Chodba 2. NP: podlaha z dřevotřísky/potěru, žlutá skvrna ve stropě `F/090150592`. Bez výtahu. |
-| Statika | **?** (varovné příznaky) | Diagonální trhlina přes celou stěnu s odpadlou omítkou a odhalenými cihlami v E `V/091125893/0000784`; schodovitá trhlina u nadpraží s odhalenými cihlami `F/090113113`; trhliny ve stropě chodby 1. NP `F/085928709` a dílny `F/085859709`; trhliny u stropu a stěny B `V/091024109/0000786`; vnější svislé trhliny (kap. fasáda). Opakování na více místech a více podlažích je důvod pro statika (estav.cz: pozor na trhliny přes celou stěnu, > 2 mm a aktivní – https://www.estav.cz/cz/4128.mate-trhliny-ve-zdivu-ci-na-strope-kdy-je-nutne-volat-statika). |
+| Schodiště a chodby | **O** | Keramická dlažba, kovové svislé zábradlí, vstupní prosklené dveře s hnědým rámem, plechové schránky `F/092312348`, `H/D/061–065`. Chodba 1. NP: holý beton/potěr, oranžový nátěr `F/085641059`, `F/085829357`. Chodba 2. NP: podlaha z dřevotřísky/potěru, žlutá skvrna ve stropě `F/090150592`. Bez výtahu. |
+| Statika | **?** (varovné příznaky) | Diagonální trhlina přes celou stěnu s odpadlou omítkou a odhalenými cihlami v D `V/091125893/0000784`; schodovitá trhlina u nadpraží s odhalenými cihlami `F/090113113`; trhliny ve stropě chodby 1. NP `F/085928709` a dílny `F/085859709`; trhliny u stropu a stěny B `V/091024109/0000786`; vnější svislé trhliny (kap. fasáda). Opakování na více místech a více podlažích je důvod pro statika (estav.cz: pozor na trhliny přes celou stěnu, > 2 mm a aktivní – https://www.estav.cz/cz/4128.mate-trhliny-ve-zdivu-ci-na-strope-kdy-je-nutne-volat-statika). |
 | Dílna / sklady / kotelna | **O**/**K** | Zaplněné odpadem a nábytkem: dílna `F/085859709`, sklad s dlaždicemi `F/085906623`, dřevěná mříž `F/085917426`, vlhký sklad `F/085958059`. Vybavení k vyklizení. |
 
 ### 2b. Byty
@@ -75,11 +75,11 @@ Stupnice: **D** = dobrý, **O** = opotřebený, **K** = na konci životnosti, **
 | | Kuchyň | **O**/**K** | `F/090342148`, `V/091205223/0000421–0000600` |
 | | Koupelna (plíseň nad obkladem) a WC s bojlerem | **K** | `V/091227435/0000060`, `0000362` |
 | | Elektro (rozvaděč za plechovým krytem) | **?** | `F/090150592` |
-| **E (1+1)** | Podlahy (parkety rybí kost) | **O** (po broušení použitelné) | `H/E/040`, `V/091125893/0000784` |
+| **D (1+1)** | Podlahy (parkety rybí kost) | **O** (po broušení použitelné) | `H/D/040`, `V/091125893/0000784` |
 | | Stěny (trhlina přes celou stěnu, odpadlá omítka) | **K** | `V/091125893/0000784` |
-| | Okna | **K** (dřevěná) | `H/E/040` |
-| | Kuchyň (vybourána, holé obklady, volné kabely a trubky) | **K** | `V/091125893/0000240`, `H/E/005–026` |
-| | Koupelna (vana, bojler) a WC | **O**/**K** | `H/E/055–065` |
+| | Okna | **K** (dřevěná) | `H/D/040` |
+| | Kuchyň (vybourána, holé obklady, volné kabely a trubky) | **K** | `V/091125893/0000240`, `H/D/005–026` |
+| | Koupelna (vana, bojler) a WC | **O**/**K** | `H/D/055–065` |
 | | Elektro, voda | **?** | |
 
 ## 3. Co z fotek nejde poznat (rizika s cenovým rozpětím)
@@ -146,7 +146,7 @@ Plochy použité ve scénářích (byty / společné / nebytové): optimistická
 | Vyklizení a odvoz odpadu (dílna, sklady, byty) | paušál, ODHAD (kontejnery, likvidace) | 60 | 100 | 180 |
 | Malba bytů a společných částí | 3,2 m² stěn+stropů na m² podlahy (3,5 u společných); 130/170/230 Kč/m² (S1 90–200 + oškrabání, penetrace) | 98 | 164 | 222 |
 | Lokální opravy omítek a trhlin | paušál, ODHAD | 40 | 80 | 150 |
-| Podlahy B, C, E (demontáž, nivelace, plovoucí vinyl/laminát) | 900/1 400/2 000 Kč/m² (S1 1 100–2 500; S2 práce 150–280 + demontáž 80–200 + nivelace 180–350) | 118 | 235 | 336 |
+| Podlahy B, C, D (demontáž, nivelace, plovoucí vinyl/laminát) | 900/1 400/2 000 Kč/m² (S1 1 100–2 500; S2 práce 150–280 + demontáž 80–200 + nivelace 180–350) | 118 | 235 | 336 |
 | Podlahy A (jen opravy a čištění) | 200/300/450 Kč/m² | 15 | 28 | 43 |
 | Generální úklid | paušál, S8 (úklid) a ODHAD | 25 | 45 | 80 |
 | Drobné opravy (kliky, zámky, svítidla, zásuvky) | paušál, ODHAD | 40 | 60 | 100 |
@@ -259,11 +259,11 @@ Byty = práce uvnitř bytu (vč. podílu režie). Společné části = vše osta
 | A (4+1) | 110 / 198 / 334 | 615 / 1 102 / 1 744 | 615 / 1 102 / 1 744 |
 | B (2+1) | 117 / 222 / 367 | 497 / 877 / 1 380 | 497 / 877 / 1 380 |
 | C (3+1) | 147 / 278 / 453 | 574 / 1 025 / 1 606 | 574 / 1 025 / 1 606 |
-| E (1+1) | 83 / 157 / 259 | 391 / 686 / 1 086 | 391 / 686 / 1 086 |
+| D (1+1) | 83 / 157 / 259 | 391 / 686 / 1 086 | 391 / 686 / 1 086 |
 | Společné části, nebytové a obálka | 57 / 98 / 173 | 57 / 100 / 177 | 3 172 / 5 998 / 10 705 |
 | **Součet (±1 tis. zaokrouhlení)** | **514 / 953 / 1 586** | **2 134 / 3 790 / 5 993** | **5 249 / 9 688 / 16 521** |
 
-Podíl bytů na „kompletních“ společných nákladech podle podlahové plochy (realistická): A 36 % ≈ 2 167, B 21 % ≈ 1 254, C 29 % ≈ 1 710, E 14 % ≈ 867 tis. Kč. Služby (projekt, dozor, statik) se dělí stejným klíčem.
+Podíl bytů na „kompletních“ společných nákladech podle podlahové plochy (realistická): A 36 % ≈ 2 167, B 21 % ≈ 1 254, C 29 % ≈ 1 710, D 14 % ≈ 867 tis. Kč. Služby (projekt, dozor, statik) se dělí stejným klíčem.
 
 ## Shrnutí pro model
 
@@ -286,7 +286,7 @@ Přesněji v Kč (stavba s DPH): kosmetika 514 704 / 951 840 / 1 584 875; standa
 | A | 198 | 1 102 | 1 102 (+ podíl na společných 2 167) | 615–1 744 |
 | B | 222 | 877 | 877 (+ 1 254) | 497–1 380 |
 | C | 278 | 1 025 | 1 025 (+ 1 710) | 574–1 606 |
-| E | 157 | 686 | 686 (+ 867) | 391–1 086 |
+| D | 157 | 686 | 686 (+ 867) | 391–1 086 |
 | Společné části, nebytové a obálka | 98 | 100 | 5 998 | 57–177 (kompletní 3 172–10 705) |
 
 **Rizika navíc k částkám výše (s DPH, tis. Kč):** nízké 200 / typické 1 700 / vysoké 6 000 (s podchycením základů 9 500). Pro rozhodování o koupi doporučeno k úrovni „kompletní“ přičíst typických 1 700, k „standard“ jen R1, R4, R6, R9 (≈ 0,5–1,0 M).
@@ -300,7 +300,7 @@ Přesněji v Kč (stavba s DPH): kosmetika 514 704 / 951 840 / 1 584 875; standa
 1. Jsou trhliny aktivní? Doporučení: sádrové terče nebo dilatometry na 6–12 měsíců na `F/092258996`, `V/091125893/0000784`, `F/090113113`. Šířka trhlin > 2 mm? Jdou přes celé stěny a podlaží?
 2. Jaký je nosný systém (zděné stěny, tloušťky, typ stropů: železobeton, keramické vložky, trámy)? Unese plochá střecha navíc zateplení a fólii?
 3. Základové poměry (hloubka, hydroizolace, sedání); je nutná geologie, sondy, podchycení (R6b)?
-4. Jsou diagonální trhliny u nadpraží (F/090113113) a v E (V/091125893/0000784) důsledkem poddimenzovaného překladu, sedání rohu, nebo smršťování?
+4. Jsou diagonální trhliny u nadpraží (F/090113113) a v D (V/091125893/0000784) důsledkem poddimenzovaného překladu, sedání rohu, nebo smršťování?
 5. Je možné měnit dispozice a bourat příčky v bytech, nebo jsou nosné?
 
 **Pro druhou prohlídku**
@@ -308,7 +308,7 @@ Přesněji v Kč (stavba s DPH): kosmetika 514 704 / 951 840 / 1 584 875; standa
 7. Přesné zaměření ploch (RÚIAN vs. skutečnost), počty a typy oken, rozměry, výška podlaží.
 8. Vlhkost zdiva (měření), termokamera plísní v A/C; zdroj plísní (tepelný most, zatékání, vzlínání); sklep/podsklepení?
 9. Kamerová zkouška kanalizace a svodů; materiál stoupaček (litina, plast, azbestocement, ocel, olovo).
-10. Rozvaděče v bytech (A, B, C, E): typ jističů, hliník/měď, chrániče; stav elektroměrového rozvaděče F/091419855.
+10. Rozvaděče v bytech (A, B, C, D): typ jističů, hliník/měď, chrániče; stav elektroměrového rozvaděče F/091419855.
 11. Azbestový průzkum (izolace potrubí v kotelně, podlahoviny, lepidla, eternit).
 12. Průchodnost přístupu (parc. 2128/3 – SPÚ) pro stavební techniku a lešení.
 13. Potvrzení, že A má jen dřevěná okna a jaká je skladba podlah v A (laminát na čem).

@@ -8,7 +8,7 @@ Fakta od uživatele (přednost): /Users/martincerny/Documents/Benesov/fakta.md. 
 S1. Zádveří se schránkami x 11,2–13,8 × y 0,4–1,9; vchodové dveře z ulice x 11,6–13,5; prosklené dveře do haly na y 1,9.
 S2. Hala x 11,2–13,8 × y 1,9–6,0 (2,6 × 4,1 m). Dveře do bytu A ve stěně x 11,2 (y 4,6–5,5), dveře do nebytové chodby naproti ve stěně x 13,8, chodby jsou v jedné ose.
 S3. Schodiště dvouramenné x 11,2–13,8 × y 6,0–9,65, schody jsou v ose vchodu (při pohledu od vchodu přímo vpředu). Okno mezipodesty na zahradní fasádě x 11,4–12,6.
-S4. Podesta v patře x 11,2–13,8 × y 4,3–6,0; dveře do bytu C ve stěně x 11,2, do B ve stěně x 13,8, do E ve stěně y 4,3 (k ulici).
+S4. Podesta v patře x 11,2–13,8 × y 4,3–6,0; dveře do bytu C ve stěně x 11,2, do B ve stěně x 13,8, do D ve stěně y 4,3 (k ulici).
 
 ## Hlavní sporná otázka (Z)
 Co je na zahradní straně mezi x ~9 a 11,2 (y 5,75–9,65)? Plán tam má konec šedého pokoje bytu A (x 6,6–11,2 s jedním oknem 6,8–8,1).

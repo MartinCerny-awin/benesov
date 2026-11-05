@@ -8,5 +8,5 @@ S4 podesta | nelze ověřit | dlažba, dveře vlevo i vpravo; hloubka možná > 
 Z: okna zahrada x 6–15: šedý pokoj x 6,4–7,6 (obě podlaží, plán 6,8–8,1); holá zeď 7,6–9,75; okno mezipodesty od 9,75; x 10,3–16,4 zakryté keřem a skleníkem.
 P085820564: vpravo od okna ~1,2–1,3 m zdi → šedý pokoj končí x ≈ 9,0–9,4, šířka ≈ 2,8–3,0 m; bez komory, hned schodiště.
 Doporučení (a) schodiště posunuté vlevo (≈ 9,6–12,0), šedý x 6,6–9,4 – jistota ~65 %; přesné x schodiště ~40 % (±0,5 m).
-Sporné: P092312348 okno skoro uprostřed snímku z haly („v ose vchodu“); tmavý panel vpravo od prvního stupně (px 620–715) – spíž / prostor pod schodištěm? Plocha x 12,0–13,8, y > 6 na žádné fotce. Posun schodiště posune podestu a dveře C, B, E.
+Sporné: P092312348 okno skoro uprostřed snímku z haly („v ose vchodu“); tmavý panel vpravo od prvního stupně (px 620–715) – spíž / prostor pod schodištěm? Plocha x 12,0–13,8, y > 6 na žádné fotce. Posun schodiště posune podestu a dveře C, B, D.
 Patro ulice: malá okna x ≈ 11,1–11,6 a 12,7–13,2, větrací mřížka ~10,3.

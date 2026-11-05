@@ -64,7 +64,7 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 - Závěr: za 8,326 mil. na přeprodej nekupovat; realisticky flipy 0,7–1,2 mil. (3–5 %), max. cena pro 20 % 2–6 mil., bod zvratu B 9,4 / B2h 10,3 mil.; D jen jako dlouhodobý nájem (IRR 6,4 %, závisí na růstu cen). Otočit to může: přístup zapsaný, statika OK, rekonstrukce −30 % nebo ceny bytů +20 %.
 
 ## Přepočet s ověřenými plochami (2026-11-04, na žádost mateřské session)
-- **Zdroj ploch: `../dispozice.md`, sekce „Plochy – odhad“ (ř. 53–81).** Byty A 90–100 (model 95), B 55, C 75, E 40 → 265 / 270 / 275 m² (pes/real/opt, `plocha_koef`); 384,46 m² = čistá plocha obou podlaží vč. nebytových; chodby a schodiště 45–50 m²; nebytové prostory v přízemí 60–70 m². Nahrazuje dřívějších 259 m² × koef. B2: A1 53 + A2 42 + B 55 + C 75 + E 40.
+- **Zdroj ploch: `../dispozice.md`, sekce „Plochy – odhad“ (ř. 53–81).** Byty A 90–100 (model 95), B 55, C 75, D 40 → 265 / 270 / 275 m² (pes/real/opt, `plocha_koef`); 384,46 m² = čistá plocha obou podlaží vč. nebytových; chodby a schodiště 45–50 m²; nebytové prostory v přízemí 60–70 m². Nahrazuje dřívějších 259 m² × koef. B2: A1 53 + A2 42 + B 55 + C 75 + D 40.
 - Nová dílčí varianta **B2n** = B2 + byt 2+kk z dílny, skladů a kotelny (50/55/60 m² po odečtu technické místnosti pro TČ; srážka 15/10/5 % za přízemí a okna; náklady 2,49/1,44/0,85 mil. = dispozice-zmeny.md var. C minus B2; +6/4/3 měs. na změnu v užívání; +1 parkovací stání 0,4/0,15/0,02 mil.).
 - Výsledek (real): **B2n +2,13 mil. (8,5 %, IRR 13,6 %, VK 8,9 mil.)**, max. cena pro 20 % 5,12 mil., bod zvratu 11,9 mil.; v zisku při všech citlivostech; stavba −30 % → 29 %, ceny +20 % → 21 %. B +1,03 (4,8 %), B2 +1,02, B2h +1,71, C2 +1,52, D10 +9,08 (IRR 7,0 %). Report přegenerován a znovu publikován.
 - Ověření krokem 4 platí dál: plochy se změnily o +2–4 %, druhý rozpočet i ceny počítaly s 260 m²; B2n je nová a nezávisle ověřená není (náklady z dispozice-zmeny.md, ODHAD).
@@ -117,11 +117,11 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 - Report: tabulka „Plochy a ceny bytů při prodeji“ v sekci Varianty; xlsx: list „Plochy a ceny bytů“.
 
 ## 4. 11. 2026 – plochy z půdorysu (dispozice.md, NV 366/2013)
-- Byty A 97 / B 67 / C 84 / E 41 = 289 m² (dříve 95/55/75/40 = 265), plocha_koef 280/290/300. B2: A1 53 + A2 43 (−1 m² zeď).
+- Byty A 97 / B 67 / C 84 / D 41 = 289 m² (dříve 95/55/75/40 = 265), plocha_koef 280/290/300. B2: A1 53 + A2 43 (−1 m² zeď).
 - B a N jsou nad 60 m² → cena velkých bytů (ceny-byty-realizovane.md). N = 86 m² nebytové části minus TČ, vestibul, kóje → 64/71/77 m²; nebyt_zmeny ×1,194 (plošné položky 65 → 86 m², ODHAD).
 - Výsledek real: B 0,48, B2 0,36, B2n 0,49, B2h 1,11, C2 0,03, D 8,64 (IRR 6,3 
 ## 4. 11. 2026 – plochy z půdorysu (dispozice.md, NV 366/2013)
-- Byty A 97 / B 67 / C 84 / E 41 = 289 m² (dříve 95/55/75/40 = 265), plocha_koef 280/290/300. B2: A1 53 + A2 43 (−1 m² zeď).
+- Byty A 97 / B 67 / C 84 / D 41 = 289 m² (dříve 95/55/75/40 = 265), plocha_koef 280/290/300. B2: A1 53 + A2 43 (−1 m² zeď).
 - B a N jsou nad 60 m² → cena velkých bytů (ceny-byty-realizovane.md). N = 86 m² nebytové části minus TČ, vestibul, kóje → 64/71/77 m²; nebyt_zmeny ×1,194 (plošné položky 65 → 86 m², ODHAD).
 - Výsledek real: B 0,48, B2 0,36, B2n 0,49, B2h 1,11, C2 0,03, D 8,64 (IRR 6,3 %). Závěr beze změny.
 - Report: tabulka „Cena a náklady na m² prodávané plochy“ (prodejní cena, rekonstrukce = projekt + stavba + rezerva + nástavba, všechny náklady, čistý zisk; Kč/m²).
@@ -136,12 +136,12 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 - Pes. rezerva 10 % (dříve 15) a statika 2,0 mil. (dříve 3,5 = nejhorší podchycení, zůstává v textu jako riziko). Rekonstrukce B pes 66 → 59 tis. Kč/m² (novostavba ~62). B pes −12,05 → −9,89. Realistický scénář beze změny.
 
 ## 4. 11. 2026 – plochy po posunu schodiště (dispozice.md přepočteno jiným vláknem)
-- Byty A 80 / B 75 / C 75 / E 42 = 272 m² (plocha_koef 262/282); B2: A1 2+kk 44 + A2 1+kk 35. Nebytová část 98 m² → N 76/83/86 m², nebyt_zmeny ×1,305.
+- Byty A 80 / B 75 / C 75 / D 42 = 272 m² (plocha_koef 262/282); B2: A1 2+kk 44 + A2 1+kk 35. Nebytová část 98 m² → N 76/83/86 m², nebyt_zmeny ×1,305.
 - Varianta Bn = B + byt N; report doplněn o Bn (doporučení, tabulky, parkování).
 - Výsledek real: D 7,39 (IRR 5,4 %), B2h 0,47, Bn 0,36 (s N 98 m² 0,93), B2n 0,16, B 0,01, B2 −0,34, C2 −0,86, C1 −2,40. Závěr beze změny.
 
 ## 4. 11. 2026 – plochy znovu změněny v dispozice.md (B 67, nebytová 86)
-- Byty A 80 / B 67 / C 75 / E 42 = 264 m², nebytová 86 → N 64/71/74. Plochy jsou teď konstanty PLOCHA_BYTU, NEBYT_CELKEM, NEBYT_ODECET v model.py; report text je čte odtud (při další změně upravit jen model.py).
+- Byty A 80 / B 67 / C 75 / D 42 = 264 m², nebytová 86 → N 64/71/74. Plochy jsou teď konstanty PLOCHA_BYTU, NEBYT_CELKEM, NEBYT_ODECET v model.py; report text je čte odtud (při další změně upravit jen model.py).
 - Tabulka Varianty a scénáře má sloupce „m² k prodeji“ a „Cena bytů, tis. Kč/m²“ (u A2 po slevě investora).
 - Výsledek real: D 6,76 (IRR 5,0 %), B2h 0,20, Bn −0,19 (s N 86 m² 0,45), B −0,37, B2n −0,51, B2 −0,72, C2 −1,24, C1 −2,77. Žádný přeprodej hned po rekonstrukci už nevychází v zisku.
 
@@ -152,7 +152,7 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 - Výsledek real: Bn +0,14 (dříve −0,19; s N 86 m² 0,70), B2n −0,10, ostatní beze změny.
 
 ## 4. 11. 2026 – report přestavěn na 2 verze (požadavek uživatele)
-- V1 = 6 bytů: A 4+1 80, N1 + N2 2+kk po 40 (nebytová část, chodba společná, bez centrální technické místnosti), B 3+1 67 (z 2+1), C 3+1 75, E 1+1 42 = 344 m². V2 = V1 + ustupující podlaží (2 × 60 m²) = 464 m².
+- V1 = 6 bytů: A 4+1 80, N1 + N2 2+kk po 40 (nebytová část, chodba společná, bez centrální technické místnosti), B 3+1 67 (z 2+1), C 3+1 75, D 1+1 42 = 344 m². V2 = V1 + ustupující podlaží (2 × 60 m²) = 464 m².
 - Nové vstupy (ODHAD): nebyt2_m2 36/40/42, nebyt_druhy_byt (druhé jádro) 0,79/0,52/0,32 mil., b31_zmeny 0,25/0,15/0,10 mil. Řemeslníci se u V2 počítají pro rekonstrukci, nástavba dál firma.
 - Model vrací r["rozpis"] (stavba po položkách, součet = projekt + stavba + rezerva + nástavba).
 - Report: Shrnutí → 1. Náklady (firma vs. vlastní dodavatelé) → 2. Prodej (realisticky, po bytech) → 3. Shrnutí → stav, předpoklady, rizika, srovnání, otázky. Pronájem D a ostatní varianty z reportu odstraněny (v modelu a xlsx zůstávají).
@@ -215,5 +215,5 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 ## REAS odhad bytů po rekonstrukci (2026-11-05)
 - REAS plochy bytů **nezná** (formulář se na plochu ptá), takže velikosti bytů z něj zjistit nejdou; zadány plochy z půdorysu (`../dispozice.md`). Půdorysy beze změny.
 - Zadáno v účtu uživatele (reas.cz/moje-nemovitosti, uložený byt Jana Nohy 1598 přepínaný po bytech, nakonec vrácen na C 3+1 75 m², 2. NP; PENB změněna z A na C – na odhad bez vlivu). Parametry: stav kuchyně/koupelny/místností výborný, tepelné čerpadlo, cihla, 2 podlaží, bez výtahu, balkonu, sklepu, parkování.
-- Střed (rozpětí) mil. Kč: A 4+1 80 m² 1. NP 6,96 (6,61–7,31); B 3+1 67 m² 6,14 (5,83–6,44); C 3+1 75 m² 6,64 (6,31–6,98); E 1+1 42 m² 4,55 (4,32–4,77); N1/N2 2+kk 40 m² 1. NP 4,42 (4,20–4,64); nástavba 3+kk 60 m² 3/3 NP bez terasy 5,69 (5,41–5,97). V1 celkem 33,12 mil. (model 29,75, −10 %).
-- Model beze změny (REAS v `model.py` jen jako `REAS` pro srovnání v reportu). Největší rozdíl u malých bytů (E +16 %, N +24 %): REAS nezná silnici, parkování ani nebytový původ. Při cenách REAS: V1 čistý zisk 5,93 mil. (model 3,75), V2 6,24 (model 4,66).
+- Střed (rozpětí) mil. Kč: A 4+1 80 m² 1. NP 6,96 (6,61–7,31); B 3+1 67 m² 6,14 (5,83–6,44); C 3+1 75 m² 6,64 (6,31–6,98); D 1+1 42 m² 4,55 (4,32–4,77); N1/N2 2+kk 40 m² 1. NP 4,42 (4,20–4,64); nástavba 3+kk 60 m² 3/3 NP bez terasy 5,69 (5,41–5,97). V1 celkem 33,12 mil. (model 29,75, −10 %).
+- Model beze změny (REAS v `model.py` jen jako `REAS` pro srovnání v reportu). Největší rozdíl u malých bytů (D +16 %, N +24 %): REAS nezná silnici, parkování ani nebytový původ. Při cenách REAS: V1 čistý zisk 5,93 mil. (model 3,75), V2 6,24 (model 4,66).

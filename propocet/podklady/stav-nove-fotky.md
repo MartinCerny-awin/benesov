@@ -6,7 +6,7 @@ Zdroj: 36 fotek „WhatsApp Image 2026-11-04 at 13.32.*.jpeg“ a 3 videa „Wha
 - **W01** snímek inzerátu ČD, **W02** snímek regulativů ÚP (plocha BI).
 - **Exteriér** W03, W06–W13, W18: plochá střecha s atikou, žebřík na fasádě, komín, svod; vstup s tabulkou 1598 (W13); **auto a dřevěná bouda u bočního vchodu na zpevněné ploše (W10)** – plocha je nejspíš na pozemku SPÚ 2128/3, kdo ji užívá, nevíme.
 - **Společné prostory**: rozvaděče a stoupací vedení (W14, W15, W19, W33 – nálepky 2002), schodiště (W17), chodby (W16, W32, W36), kotelna s kotlem na tuhá paliva (W33), sklad (W31).
-- **Byty**: V1 = byt C (žlutá kuchyň, modrý pokoj, zelený koberec, tmavá skvrna u okna obýváku V1/005); V2 = byt B (chodba se schodovitou trhlinou, růžové pokoje, kuchyň, koupelna, trhliny u stoupačky); V3 = byt E (WC, kuchyň s otlučeným obkladem, pokoj s parketami a šikmou trhlinou s opadanou omítkou V3/018); fotky W20–W30, W34–W35.
+- **Byty**: V1 = byt C (žlutá kuchyň, modrý pokoj, zelený koberec, tmavá skvrna u okna obýváku V1/005); V2 = byt B (chodba se schodovitou trhlinou, růžové pokoje, kuchyň, koupelna, trhliny u stoupačky); V3 = byt D (WC, kuchyň s otlučeným obkladem, pokoj s parketami a šikmou trhlinou s opadanou omítkou V3/018); fotky W20–W30, W34–W35.
 
 ## Trhliny – přehodnocení (hlavní změna)
 | Snímek | Co je vidět |
@@ -25,7 +25,7 @@ Zdroj: 36 fotek „WhatsApp Image 2026-11-04 at 13.32.*.jpeg“ a 3 videa „Wha
 - **Statické zajištění v realistickém scénáři**: `rizika_navic` 0,25 / 1,0 / 3,5 mil. Kč s DPH (opt sešití; real stažení táhly, sešití, ztužení, geologie, monitoring; pes podchycení / mikropiloty jako stav.md R6b). Dříve jen v textu jako riziko 5–10 % pravděpodobnosti.
 - **Nástavby C1/C2**: `nastavba_statika` 0,5 / 2,0 / 2,5 mil. navíc (přitížení domu, který se hýbe → realisticky podchycení základů a věnec). **Bez posudku statika nástavbu nepovolovat ani nekupovat s ní v plánu** (podmíněná stopka).
 - **Hodnota domu v dnešním stavu** (A0, A1, E) snížena na 5,0 / 7,5 / 11,0 mil., protože kupec odečte očekávané statické zajištění.
-- Byty: nic zásadně nového k dispozicím; potvrzena plíseň/vlhkost u okna obýváku C (V1/005) a otlučená kuchyň E.
+- Byty: nic zásadně nového k dispozicím; potvrzena plíseň/vlhkost u okna obýváku C (V1/005) a otlučená kuchyň D.
 
 ## Parkování podle ÚP (W02)
 Doslovné znění regulativu BI (W02, shodné s `uzemni-plan.md`, ÚP s. 84): „parkování vozidel je nutné řešit na vlastním pozemku; pro přípustné využití na vlastním nebo k tomu účelu určeném pozemku“; „max. 2 nadzemních podlažích s využitelným podkrovím nebo ustoupeným podlažím“; „U novostaveb je podmínkou garáž v objektu nebo na vlastním pozemku“; „KZ = 0,65 z výměry pozemku do 800 m²“.

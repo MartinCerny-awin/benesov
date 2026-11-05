@@ -72,7 +72,7 @@ Co se musí z 60–70 m² odečíst:
 | Celkem nebytová část | 70 | 65 | 60 | `dispozice.md` |
 | Technická místnost TČ (vnitřní jednotka / hydromodul, akumulace 500–1000 l, zásobník TV, rozdělovač, expanze, rozvaděč TČ, hlavní uzávěr vody, výlevka pro úklid společných prostor podle § 49 odst. 2 vyhl. 146/2024) | 7 | 9 | 11 | ODHAD. Venkovní jednotka TČ na plochou střechu, protože pozemek je jen pod domem |
 | Vestibul, ze kterého se jde do technické místnosti i do bytu (technická místnost nesmí být přístupná přes byt) | 2 | 2,5 | 3 | ODHAD |
-| Kóje / komory pro byty A–E, kola, kočárky (dnes kóje v F 085917426) | 0 | 2 | 4 | Hlavně praktická potřeba. Kola: 2 místa na byt jen u nových BD nebo změny nad 25 % obálky [PŘEDPIS, tzb-info k vyhl. 97/2026] |
+| Kóje / komory pro byty A–D, kola, kočárky (dnes kóje v F 085917426) | 0 | 2 | 4 | Hlavně praktická potřeba. Kola: 2 místa na byt jen u nových BD nebo změny nad 25 % obálky [PŘEDPIS, tzb-info k vyhl. 97/2026] |
 | Nové příčky a obklady instalací | 3 | 1,5 | 2 | |
 | **Užitná plocha bytu** | **~58** | **~50** | **~40** | |
 

@@ -16,13 +16,13 @@ Dnešní datum: 4. 11. 2026. Všechny ceny, sazby a předpisy ber k listopadu 20
 - **A** – 1. NP, zrekonstruovaný (laminát, bílé stěny, koupelna s vanou a bojlerem, samostatné WC, kuchyň s linkou): **4+1**
 - **B** – 2. NP, zdevastovaný (růžové pokoje, parkety): **2+1** (+ komora bez okna)
 - **C** – 2. NP, žlutá kuchyň, na dveřích „4“: **3+1**
-- **E** – 2. NP, modro-žluté stěny, parkety rybí kost, kuchyň bez linky: **1+1**
+- **D** – 2. NP, modro-žluté stěny, parkety rybí kost, kuchyň bez linky: **1+1**
 - 1. NP dále: dílna, kotelna, sklady, společná chodba, schodiště. Elektroměrový rozvaděč: „byt 3“, „2.“, „4.“, „HDO 3“, „HDO 4“ → asi 4 byty.
 - **Plochy jednotlivých bytů nejsou známé.** Pokud je potřebuješ, odhadni z půdorysné stopy (≈ 190–200 m² na podlaží) a označ jako odhad.
 - Stav nájmů: neznámý (byty vypadají prázdné).
 
 ## Soubory
-- Fotky a snímky: `/Users/martincerny/Documents/Benesov/prace/obrazky/` (fotky `PXL_20261103_<čas>.jpg`, snímky videí v podsložkách `PXL_20261103_<video>/<snímek>.jpg`), hustší snímky `/Users/martincerny/Documents/Benesov/prace/husto/B|E/`, přehledové koláže `/Users/martincerny/Documents/Benesov/prace/prehledy/*.jpg` (fotky.jpg = všechny fotky, ext.jpg = exteriér, A.jpg, B2.jpg, C_foto.jpg, E.jpg …).
+- Fotky a snímky: `/Users/martincerny/Documents/Benesov/prace/obrazky/` (fotky `PXL_20261103_<čas>.jpg`, snímky videí v podsložkách `PXL_20261103_<video>/<snímek>.jpg`), hustší snímky `/Users/martincerny/Documents/Benesov/prace/husto/B|D/`, přehledové koláže `/Users/martincerny/Documents/Benesov/prace/prehledy/*.jpg` (fotky.jpg = všechny fotky, ext.jpg = exteriér, A.jpg, B2.jpg, C_foto.jpg, D.jpg …).
 - Tvrzení o dispozicích s odkazy na snímky: `/Users/martincerny/Documents/Benesov/prace/overeni/kolo2-tvrzeni.md`.
 - Popisy snímků od levného modelu: `/Users/martincerny/Documents/Benesov/prace/popisy/davka-*.jsonl` – **jen vodítko, plete se** (chodbu bytu se společnou chodbou, „šikmý strop“, který tam není).
 

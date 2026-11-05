@@ -50,7 +50,7 @@ Poznámka k metodě: u cen služeb jsem ceníky firem načetl přímo jen u čá
 
 ### Staging pro investory: smysl nemá (doporučení)
 
-Investor a developer cenu odvozuje z výnosu, ceny za m² a potenciálu (nástavba, dělení bytů). Obývací pokoj s pronajatým nábytkem na tom nic nezmění. Kupující si dům stejně prohlédne. Stav, který vidíme (trhliny, plíseň, suť), staging nezakryje a zakrývat ho není vhodné. Výjimka: pokud je exit prodej po bytech koncovým kupujícím (viz výše, jiný model), má smysl ukázkově zařídit 1–2 byty (A a E). Pro celý dům stačí **vyklidit, uklidit, odvézt suť, vyvětrat plíseň, dobré fotky při dobrém světle**.
+Investor a developer cenu odvozuje z výnosu, ceny za m² a potenciálu (nástavba, dělení bytů). Obývací pokoj s pronajatým nábytkem na tom nic nezmění. Kupující si dům stejně prohlédne. Stav, který vidíme (trhliny, plíseň, suť), staging nezakryje a zakrývat ho není vhodné. Výjimka: pokud je exit prodej po bytech koncovým kupujícím (viz výše, jiný model), má smysl ukázkově zařídit 1–2 byty (A a D). Pro celý dům stačí **vyklidit, uklidit, odvézt suť, vyvětrat plíseň, dobré fotky při dobrém světle**.
 
 ### Co pravděpodobně zvedne cenu (ODHAD, bez dokladu v literatuře)
 

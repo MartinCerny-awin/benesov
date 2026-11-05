@@ -10,7 +10,7 @@ Cíl: u každé nákladové položky z tabulky „1. Náklady“ v reportu posou
 5. Rozvody domu (část `stredni`)
 6. Sanace trhlin (část `stredni`)
 7. Společné prostory (část `stredni`)
-8. Byty A, B, C, E (část `stredni`)
+8. Byty A, B, C, D (část `stredni`)
 9. Statické zajištění (`rizika_navic`)
 10. Byt B 2+1 → 3+1 (`b31_zmeny`)
 11. Nebytová část → 2 byty (`nebyt_zmeny`, `nebyt_druhy_byt`)
@@ -73,10 +73,10 @@ Cíl: u každé nákladové položky z tabulky „1. Náklady“ v reportu posou
 - Dopad real: V1 2,70 → **2,74**, V2 3,04 → 3,07 mil.
 - Pozn.: mezi položkami 6 a 7 vzrostl V1 2,31 → 2,70 bez mé změny – jiná session přidala neplacenou práci kamaráda architekta (`arch_sluzby`, `arch_nebyt`, `arch_nastavba`, uživatel 5. 11.). Zohlednit u položky 13 (projekt).
 
-### 8. Byty A, B, C, E – upraveno po řádcích (celek −5 %, ale několik řádků mimo střed oběma směry)
+### 8. Byty A, B, C, D – upraveno po řádcích (celek −5 %, ale několik řádků mimo střed oběma směry)
 - Skupina (V1, s DPH) 3,51 mil. = 2 675 tis. bez DPH (byty.md). Srovnání řádků s nezávislým overeni/rozpocet-2.md (ř. 80–97):
-  - **Jádra B, C, E 120 → 150 tis./byt** (optimistické): rozpocet-2 200 tis./byt, S1 120–240, S2 80–160, S3 126 → střed ~150 (+90 tis.).
-  - **Okna 26 → 20 ks** (pesimistické): rozpocet-2 ř. 67 – plastová okna v A, C a části 2. NP zůstávají, staré dřevěné jen v B, E (a nebytové části); stav.md ale bere A za dřevěná → střed 20 ks (12 velkých + 8 malých), −90 tis.
+  - **Jádra B, C, D 120 → 150 tis./byt** (optimistické): rozpocet-2 200 tis./byt, S1 120–240, S2 80–160, S3 126 → střed ~150 (+90 tis.).
+  - **Okna 26 → 20 ks** (pesimistické): rozpocet-2 ř. 67 – plastová okna v A, C a části 2. NP zůstávají, staré dřevěné jen v B, D (a nebytové části); stav.md ale bere A za dřevěná → střed 20 ks (12 velkých + 8 malých), −90 tis.
   - **Malba 170 → 110 Kč/m²** (pesimistické): rozpocet-2 80, stav.md 170 → střed, −51 tis.
   - **Vyklizení 100 → 60 tis.**: rozpocet-2 75 tis. včetně dílny, skladů a kotelny (ty jsou i v nebytové části) → −40 tis.
   - **Plísně 60 → 40, úklid 45 → 25 tis.**: rozpocet-2 20 a 23 tis. → −40 tis.
@@ -172,7 +172,7 @@ Cíl: u každé nákladové položky z tabulky „1. Náklady“ v reportu posou
 | 5 | Rozvody domu | – (−6 %, pod prahem) | střed |
 | 6 | Sanace trhlin | – (−7 %) | střed |
 | 7 | Společné prostory | 220 → 185 tis. bez DPH | pesimistické |
-| 8 | Byty A, B, C, E | jádra +, okna všechna 28 ks (uživatel), malba, vyklizení, úklid − | smíšené |
+| 8 | Byty A, B, C, D | jádra +, okna všechna 28 ks (uživatel), malba, vyklizení, úklid − | smíšené |
 | 9 | Statické zajištění | – (medián 0,8, průměr ~1,0–1,1) | střed |
 | 10 | Byt B 2+1 → 3+1 | 82 → 105 tis. | optimistický |
 | 11 | Nebytová část | −0,25 mil. (ceny sjednoceny s byty) | pesimistická |

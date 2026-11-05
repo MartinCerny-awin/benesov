@@ -15,10 +15,10 @@ Pozn. k zadání: **§ 34 zákona 283/2021 Sb. se netýká stavebních úprav** 
 | A (1. NP) | 4+1 | 95 m² (85–105) | 4 pokoje po 12–25 m² (obývák se 3 okny ≈ 22–25), dlouhá chodba (≈ 9–10 m), kuchyň ≈ 10, koupelna+WC ≈ 7 |
 | B (2. NP) | 2+1 + komora | 56 m² (50–62) | 2 pokoje, kuchyň, komora bez okna, koupelna, WC, dlouhá chodba |
 | C (2. NP) | 3+1 | 70 m² (62–78) | 3 pokoje (P1 ≈ 20), kuchyň, koupelna, WC |
-| E (2. NP) | 1+1 | 38 m² (33–42) | 1 pokoj se 3 okny ≈ 20, kuchyň ≈ 9, předsíň s WC/koupelnou/skříní |
+| D (2. NP) | 1+1 | 38 m² (33–42) | 1 pokoj se 3 okny ≈ 20, kuchyň ≈ 9, předsíň s WC/koupelnou/skříní |
 | 1. NP nebyt | dílna, kotelna, sklady | 55 m² (45–75) | zbytek podlaží po odečtení A a společných prostor; kotelna (F/090003837) ≈ 15–25 m² |
 
-Kontrola: 2. NP B+C+E ≈ 164 m² + společné ≈ 15 → ≈ 180 m² ≈ čistá plocha podlaží. 1. NP: A 95 + nebyt 55 + společné 18 ≈ 170. Sedí na hrubých ~192 m².
+Kontrola: 2. NP B+C+D ≈ 164 m² + společné ≈ 15 → ≈ 180 m² ≈ čistá plocha podlaží. 1. NP: A 95 + nebyt 55 + společné 18 ≈ 170. Sedí na hrubých ~192 m².
 
 ### 1.2 Mokré provozy
 - Každý byt má **vlastní koupelnu (vana + bojler) a samostatné WC** a **kuchyň jako samostatnou místnost s oknem** (A: F/085802198, 085808012; B: H/B/064, 066, V/091024109/0001209; C: V/091227435/0000060–0000421; E: H/E/001, 027–031, 055–065). Koupelny a WC jsou malá okna → leží u **obvodové stěny** (u A, B, C, E pravděpodobně v zadní části půdorysu).
@@ -28,7 +28,7 @@ Kontrola: 2. NP B+C+E ≈ 164 m² + společné ≈ 15 → ≈ 180 m² ≈ čist�
 
 ### 1.3 Nosné zdi
 - Obvodové zdi: hluboká ostění oken (~30–40 cm, F/092231282) → zdivo **cca 40 cm**, nosné. Svislé a šikmé trhliny a opravená trhlina (F/092258996, F/085958059) → **statik nutný před jakýmkoli zásahem do zdí**.
-- Vnitřní: dům je **příčně nebo podélně stěnový s plochou střechou** (ODHAD). Nosné jsou nejspíš (a) **mezibytové zdi a zdi kolem schodiště**, (b) **zeď podél chodby bytu**, pokud je jednotrakt. Nadpraží a hluboká ostění mezi P1 a kuchyní bytu A (V/091854646/0000603–0000966) a mezi P1/P2 s dvoukřídlými dveřmi naznačují zdivo ≥ 30 cm = **pravděpodobně nosné**. Příčky kolem koupelen/WC a komor (B komora, E předsíň) jsou nejspíš nenosné 10–15 cm (zárubně lícují).
+- Vnitřní: dům je **příčně nebo podélně stěnový s plochou střechou** (ODHAD). Nosné jsou nejspíš (a) **mezibytové zdi a zdi kolem schodiště**, (b) **zeď podél chodby bytu**, pokud je jednotrakt. Nadpraží a hluboká ostění mezi P1 a kuchyní bytu A (V/091854646/0000603–0000966) a mezi P1/P2 s dvoukřídlými dveřmi naznačují zdivo ≥ 30 cm = **pravděpodobně nosné**. Příčky kolem koupelen/WC a komor (B komora, D předsíň) jsou nejspíš nenosné 10–15 cm (zárubně lícují).
 - V bytě B je v růžovém pokoji pilastr/stupeň stropu v rohu (H/B 009–020, prehledy/B_pricka.jpg) → možný průvlak/sloup; v chodbě B světlý panel (H/B/093–099) = patrně přidaná příčka nebo zazděné dveře.
 - **Nelze poznat:** materiál stropů (ŽB panely vs. keramické), skutečné tloušťky, které zdi nesou strop, výšky místností. Bez statického posudku a zaměření **neplatí žádný návrh bourání**.
 
@@ -39,11 +39,11 @@ Kontrola: 2. NP B+C+E ≈ 164 m² + společné ≈ 15 → ≈ 180 m² ≈ čist�
 
 ## 2. Varianty
 
-Dále ODHAD ploch viz tabulka 1.1. Pro srovnání výchozí stav = 4 byty (A 4+1, B 2+1, C 3+1, E 1+1) a nebyt.
+Dále ODHAD ploch viz tabulka 1.1. Pro srovnání výchozí stav = 4 byty (A 4+1, B 2+1, C 3+1, D 1+1) a nebyt.
 
 ### Varianta A – sloučit kuchyně s obývákem (kk), bez změny počtu bytů
-- **Výsledek:** 4 byty: A 4+1 (bez změny, kuchyň už je s P1 propojená), B **2+kk** ≈ 56, C **3+kk** ≈ 70, E **1+kk** ≈ 38.
-- **Zásah:** otevřít stěnu mezi P1 a kuchyní (B – průchod již je, C – dveře, E – dveře). Kuchyň zůstane u svých stoupaček, jen se změní kuchyňský kout.
+- **Výsledek:** 4 byty: A 4+1 (bez změny, kuchyň už je s P1 propojená), B **2+kk** ≈ 56, C **3+kk** ≈ 70, D **1+kk** ≈ 38.
+- **Zásah:** otevřít stěnu mezi P1 a kuchyní (B – průchod již je, C – dveře, D – dveře). Kuchyň zůstane u svých stoupaček, jen se změní kuchyňský kout.
 - **Nosné zdi:** pokud je stěna P1/kuchyň nosná (možné u B – průchod s ostěním), lze jen rozšířit otvor s překladem; jinak bourání. Posoudit statik.
 - **Povolení:** pokud nesahá do nosných konstrukcí, nemění vzhled a nemůže ovlivnit požární bezpečnost, jde o **stavební úpravu = drobnou stavbu bez povolení** (příloha č. 1 odst. 1 písm. e), zakonyprolidi.cz, čteno 4. 11. 2026). Pozor: otevřená kuchyň se spotřebičem na plyn/el. a požární bezpečnost v bytě. Pokud nosné → povolení záměru (§ 171).
 - **Parkování:** plocha se nemění → 0.
@@ -57,8 +57,8 @@ Dále ODHAD ploch viz tabulka 1.1. Pro srovnání výchozí stav = 4 byty (A 4+1
 - **Parkování:** základ vyhlášky 146/2024 Sb. = 1 stání / 120 m² podlahové plochy (příloha č. 1, kód 1a, bez chodeb a technických místností). Plocha se nemění → **0 přibývajících stání**. Pozor na **ÚP Benešov**: pokud má starou regulaci „x stání/byt“, přibývá 1 byt = +1 až +2 stání (otázka 3).
 - **Prohlášení:** vznikne **1 další jednotka**; v prohlášení po dokončení stavby (§ 1166 obsah, půdorysy a podlahové plochy). 5 jednotek je hranice, od níž se řeší společenství vlastníků při ≥ 3 vlastnících (ověřit v aktuálním znění zákona 89/2012, otázka 5).
 
-### Varianta B2 – B1 + kuchyně do obýváků u B, C, E (doporučená)
-- **Výsledek: 5 bytů**: A1 2+kk ≈ 52, A2 2+kk ≈ 40, B 2+kk ≈ 56, C 3+kk ≈ 70, E 1+kk ≈ 38 → ≈ 256 m².
+### Varianta B2 – B1 + kuchyně do obýváků u B, C, D (doporučená)
+- **Výsledek: 5 bytů**: A1 2+kk ≈ 52, A2 2+kk ≈ 40, B 2+kk ≈ 56, C 3+kk ≈ 70, D 1+kk ≈ 38 → ≈ 256 m².
 - Stoupačky, nosné zdi, povolení: jako A + B1. Kuchyňské kouty u stávajících kuchyňských stoupaček.
 - **Povolení:** B1 (povolení záměru, jednoduchá stavba) + kk úpravy mohou být ve stejné dokumentaci. Statik je jeden pro celý dům.
 - **Parkování:** plocha ≈ 255 m² / 120 = **2,1 → 2 stání** (výchozí stav 259 m² → 2,16 → 2). Při korekci ÚP viz otázka 3.
@@ -72,8 +72,8 @@ Dále ODHAD ploch viz tabulka 1.1. Pro srovnání výchozí stav = 4 byty (A 4+1
 - **Parkování:** + ≈ 45 m² → ≈ 304 m² / 120 = **2,5 → 3 stání** (rozhodující je zaokrouhlení „0,5 a více nahoru“, příloha č. 1 bod 1.3). Dílna/sklady měly vlastní nárok jako nebyt, takže čistý přírůstek může být nižší (nelze určit bez kódu užití). **Hlavní riziko:** na parcele 239 m² není kam zřídit stání; stání musí být na pozemku stavby, jinak do 300 m (§ 7 odst. 3 vyhlášky 146/2024), zbytek zeleně je pozemek SPÚ a nájem je nejistý.
 - **Prohlášení:** 6 jednotek + kotelna jako společná část/nebyt. Dokončení úprav + kolaudace → prohlášení až poté.
 
-### Varianta D – přeuspořádat 2. NP: rozdělit C na 2 byty (+ kk u B, E)
-- **Výsledek:** 2. NP: B **2+kk** ≈ 56, C1 **2+kk** ≈ 38, C2 **1+kk** ≈ 28, E **1+kk** ≈ 38; spolu s A = **5 bytů** (≈ 250 m²).
+### Varianta D – přeuspořádat 2. NP: rozdělit C na 2 byty (+ kk u B, D)
+- **Výsledek:** 2. NP: B **2+kk** ≈ 56, C1 **2+kk** ≈ 38, C2 **1+kk** ≈ 28, D **1+kk** ≈ 38; spolu s A = **5 bytů** (≈ 250 m²).
 - **Stoupačky:** C má koupelnu+WC (nad stávajícími jádry); druhé jádro pro C2 vedle stávající kuchyňské stoupačky.
 - **Nosné zdi:** stejně jako B1 (druhý vstup z podesty/chodby 2. NP). C je největší byt v patře; dělicí příčka nesmí zasáhnout do nosných mezibytových zdí.
 - **Povolení:** jako B1. **Parkování:** 0 (plocha stejná). **Prohlášení:** +1 jednotka (jako B1).
@@ -86,7 +86,7 @@ Dále ODHAD ploch viz tabulka 1.1. Pro srovnání výchozí stav = 4 byty (A 4+1
 - Správní poplatek za změnu v užívání ≈ 1 000 Kč (portal.gov.cz, estav.cz; potvrzení 2026 nenalezeno) – zanedbatelné.
 - Ostatní položky (příčky, kuchyň, dveře EI, projekt domu, okna, hydroizolace): **ODHAD** (v ČR 2026 nenalezen citovatelný ceník; ref. malá linka na míru 55,8 tis., nabídka linky 120 tis. – nejremeslnici.cz reference, bez data; projekt jádra panelového bytu 80,3 tis. – nejremeslnici.cz reference, bez data).
 
-### Varianta A – kk u B, C, E
+### Varianta A – kk u B, C, D
 | Položka | pesim | real | optim |
 |---|---:|---:|---:|
 | Bourání/rozšíření otvoru, překlad, zapravení, podlaha, 3 byty | 150 | 70 | 25 |
@@ -133,11 +133,11 @@ Nový byt (samotná přestavba nebytů, nemá standardní rekonstrukci):
 
 Nezahrnuto: **stání** (pronájem/pozemek, 60–150 tis. za stání, ODHAD), případné odstranění azbestu a sanace trhlin.
 
-### Varianta D = kk u B, E + rozdělit C
+### Varianta D = kk u B, D + rozdělit C
 | | pesim | real | optim |
 |---|---:|---:|---:|
 | Rozdělit C (≈ 0,75 × B1) | 770 | 460 | 290 |
-| kk u B a E | 175 | 80 | 30 |
+| kk u B a D | 175 | 80 | 30 |
 | **Celkem** | **945** | **540** | **320** |
 
 ## 4. Přínos – vliv na prodejní cenu
@@ -166,11 +166,11 @@ Základní sazba velkého bytu v renovovaném domě bez výtahu a se špatným p
 
 | Varianta | Přínos na ceně (hrubě, pesim / real / optim) | Cena změn | Čistý přínos* |
 |---|---|---|---|
-| A (kk u B, C, E; 164 m²) | 0 / +0,66 / +1,77 mil. | 0,27 / 0,12 / 0,05 mil. | −0,27 / +0,54 / +1,72 mil. |
+| A (kk u B, C, D; 164 m²) | 0 / +0,66 / +1,77 mil. | 0,27 / 0,12 / 0,05 mil. | −0,27 / +0,54 / +1,72 mil. |
 | B1 (dělení A) | +0,30 / +1,15 / +2,04 mil. | 1,03 / 0,62 / 0,39 mil. | −0,73 / +0,53 / +1,65 mil. |
 | **B2 (B1 + A)** | **+0,30 / +1,81 / +3,81 mil.** | **1,29 / 0,74 / 0,44 mil.** | **−0,99 / +1,07 / +3,37 mil.** |
 | C (B2 + nový byt 45 m²) | +2,25 / +5,1 / +8,2 mil. | 3,78 / 2,18 / 1,29 mil. | −1,5 / +2,9 / +6,9 mil. |
-| D (C rozdělit + kk B, E) | +0,22 / +1,23 / +2,5 mil. | 0,95 / 0,54 / 0,32 mil. | −0,73 / +0,69 / +2,2 mil. |
+| D (C rozdělit + kk B, D) | +0,22 / +1,23 / +2,5 mil. | 0,95 / 0,54 / 0,32 mil. | −0,73 / +0,69 / +2,2 mil. |
 
 *pesim přínos − pesim cena atd. Nový byt v C: hodnota 45 m² × 80 / 100 / 115 tis. Kč/m² mínus hodnota nebytu, který se spotřebuje (ODHAD 15–30 tis./m² × 55 m² = 1,65 / 1,2 / 0,8 mil.).
 
@@ -180,13 +180,13 @@ Základní sazba velkého bytu v renovovaném domě bez výtahu a se špatným p
 | Varianta | optim | real | pesim | Poznámka |
 |---|---:|---:|---:|---|
 | A | 0 | 0 | 1 | statik; bez povolení, pokud nenosné |
-| B1 / B2 | 2 | 4 | 6 | projekt 1–2 měs. + řízení 30 d (jednoduchá) až 60 d + 30 d (§ 196) + kolaudace 30+15 d (§ 234–235); lze souběžně s rekonstrukcí B, C, E |
+| B1 / B2 | 2 | 4 | 6 | projekt 1–2 měs. + řízení 30 d (jednoduchá) až 60 d + 30 d (§ 196) + kolaudace 30+15 d (§ 234–235); lze souběžně s rekonstrukcí B, C, D |
 | C | 5 | 8 | 12 | změna v užívání + povolení záměru + kolaudace, řešení stání, hydroizolace, možné odvolání |
 | D | 2 | 4 | 6 | jako B1 |
 
 ## Shrnutí pro model
 
-**Doporučená varianta B2** (dělení bytu A na 2 + sloučení kuchyní s obývákem u B, C, E): **5 bytů**
+**Doporučená varianta B2** (dělení bytu A na 2 + sloučení kuchyní s obývákem u B, C, D): **5 bytů**
 
 | Byt | Dispozice | ODHAD m² (rozpětí) |
 |---|---|---|
@@ -194,16 +194,16 @@ Základní sazba velkého bytu v renovovaném domě bez výtahu a se špatným p
 | A2 | 2+kk (nebo 1+kk ≈ 30) | 40 (34–46) |
 | B | 2+kk (+ komora → šatna) | 56 (50–62) |
 | C | 3+kk | 70 (62–78) |
-| E | 1+kk | 38 (33–42) |
+| D | 1+kk | 38 (33–42) |
 | **Spolu** | **5 bytů** | **≈ 256 (230–290)** |
 
-- **Cena změn nad standardní rekonstrukci (B2):** pesim **1 290 tis.** / real **735 tis.** / optim **435 tis. Kč** (z toho dělení A 1 025 / 615 / 385 a kk u B, C, E 265 / 122 / 48).
+- **Cena změn nad standardní rekonstrukci (B2):** pesim **1 290 tis.** / real **735 tis.** / optim **435 tis. Kč** (z toho dělení A 1 025 / 615 / 385 a kk u B, C, D 265 / 122 / 48).
 - **Přínos na prodejní ceně:** pesim **+0,30 mil.** / real **+1,81 mil.** / optim **+3,81 mil. Kč** (čistý: −0,99 / +1,07 / +3,37 mil. Kč).
-- **Měsíce navíc na povolení:** optim 2 / real 4 / pesim 6 (část souběžně s rekonstrukcí B, C, E).
+- **Měsíce navíc na povolení:** optim 2 / real 4 / pesim 6 (část souběžně s rekonstrukcí B, C, D).
 - **Parkování:** plocha ≈ 255 m² → 2,1 → **2 stání** (výchozí 259 m² → 2); beze změny. Rizikem je ÚP Benešov a to, že na pozemku 239 m² žádné stání není.
 - **Prohlášení vlastníka:** vzniká 5 jednotek (+ nebyt); prohlášení sepsat až po dokončení a kolaudaci.
 - **Pozn.:** varianta C (+ nový byt v 1. NP, 6 bytů) má v real vyšší čistý přínos (+2,9 mil. Kč, cena změn 2 175 tis., +8 měsíců), ale je nejméně podložená (okna, vlhkost, stání, kotelna). Do modelu ji dávat jen jako scénář.
-- **Pozn. k označení B2:** v zadání nebyla definice „B2“; použil jsem B2 = dělení A + kk u B, C, E.
+- **Pozn. k označení B2:** v zadání nebyla definice „B2“; použil jsem B2 = dělení A + kk u B, C, D.
 
 ## Otázky k ověření
 1. **Stavební úřad Benešov** (nikomu nic neposílat, jen sepsat): rozdělení bytu A na dva byty a nový vstup z chodby – drobná stavba, nebo povolení záměru? Co vyžaduje PBŘ (únikové cesty, EW/EI)?
@@ -226,4 +226,4 @@ Základní sazba velkého bytu v renovovaném domě bez výtahu a se špatným p
 - nejremeslnici.cz/blog/rekonstrukce-koupelny-cena/ (aktualizováno 8. 1. 2026).
 - Skanska, residential.skanska.cz/files/tz-q2-2026-tg-cg-sk.pdf (Q2 2026).
 - portal.gov.cz/sluzby-vs/zadost-o-vydani-rozhodnuti-o-povoleni-zmeny-v-uzivani-stavby-S47230, estav.cz/cz/604 (poplatek 1 000 Kč, bez potvrzení platnosti 2026).
-- Fotky: prehledy/fotky.jpg, A.jpg, B2.jpg, B_pricka.jpg, C_foto.jpg, E.jpg, v5_091854.jpg; obrazky F/085917426, 085928709, 085906623, 090003837, 092212893, 092231282, 092258996, 092522234.
+- Fotky: prehledy/fotky.jpg, A.jpg, B2.jpg, B_pricka.jpg, C_foto.jpg, D.jpg, v5_091854.jpg; obrazky F/085917426, 085928709, 085906623, 090003837, 092212893, 092231282, 092258996, 092522234.

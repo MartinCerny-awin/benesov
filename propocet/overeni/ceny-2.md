@@ -75,7 +75,7 @@ Poznámka: Vlašim je cenově cca 10–15 % pod Benešovem (realitymix: 77 115 K
 
 ## 2. Odpovědi na bod 1 – jednotlivé byty (realizované ceny, ODHAD)
 
-Plocha: dle zadání (A 95, B 56, C 70, E 38 m²). Realizovaná cena ≈ nabídka srovnatelného bytu − 5–8 % − korekce na vlastnosti objektu (plochá střecha, silnice, bez parkování, bez výtahu).
+Plocha: dle zadání (A 95, B 56, C 70, D 38 m²). Realizovaná cena ≈ nabídka srovnatelného bytu − 5–8 % − korekce na vlastnosti objektu (plochá střecha, silnice, bez parkování, bez výtahu).
 
 ### 2a. Dnešní stav (zdevastovaný/původní), prodej bytu samostatně – ODHAD
 
@@ -84,7 +84,7 @@ Plocha: dle zadání (A 95, B 56, C 70, E 38 m²). Realizovaná cena ≈ nabídk
 | A 4+1 (1. NP) | 95 | 51 000 | 60 000 | 69 000 | 4,84 mil. | **5,70 mil.** | 6,55 mil. |
 | B 2+1 | 56 | 54 000 | 64 000 | 74 000 | 3,02 mil. | **3,58 mil.** | 4,14 mil. |
 | C 3+1 | 70 | 53 000 | 62 000 | 71 000 | 3,71 mil. | **4,34 mil.** | 4,97 mil. |
-| E 1+1 (2. NP) | 38 | 61 000 | 72 000 | 83 000 | 2,32 mil. | **2,74 mil.** | 3,15 mil. |
+| D 1+1 (2. NP) | 38 | 61 000 | 72 000 | 83 000 | 2,32 mil. | **2,74 mil.** | 3,15 mil. |
 | **Součet (259 m²)** | | | | | 13,89 mil. | **16,36 mil.** | 18,81 mil. |
 
 Odůvodnění: srovnatelné 15–18 (Vlašim Severní 70,9 tis., Týnec 85,7 tis., Sázava 60,5 tis., Vlašim Obora 59,1 tis. Kč/m² nabídky) plus nákladový test: realizovaná cena po rekonstrukci (2b) minus rekonstrukce (ODHAD 15–22 tis. Kč/m² vč. nového topení, rozvodů, jader; jediný veřejně nalezený benchmark: ~1 mil. Kč za 65 m² panelový byt v Praze, novinky.cz – slabý zdroj) minus riziko/marže kupce. Menší byt má vyšší Kč/m². Byty „zdevastované“ jsou na spodní hraně až pod ní. Součet bytů je nad cenou celého domu (bod 3) – rozdíl je náklad dělení, času a rizika.
@@ -98,7 +98,7 @@ Odůvodnění: srovnatelné 15–18 (Vlašim Severní 70,9 tis., Týnec 85,7 tis
 | A 4+1→4+kk | 95 | 76 000 | 86 000 | 94 000 | 7,22 mil. | **8,17 mil.** | 8,93 mil. |
 | B 2+1 | 56 | 80 000 | 89 000 | 98 000 | 4,48 mil. | **4,98 mil.** | 5,49 mil. |
 | C 3+1 | 70 | 82 000 | 90 000 | 98 000 | 5,74 mil. | **6,30 mil.** | 6,86 mil. |
-| E 1+1 | 38 | 95 000 | 105 000 | 118 000 | 3,61 mil. | **3,99 mil.** | 4,48 mil. |
+| D 1+1 | 38 | 95 000 | 105 000 | 118 000 | 3,61 mil. | **3,99 mil.** | 4,48 mil. |
 | **Součet (259 m²)** | | | | | 21,05 mil. (81 tis./m²) | **23,44 mil. (91 tis./m²)** | 25,76 mil. (99 tis./m²) |
 
 **Alternativní dispozice (5 jednotek, 256 m²)**
@@ -196,7 +196,7 @@ Kontext: průměrné nabídkové nájemné Středočeský kraj 325 Kč/m² (Q1 2
 | A 4+kk | 95 | 220 | 250 | 280 | 23 800 |
 | B 2+1 | 56 | 240 | 275 | 310 | 15 400 |
 | C 3+1 | 70 | 235 | 270 | 305 | 18 900 |
-| E 1+1 | 38 | 300 | 340 | 390 | 12 900 |
+| D 1+1 | 38 | 300 | 340 | 390 | 12 900 |
 | **Součet** | 259 | 240 | **274** | 310 | **71 000** (pesim. 62 100 / optim. 80 200) |
 
 **Alternativní dispozice**
@@ -220,12 +220,12 @@ Kontext: průměrné nabídkové nájemné Středočeský kraj 325 Kč/m² (Q1 2
 | (a) A 4+1 95 m², dnešní stav | 4,84 mil. (51 tis./m²) | 5,70 mil. (60 tis.) | 6,55 mil. (69 tis.) |
 | (a) B 2+1 56 m², dnešní stav | 3,02 mil. (54 tis.) | 3,58 mil. (64 tis.) | 4,14 mil. (74 tis.) |
 | (a) C 3+1 70 m², dnešní stav | 3,71 mil. (53 tis.) | 4,34 mil. (62 tis.) | 4,97 mil. (71 tis.) |
-| (a) E 1+1 38 m², dnešní stav | 2,32 mil. (61 tis.) | 2,74 mil. (72 tis.) | 3,15 mil. (83 tis.) |
+| (a) D 1+1 38 m², dnešní stav | 2,32 mil. (61 tis.) | 2,74 mil. (72 tis.) | 3,15 mil. (83 tis.) |
 | (a) součet bytů, dnešní stav | 13,89 mil. | 16,36 mil. | 18,81 mil. |
 | (b) A po rekonstrukci | 7,22 mil. (76 tis.) | 8,17 mil. (86 tis.) | 8,93 mil. (94 tis.) |
 | (b) B po rekonstrukci | 4,48 mil. (80 tis.) | 4,98 mil. (89 tis.) | 5,49 mil. (98 tis.) |
 | (b) C po rekonstrukci | 5,74 mil. (82 tis.) | 6,30 mil. (90 tis.) | 6,86 mil. (98 tis.) |
-| (b) E po rekonstrukci | 3,61 mil. (95 tis.) | 3,99 mil. (105 tis.) | 4,48 mil. (118 tis.) |
+| (b) D po rekonstrukci | 3,61 mil. (95 tis.) | 3,99 mil. (105 tis.) | 4,48 mil. (118 tis.) |
 | (b) součet bytů po rekonstrukci | 21,05 mil. | 23,44 mil. | 25,76 mil. |
 | (b-alt) součet 5 bytů alt. dispozic | 22,00 mil. | 24,42 mil. | 26,96 mil. |
 | (c) celý dům dnes, investor | 9,0 mil. | 11,5 mil. | 14,0 mil. |

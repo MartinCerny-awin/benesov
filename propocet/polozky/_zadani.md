@@ -4,7 +4,7 @@ Cíl: u **jedné nákladové položky** propočtu domu č.p. 1598, Jana Nohy, Be
 
 ## Dům (aktuální stav, má přednost před staršími podklady)
 - Zděný bytový dům z roku 1981, 2 NP, plochá střecha, bez sklepa a výtahu. Zastavěná plocha 239 m², pozemek 2113/3 = jen půdorys domu. Přístup přes pozemek SPÚ 2128/3. Dům je odpojený od elektřiny, topí se kotli na tuhá paliva v kotelně, plyn tu není.
-- Plochy podle NV 366/2013 (`/Users/martincerny/Documents/Benesov/dispozice.md`): byty A 4+1 80 m² (1. NP), B 67 m² (2. NP, dnes 2+1, bude 3+1), C 3+1 75 m² (2. NP), E 1+1 42 m² (2. NP) = 264 m². Nebytová část v 1. NP (dílna, sklady, kotelna) má 86 m² a přestaví se na 2 byty 2+kk po ~40 m². Společné prostory ~60 m².
+- Plochy podle NV 366/2013 (`/Users/martincerny/Documents/Benesov/dispozice.md`): byty A 4+1 80 m² (1. NP), B 67 m² (2. NP, dnes 2+1, bude 3+1), C 3+1 75 m² (2. NP), D 1+1 42 m² (2. NP) = 264 m². Nebytová část v 1. NP (dílna, sklady, kotelna) má 86 m² a přestaví se na 2 byty 2+kk po ~40 m². Společné prostory ~60 m².
 - Trhliny 2–3 mm přes obě podlaží a sokl, vyplněná trhlina se znovu otevřela, takže sedání asi pokračuje (`propocet/podklady/stav-nove-fotky.md`).
 - Dvě verze, které report ukazuje: **Bez nástavby (V1)** = 6 bytů, 344 m². **S nástavbou (V2)** = V1 + ustupující podlaží se 2 byty (150 m² hrubé, 120 m² čisté).
 - Stavbu dělá buď **firma** (generální dodavatel, plátce DPH, stavební práce na bytový dům s DPH 12 %), nebo **vlastní dodavatelé** (řemeslníci, většinou neplátci; materiál investor kupuje s DPH 21 %).

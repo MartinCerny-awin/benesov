@@ -9,7 +9,7 @@ Chci propočítat, jestli se vyplatí koupit dům č.p. 1598 v Benešově a co s
 ## Co už máme
 
 - `NB503213.pdf` – inzerát prodávajícího (ČD): netypový bytový dům, 2 nadzemní podlaží, 384,46 m² budovy, 239 m² pozemku, 8 326 000 Kč. Přečti celý, včetně podmínek prodeje (výběrové řízení, kauce, lhůty, stav nájmů).
-- `photos/` a `prace/` – fotky a videa z prohlídky 3. 11. 2026 a rozpracované dispozice bytů. Výsledky dispozic jsou v `postup.md` (byty A, B, C, E; dispozice ještě nejsou ověřené – ber je jako předběžné).
+- `photos/` a `prace/` – fotky a videa z prohlídky 3. 11. 2026 a rozpracované dispozice bytů. Výsledky dispozic jsou v `postup.md` (byty A, B, C, D; dispozice ještě nejsou ověřené – ber je jako předběžné).
 - `fakta.md` – fakta potvrzená mnou. Mají přednost před vším, co najdeš.
 - `poznatky.md` – co se ukázalo jako zavádějící. Přečti před začátkem a doplňuj.
 

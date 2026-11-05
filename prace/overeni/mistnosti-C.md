@@ -12,7 +12,7 @@ Fakta od uživatele (přednost, neměnit): /Users/martincerny/Documents/Benesov/
 ## Tvrzení podle plánu
 C1. Modrý pokoj x 0,4–3,7 × y 0,4–3,35 (3,3 × 2,95 m), 1 okno na ulici x 1,3–2,8, vestavěné skříně.
 C2. Skříň/komora za dveřmi s dřevěnou koulí x 3,7–4,8 × y 0,4–4,45 (1,1 m široká), bez okna.
-C3. Zelený pokoj x 4,8–7,9 × y 0,4–4,45 (3,1 × 4,05 m), 2 okna na ulici x 5,0–5,9 a 6,2–7,7 (okno 8,0–8,8 s červenohnědým rámem patří už kuchyni E).
+C3. Zelený pokoj x 4,8–7,9 × y 0,4–4,45 (3,1 × 4,05 m), 2 okna na ulici x 5,0–5,9 a 6,2–7,7 (okno 8,0–8,8 s červenohnědým rámem patří už kuchyni D).
 C4. Předsíňka x 2,6–3,7 × y 3,35–4,45 u konce chodby; WC x 0,4–2,6 × y 3,35–4,45 (bojler nad mísou), malé okno ve štítu y 3,65–4,25.
 C5. Koupelna x 0,4–2,6 × y 4,45–6,75 (vana), okno ve štítu y 5,1–6,4; dveře v jedné rovině s WC.
 C6. Chodba x 2,6–9,4 × y 4,45–5,75 (6,8 × 1,3 m), dva přímotopy; vstup z podesty ve stěně x 9,4.

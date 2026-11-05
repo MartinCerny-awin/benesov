@@ -57,7 +57,7 @@ Součet oprav **jen ve prospěch investora** (8 + 10 + 15) dává B2 real **1,37
 ### 4. Test podstatné změny 30 % (DPH § 56 od 7/2025)
 - **Kde:** model.py:204 (`stavba_bez_dph`), 255–258.
 - **Co je špatně:** (a) zákon měří náklady proti **základu daně** dodání (dane-financovani.md:66), tj. při zdanitelném prodeji proti ceně ÷ 1,12. Model dělí tržbou s DPH, takže podíl podhodnocuje o 12 %. (b) Do nákladů patří všechny skutečně vynaložené náklady (i spotřebovaná rezerva a `rizika_navic`). Model je vynechává. (c) GFŘ chce test **po jednotkách** (model: souhrnně, viz `ponytail:` komentář).
-- **Ověřil jsem po jednotkách (B2 real, stav.md kap. 8, společné náklady podle ploch):** podíl nákladů bez DPH k ceně A1 0,337, A2 0,337, B 0,309, C 0,344, E 0,333. K základu bez DPH 0,35–0,39, se spotřebovanou rezervou 0,36–0,44. **V realistickém scénáři je tedy závěr „podstatná změna“ správný a robustní.**
+- **Ověřil jsem po jednotkách (B2 real, stav.md kap. 8, společné náklady podle ploch):** podíl nákladů bez DPH k ceně A1 0,337, A2 0,337, B 0,309, C 0,344, D 0,333. K základu bez DPH 0,35–0,39, se spotřebovanou rezervou 0,36–0,44. **V realistickém scénáři je tedy závěr „podstatná změna“ správný a robustní.**
 - **Kde chyba škodí:** model má „útes“ už při podílu 0,30. B real při cenách +10 % spadne na 0,296 → osvobozeno → citlivost B „+10 %“ 2,62 mil., z toho ~1 mil. jen artefakt. Při stavba −9 % skočí B2 z 1,30 na 2,27 mil. V opt jsou A2/B/B2 „osvobozeno“ (podíl 0,13–0,17), ale opt počítá náklady na menší plochu (č. 14). Lhůta 23 měsíců je v modelu správně (všechny prodeje B/B2 do 7 měsíců po dokončení → zdanitelné).
 - **Oprava:** `podil = (náklady_bez_DPH + rezerva/1,12 + rizika/1,12) / (tržby/1,12 if zdanitelné else tržby)`, test po jednotkách (přímé + společné podle ploch). U hranice 0,28–0,40 hlásit „nejisté“, ne přepínat.
 - **K registraci:** předpoklad real/opt (dobrovolná registrace před stavbou, odpočet) je v pořádku. Pro plátce platí u stavebních prací přenesená daňová povinnost (§ 92e) → DPH na vstupu se nepředfinancuje. Model ji vrací až v posledním měsíci (cash-flow, < 0,1 mil.). V pes (bez odpočtu) chybí, že neplátce se stane plátcem až **dnem po** překročení 2 536 500 Kč (první byt tak jde bez DPH) a že má nárok na odpočet podle § 79 u majetku pořízeného 12 měsíců před registrací. Pes je tím přehnaně pesimistický o ~0,5–1 mil.
@@ -144,7 +144,7 @@ Součet oprav **jen ve prospěch investora** (8 + 10 + 15) dává B2 real **1,37
 - **Dopad:** D10 +0,15 mil. Oprava: úrok ze zůstatku podle měsíce čerpání. U D chybí i poplatek za zpracování (−0,05 mil.).
 
 ### 20.–21. Časová osa B2/B2h
-- **Č. 20:** model.py:194 – `t_b2_navic` (4 měsíce povolení dělení A) posouvá start celé stavby. Podle dispozice-zmeny.md:183 jde B, C, E a společné části dělat souběžně → +0,1 mil.
+- **Č. 20:** model.py:194 – `t_b2_navic` (4 měsíce povolení dělení A) posouvá start celé stavby. Podle dispozice-zmeny.md:183 jde B, C, D a společné části dělat souběžně → +0,1 mil.
 - **Č. 21:** model.py:237–244 – B2h čeká 24 měsíců od `t_start` (= dokončení + rozdělení). § 56: osvobozeno po konci 23. kalendářního měsíce po měsíci dokončení → stačí prodávat od t_hotovo + 24. Úspora ~2 měsíce (+0,05–0,1 mil.).
 
 ### 22. Drobnosti (< 0,1 mil. každá)

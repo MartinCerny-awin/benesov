@@ -52,7 +52,7 @@ Režim V1 real: podstatná změna (§ 56 odst. 5 ZDPH) – náklady bez DPH 13,2
 | DPH na výstupu – byt A 4+1, 80 m², prodej měs. 18 | 6 833 360 | 12/112 | 732 145 | | `model.py` ř. 353, `rev` |
 | DPH na výstupu – byt B 3+1, 67 m², měs. 19 | 6 020 527 | 12/112 | 645 057 | | totéž |
 | DPH na výstupu – byt C 3+1, 75 m², měs. 20 | 6 756 018 | 12/112 | 723 859 | | totéž |
-| DPH na výstupu – byt E 1+1, 42 m², měs. 21 | 4 117 789 | 12/112 | 441 192 | | totéž |
+| DPH na výstupu – byt D 1+1, 42 m², měs. 21 | 4 117 789 | 12/112 | 441 192 | | totéž |
 | DPH na výstupu – nový byt 2+kk č. 1 (1. NP), 40 m², měs. 22 | 3 759 204 | 12/112 | 402 772 | | totéž |
 | DPH na výstupu – nový byt 2+kk č. 2 (1. NP), 40 m², měs. 23 | 3 768 475 | 12/112 | 403 765 | | totéž |
 | **DPH na výstupu celkem** | 31 255 374 | | **3 348 790** | pes 2 640 390, opt 0 (osvobozeno, 24 % < 30 %) | |
@@ -74,7 +74,7 @@ V2 real (pro srovnání): DPH 4 807 730 − odpočet 3 275 426 = 1 532 304; z to
 - **§ 48a odst. 1 písm. a)** (celý bytový dům) vyžaduje, aby obytný prostor pro sociální bydlení tvořil více než polovinu podlahové plochy; pro prodej po bytech (jednotek) to nehraje roli, pro prodej vcelku (A0, A2) ano a splněno by bylo (byty ≤ 120 m²).
 - **Stavební práce**: § 49 odst. 4 (práce na dokončené stavbě pro bydlení 12 %) a odst. 2 (přestavba nebytového prostoru na sociální bydlení 12 %). Materiál kupovaný zvlášť (varianta vlastní dodavatelé) a služby 21 % (model je tak počítá). Tyto sazby v modelu sedí.
 - **Zdanitelnost, § 56**: odst. 1 – první dodání do konce 23. kalendářního měsíce po měsíci dokončení / podstatné změny je zdanitelné, jinak osvobozeno; odst. 3 – počátek lhůty je kolaudace po podstatné změně; odst. 5 – podstatná změna = změna využití nebo podmínek obývání, pokud náklady bez DPH, které nesl prodávající, přesáhnou **30 % základu daně** při následujícím dodání. Úroky se do nákladů nepočítají (GFŘ, `podklady/dane-financovani.md` ř. 66). Změna nebytové části na byty je změna využití, takže test se plní.
-- Test je podle GFŘ po jednotkách (`podklady/dane-financovani.md` ř. 66), model počítá souhrnně (ponytail komentář ř. 346). Hrubý přepočet (ODHAD): staré byty A, B, C, E ~45 %, dva nové byty z nebytové části ~56 % (jejich přestavba 3,6 mil. Kč je i s rezervou ~3,7 mil. bez DPH proti 6,7 mil. základu daně). Všechny jednotky jsou nad 30 %, takže souhrnný test nic nezkresluje.
+- Test je podle GFŘ po jednotkách (`podklady/dane-financovani.md` ř. 66), model počítá souhrnně (ponytail komentář ř. 346). Hrubý přepočet (ODHAD): staré byty A, B, C, D ~45 %, dva nové byty z nebytové části ~56 % (jejich přestavba 3,6 mil. Kč je i s rezervou ~3,7 mil. bez DPH proti 6,7 mil. základu daně). Všechny jednotky jsou nad 30 %, takže souhrnný test nic nezkresluje.
 
 ### Může být prodej nezdaněný? (jen popis, rozhodnutí je na uživateli)
 
@@ -118,7 +118,7 @@ DPH z prodeje po odpočtu (součet 1 506 598; kladné = platí se státu, zápor
     ("DPH 12 % z prodeje bytu A 4+1 (80 m²)", 732145),
     ("DPH 12 % z prodeje bytu B 3+1 (67 m²)", 645057),
     ("DPH 12 % z prodeje bytu C 3+1 (75 m²)", 723859),
-    ("DPH 12 % z prodeje bytu E 1+1 (42 m²)", 441192),
+    ("DPH 12 % z prodeje bytu D 1+1 (42 m²)", 441192),
     ("DPH 12 % z prodeje dvou nových bytů 2+kk v přízemí (2 × 40 m²)", 806537),
     ("odpočet DPH ze stavebních prací včetně rezervy", -1399507),
     ("odpočet DPH z projektu, dozoru a statika", -127244),
