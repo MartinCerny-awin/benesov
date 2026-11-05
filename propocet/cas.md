@@ -23,25 +23,27 @@ Kolik hodin vaší vlastní práce čekám u každé podpoložky z rozpisu nákl
 | Byty: elektro a voda uvnitř bytů | 70,5 | 60 |
 | Byty: bourání, omítky, podlahy, malby | 67 | 32 |
 | Byty: koupelny, kuchyně, okna, dveře | 58 | 19 |
+| Byt B: 2+1 → 3+1 | 2,5 |  |
+| Nebytová část → 2 byty 2+kk | 103,5 | 64 |
 | Statické zajištění domu | 11 |  |
 | Projekt, dozor, statik | 9 |  |
 | Parkovací stání: stavba | 21 | 16 |
 | Rozdělení na jednotky | 10 |  |
-| Financování, daně, prodej a provoz | 138 |  |
-| Průběžně po celou stavbu | 50 |  |
-| **Celkem bez variant** | **561,5** | **159** |
-| Cesty do Benešova a zpět (~55 cest po 2 h) | 110 | |
-| **Celkem s cestami** | **671,5** | |
+| Financování, daně, prodej a provoz | 178 |  |
+| Průběžně po celou stavbu a po prodeji | 80 |  |
+| **Celkem (s architektem, bez nástavby)** | **737,5** | **223** |
+| Cesty do Benešova a zpět (~63 cest po 2 h, odhad z Prahy) | 126 | |
+| **Celkem s cestami** | **863,5** | |
 
-Varianty se přičítají, jen když se dělají:
+Celek odpovídá modelu bez nástavby: 6 bytů (A–D a 2 byty v přízemí), byt B 3+1, všechny prodané. Tohle se přičítá, jen když nastane:
 
-| Varianta | Hodin | z toho svépomocí |
+| Navíc | Hodin | z toho svépomocí |
 |---|--:|--:|
-| Varianta: byt B s rozděleným pokojem | 2,5 |  |
-| Varianta: byty v přízemí místo nebytové části | 103,5 | 64 |
-| Varianta: ustupující podlaží (2 byty) | 44 |  |
+| Navíc, když řemeslníky nesežene a nekoordinuje architekt | 580 |  |
+| Navíc, když 2 byty před prodejem pronajmete | 76 |  |
+| Navíc: ustupující podlaží (2 byty) | 84 |  |
 
-Pro představu: 671,5 h je asi 84 osmihodinových dní. Svépomoc (159 h) jsou hlavně drážky pro elektro, úklid, dveře a kotle. Kdo ji nechce dělat, ušetří ji za řemeslníky; v nákladech by to bylo dráž. Každý další prodávaný byt přidá ~20 h.
+Pro představu: 863,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou hlavně drážky pro elektro, malby a vyklizení v přízemí, úklid, dveře a kotle. Kdo ji nechce dělat, zaplatí řemeslníky; v nákladech by to bylo dráž. Když řemeslníky nesežene a nekoordinuje architekt, je to největší položka ze všech a celkový čas skoro zdvojnásobí.
 
 ## Koupě od ČD a elektřina (19,5 h)
 
@@ -244,80 +246,7 @@ Pro představu: 671,5 h je asi 84 osmihodinových dní. Svépomoc (159 h) jsou h
 | Dveře: nátěr stávajících ocelových zárubní (16 ks) | 0,5 | Vybrat barvu. |
 | Dveře: vstupní bezpečnostní do bytů s montáží (4 ks) | 2 | Vybrat bezpečnostní třídu a vzhled, převzít. |
 
-## Statické zajištění domu (11 h)
-
-| Podpoložka | Hodin | Co děláte vy |
-|---|--:|---|
-| Geologický průzkum: vrty a penetrace vč. dopravy (3 vrty) | 1 | Pustit geology na pozemek. |
-| Geologický průzkum: odkopy k základům (2 ks) | 1 | Domluvit odkopy. |
-| Geologický průzkum: laboratoř a zpráva | 1 | Přečíst zprávu. |
-| Zajištění: ocelová táhla se stažením domu (12 ks) | 3 | Projít nabídky se statikem a architektem, smlouva, převzetí. |
-| Zajištění: ztužení – vyztužení 3 překladů | 1 | Kontrola. |
-| Zajištění: ztužení – lokální věnec nebo ocelový prvek | 1 | Kontrola. |
-| Zajištění: lokální zesílení základů – odkop, hydroizolace a zásyp (~10 m) | 1 | Kontrola. |
-| Zajištění: lokální zesílení základů – podbetonování po úsecích | 1 | Kontrola. |
-| Zajištění: lokální zesílení základů – injektáž | 1 | Kontrola. |
-| Rezerva na rozsah podle posudku statika (30 %) | 0 | Jen peníze, žádná práce navíc. |
-
-## Projekt, dozor, statik (9 h)
-
-| Podpoložka | Hodin | Co děláte vy |
-|---|--:|---|
-| Prováděcí projekt: topení a hydraulika (vodu a kanalizaci kreslí architekt) | 1 | Odsouhlasit projekt. |
-| Prováděcí projekt: elektro a hromosvod | 1 | Odsouhlasit projekt. |
-| Požárně bezpečnostní řešení | 0,5 | Odsouhlasit. |
-| Statik: posudek trhlin a ohledání | 2 | Projít dům se statikem, přečíst posudek. |
-| Statik: návrh sanace s výkresy | 1 | Odsouhlasit návrh. |
-| Statik: monitoring trhlin (terče, odečty) | 0,5 | Pustit statika k terčům. |
-| Statik: dohled nad sanací | 0,5 | Převzít zápisy. |
-| Koordinátor bezpečnosti práce: plán BOZP a oznámení | 1 | Podepsat oznámení na inspektorát práce (povinnost zadavatele). |
-| Koordinátor bezpečnosti práce: průběžná koordinace na stavbě | 0,5 | Převzít zápisy. |
-| Poplatky a vyjádření správců sítí | 1 | Zaplatit poplatky, podepsat plné moci architektovi. |
-
-## Parkovací stání: stavba (21 h)
-
-| Podpoložka | Hodin | Co děláte vy |
-|---|--:|---|
-| Zámková dlažba: stání (12,5 m² na stání, ~1 100 Kč/m², pokládka svépomocí) | 16 | Svépomocí: výkop, podklad, obrubníky a pokládka 12,5 m² (~2 dny). |
-| Zámková dlažba: vjezd a otáčení (~1 100 Kč/m²) | 1 | Domluvit dlaždiče a převzít. |
-| Obrubníky a odvodnění: obrubníky (~22 m) | 0,5 | Ve stejné zakázce. |
-| Obrubníky a odvodnění: odvodnění a spád | 0,5 | Ve stejné zakázce. |
-| Změna druhu pozemku v katastru | 2 | Žádost na katastr s geometrickým plánem. |
-| Projekt stání a vyjádření úřadu | 1 | Odsouhlasit, architekt vyřídí úřad. |
-
-## Rozdělení na jednotky (10 h)
-
-| Podpoložka | Hodin | Co děláte vy |
-|---|--:|---|
-| Prohlášení vlastníka (advokát), 6 jednotek | 4 | Podklady pro advokáta, kontrola prohlášení, podpis. |
-| Geodet: zaměření jednotek a společných částí | 1 | Pustit geodeta do bytů. |
-| Poplatky katastru za vklad prohlášení a zápis jednotek | 1 | Podat a zaplatit. |
-| Založení společenství vlastníků (stanovy, zápis do rejstříku) | 4 | Stanovy, ustavující schůze, návrh do rejstříku. |
-
-## Financování, daně, prodej a provoz (138 h)
-
-| Podpoložka | Hodin | Co děláte vy |
-|---|--:|---|
-| Úvěr: žádost na platformě (Investown, Ronda, Fingood) | 20 | Podklady, rozpočet, ocenění, zástava, jednání. |
-| Úvěr: čerpání po etapách | 4 | Žádosti o čerpání s fakturami. |
-| DPH: registrace plátcem | 2 | Přihláška k DPH. |
-| DPH a účetnictví s. r. o.: doklady účetní (~18 měsíců) | 18 | Měsíčně předat faktury rozepsané po bytech, ~1 h. |
-| S. r. o.: založení | 6 | Notář s přímým zápisem do 16. 11., bankovní účet. |
-| Prodej bytů: fotky, 3D prohlídka, půdorys, inzerát (4 byty) | 20 | ~5 h na byt. |
-| Prodej bytů: prohlídky se zájemci (4 byty) | 40 | ~10 prohlídek na byt. |
-| Prodej bytů: rezervace, smlouva, úschova, katastr, předání (4 byty) | 20 | ~5 h na byt; smlouvu připraví AI. |
-| Energie a zabezpečení prázdného domu | 4 | Přepis energií, kontrola domu. |
-| Pojištění a daň z nemovitých věcí | 3 | Sjednat pojištění, přiznání k dani do 31. 1. |
-| PENB | 1 | Objednat, pustit energetického specialistu. |
-
-## Průběžně po celou stavbu (50 h)
-
-| Podpoložka | Hodin | Co děláte vy |
-|---|--:|---|
-| Kontrolní dny na stavbě s architektem (~10 měsíců, 2× měsíčně) | 40 | Rozhodnutí na místě, kontrola postupu, převzetí etap. |
-| Platby a kontrola faktur řemeslníků | 10 | Kontrola, zda faktura sedí s nabídkou a je rozepsaná po bytech. |
-
-## Varianta: byt B s rozděleným pokojem (2,5 h)
+## Byt B: 2+1 → 3+1 (2,5 h)
 
 | Podpoložka | Hodin | Co děláte vy |
 |---|--:|---|
@@ -325,7 +254,7 @@ Pro představu: 671,5 h je asi 84 osmihodinových dní. Svépomoc (159 h) jsou h
 | Nový vchod z chodby (otvor v nosné zdi, překlad), dveře, posouzení statikem | 1 | Odsouhlasit se statikem, převzít. |
 | Elektro, radiátor, podlaha, malba | 1 | Vybrat a převzít. |
 
-## Varianta: byty v přízemí místo nebytové části (103,5 h)
+## Nebytová část → 2 byty 2+kk (103,5 h)
 
 | Podpoložka | Hodin | Co děláte vy |
 |---|--:|---|
@@ -380,7 +309,97 @@ Pro představu: 671,5 h je asi 84 osmihodinových dní. Svépomoc (159 h) jsou h
 | Posudky: průzkum vlhkosti zdiva | 0,5 | Objednat přes architekta, přečíst. |
 | Posudky: poplatek za případnou výjimku (světlá výška) | 0,5 | Objednat přes architekta, přečíst. |
 
-## Varianta: ustupující podlaží (2 byty) (44 h)
+## Statické zajištění domu (11 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Geologický průzkum: vrty a penetrace vč. dopravy (3 vrty) | 1 | Pustit geology na pozemek. |
+| Geologický průzkum: odkopy k základům (2 ks) | 1 | Domluvit odkopy. |
+| Geologický průzkum: laboratoř a zpráva | 1 | Přečíst zprávu. |
+| Zajištění: ocelová táhla se stažením domu (12 ks) | 3 | Projít nabídky se statikem a architektem, smlouva, převzetí. |
+| Zajištění: ztužení – vyztužení 3 překladů | 1 | Kontrola. |
+| Zajištění: ztužení – lokální věnec nebo ocelový prvek | 1 | Kontrola. |
+| Zajištění: lokální zesílení základů – odkop, hydroizolace a zásyp (~10 m) | 1 | Kontrola. |
+| Zajištění: lokální zesílení základů – podbetonování po úsecích | 1 | Kontrola. |
+| Zajištění: lokální zesílení základů – injektáž | 1 | Kontrola. |
+| Rezerva na rozsah podle posudku statika (30 %) | 0 | Jen peníze, žádná práce navíc. |
+
+## Projekt, dozor, statik (9 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Prováděcí projekt: topení a hydraulika (vodu a kanalizaci kreslí architekt) | 1 | Odsouhlasit projekt. |
+| Prováděcí projekt: elektro a hromosvod | 1 | Odsouhlasit projekt. |
+| Požárně bezpečnostní řešení | 0,5 | Odsouhlasit. |
+| Statik: posudek trhlin a ohledání | 2 | Projít dům se statikem, přečíst posudek. |
+| Statik: návrh sanace s výkresy | 1 | Odsouhlasit návrh. |
+| Statik: monitoring trhlin (terče, odečty) | 0,5 | Pustit statika k terčům. |
+| Statik: dohled nad sanací | 0,5 | Převzít zápisy. |
+| Koordinátor bezpečnosti práce: plán BOZP a oznámení | 1 | Podepsat oznámení na inspektorát práce (povinnost zadavatele). |
+| Koordinátor bezpečnosti práce: průběžná koordinace na stavbě | 0,5 | Převzít zápisy. |
+| Poplatky a vyjádření správců sítí | 1 | Zaplatit poplatky, podepsat plné moci architektovi. |
+
+## Parkovací stání: stavba (21 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Zámková dlažba: stání (12,5 m² na stání, ~1 100 Kč/m², pokládka svépomocí) | 16 | Svépomocí: výkop, podklad, obrubníky a pokládka 12,5 m² (~2 dny). |
+| Zámková dlažba: vjezd a otáčení (~1 100 Kč/m²) | 1 | Domluvit dlaždiče a převzít. |
+| Obrubníky a odvodnění: obrubníky (~22 m) | 0,5 | Ve stejné zakázce. |
+| Obrubníky a odvodnění: odvodnění a spád | 0,5 | Ve stejné zakázce. |
+| Změna druhu pozemku v katastru | 2 | Žádost na katastr s geometrickým plánem. |
+| Projekt stání a vyjádření úřadu | 1 | Odsouhlasit, architekt vyřídí úřad. |
+
+## Rozdělení na jednotky (10 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Prohlášení vlastníka (advokát), 6 jednotek | 4 | Podklady pro advokáta, kontrola prohlášení, podpis. |
+| Geodet: zaměření jednotek a společných částí | 1 | Pustit geodeta do bytů. |
+| Poplatky katastru za vklad prohlášení a zápis jednotek | 1 | Podat a zaplatit. |
+| Založení společenství vlastníků (stanovy, zápis do rejstříku) | 4 | Stanovy, ustavující schůze, návrh do rejstříku. |
+
+## Financování, daně, prodej a provoz (178 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Úvěr: žádost na platformě (Investown, Ronda, Fingood) | 20 | Podklady, rozpočet, ocenění, zástava, jednání. |
+| Úvěr: čerpání po etapách | 4 | Žádosti o čerpání s fakturami. |
+| DPH: registrace plátcem | 2 | Přihláška k DPH. |
+| DPH a účetnictví s. r. o.: doklady účetní (~18 měsíců) | 18 | Měsíčně předat faktury rozepsané po bytech, ~1 h. |
+| S. r. o.: založení | 6 | Notář s přímým zápisem do 16. 11., bankovní účet. |
+| Prodej bytů: fotky, 3D prohlídka, půdorys, inzerát (6 bytů) | 30 | ~5 h na byt. |
+| Prodej bytů: prohlídky se zájemci (6 bytů) | 60 | ~10 prohlídek na byt. |
+| Prodej bytů: rezervace, smlouva, úschova, katastr, předání (6 bytů) | 30 | ~5 h na byt; smlouvu připraví AI. |
+| Energie a zabezpečení prázdného domu | 4 | Přepis energií, kontrola domu. |
+| Pojištění a daň z nemovitých věcí | 3 | Sjednat pojištění, přiznání k dani do 31. 1. |
+| PENB | 1 | Objednat, pustit energetického specialistu. |
+
+## Průběžně po celou stavbu a po prodeji (80 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Kontrolní dny na stavbě s architektem (~10 měsíců, 2× měsíčně) | 40 | Rozhodnutí na místě, kontrola postupu, převzetí etap. |
+| Platby a kontrola faktur řemeslníků | 10 | Kontrola, zda faktura sedí s nabídkou a je rozepsaná po bytech. |
+| Reklamace od kupců bytů (záruky 2–5 let) | 30 | Prohlídka vady, domluvit opravu s řemeslníkem, uplatnit u něj jeho záruku. |
+
+## Navíc, když řemeslníky nesežene a nekoordinuje architekt (580 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Shánění řemeslníků: ~15 profesí po 3 nabídkách | 150 | Pokrývač, tepelné čerpadlo, elektrikář, instalatér, zedník, podlahář, malíř, okna, kuchyně, dveře, statické zajištění, trhliny, dlaždič, geolog, geodet: telefonáty, prohlídka domu s každým, porovnání, vyjednávání, smlouva (~10 h na profesi). |
+| Koordinace a stavbyvedoucí (~10 měsíců po 5–6 h týdně) | 250 | Harmonogram a návaznost řemesel, náhrada za řemeslníka, který nepřijde, objednávky a příjem materiálu, pouštění lidí do domu. |
+| Cesty navíc: na stavbu 2× týdně místo 2× měsíčně (~90 cest po 2 h) | 180 | Stavbyvedoucí musí být na místě. |
+
+## Navíc, když 2 byty před prodejem pronajmete (76 h)
+
+| Podpoložka | Hodin | Co děláte vy |
+|---|--:|---|
+| Pronájem: inzerát, prohlídky, výběr nájemníka, smlouva, předávací protokol (2 byty) | 20 | ~10 h na byt. |
+| Pronájem: správa do prodeje (~2 roky, 2 byty) | 48 | Vyúčtování, závady, komunikace s nájemníkem, ~1 h měsíčně na byt. |
+| Pronájem: ukončení nájmu a prodej obsazeného nebo uvolněného bytu | 8 | Předávka, případně prohlídky s nájemníkem v bytě. |
+
+## Navíc: ustupující podlaží (2 byty) (84 h)
 
 | Podpoložka | Hodin | Co děláte vy |
 |---|--:|---|
@@ -422,3 +441,4 @@ Pro představu: 671,5 h je asi 84 osmihodinových dní. Svépomoc (159 h) jsou h
 | Projekty nástavby: prováděcí projekt rozvodů | 0,5 | Kontrola. |
 | Projekty nástavby: koordinátor BOZP, vyjádření a poplatky | 0,5 | Kontrola. |
 | Další 2 jednotky: prohlášení vlastníka, geodet, zvonky, schránky, osvětlení schodiště | 1 | Doplnit prohlášení vlastníka. |
+| Prodej 2 bytů v nástavbě | 40 | Fotky, prohlídky, smlouvy, ~20 h na byt. |
