@@ -225,3 +225,8 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 - Uživatel vyřadil: úschovu kupní ceny (ČD věří), likvidaci s. r. o. (rušit nebude), pojištění stavby, žaluzie (na kupcích), nové bojlery (stávající v bytech zůstávají; centrální ohřev +250–400 tis. se na prodej nevyplatí).
 - **Otevřené:** test 30 % DPH po jednotkách (§ 56 odst. 5 a 7): A–D 20–24 % (osvobozené), N1/N2 ~61 % → čisté DPH ~0,3 mil. místo 2,1 (úspora ~1,8 mil.); souhrnně 31,2 %, pod 30 % stačí −0,34 mil. Nutný daňový poradce, model nezměněn. Nenaceněná rizika: střecha 0,1–0,3, přípojka 0,15–0,4, stoupačky topení 0,1–0,3, statika při aktivním sedání +1–2 mil.
 - Výsledek real: stavba 9 154 → 9 268 tis., náklady 20 611 → 20 727 tis., čistý zisk V1 4,97 mil. (26,7 %), V2 5,15 mil.
+
+## 5. 11. 2026 – rozpočet po bytech a test DPH po jednotkách (report)
+- Nová tabulka „Rozpočet po bytech a DPH“ pod 1. Náklady (`tab_byty()`, `_klic()`, `M2B` v report.py): stavba bez nástavby (bez parkování a přípojky) rozdělená na přímé náklady bytů a společné podle ploch všech 6 bytů (344 m²); test 30 % po jednotkách (§ 56 odst. 5 a 7, GFŘ 1127/26) a čisté DPH s koeficientem § 76. Výpočet a zdůvodnění `polozky/kontrola2/dph-po-jednotkach.md`.
+- Real: A 25,3 %, B 27,1 %, C 24,2 %, D 25,2 % (bez DPH), N1/N2 52,2 % (12 %); souhrnně 31,5 %. DPH 2,09 → 0,34 mil. (−1,76; po dani ~+1,1 mil.). Nejtěsnější B, rezerva 145 tis. bez DPH. Pes: vše nad 30 %; opt: vše pod 30 %.
+- Model výsledek dál počítá souhrnně (konzervativně) do potvrzení daňovým poradcem.
