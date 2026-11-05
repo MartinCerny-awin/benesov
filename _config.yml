@@ -1,0 +1,5 @@
+# GitHub Pages (Jekyll) vykresluje zkopírované .md soubory přes _layouts/default.html.
+# HTML stránky bez front matter (report, srovnání, dispozice) projdou beze změny.
+title: Benešov č.p. 1598
+# Jekyll jinak vynechá soubory začínající podtržítkem.
+include: [_spolecne.md, _zadani.md, _stred.md]

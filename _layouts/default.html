@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f5;--paper:#fff;--ink:#1d2622;--muted:#5d6b64;--line:#c9d2cc;--accent:#2e6b4f}
+@media (prefers-color-scheme:dark){:root{--bg:#141a17;--paper:#1b231f;--ink:#e3e9e5;--muted:#9aa8a0;--line:#34413a;--accent:#7cc39d;color-scheme:dark}}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 "IBM Plex Sans",system-ui,sans-serif;margin:0}
+main{max-width:860px;margin:0 auto;padding:32px 16px 64px}
+nav{font-size:14px;margin-bottom:24px}
+nav a{color:var(--muted)}
+a{color:var(--accent)}
+h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(26px,5vw,36px);line-height:1.15;margin:0 0 16px}
+h2{font-size:20px;margin:32px 0 8px}
+h3{font-size:16px;margin:24px 0 6px}
+code{font:13px "IBM Plex Mono",ui-monospace,monospace;background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+pre{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px;overflow-x:auto}
+pre code{border:0;padding:0}
+blockquote{margin:16px 0;padding:4px 16px;border-left:3px solid var(--accent);color:var(--muted)}
+table{display:block;overflow-x:auto;border-collapse:collapse;margin:16px 0;font-size:14px}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--paper)}
+hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+li{margin:4px 0}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="{{ '/' | relative_url }}">Benešov č.p. 1598</a> · <a href="{{ '/dokumenty.html' | relative_url }}">Dokumenty</a></nav>
+{{ content }}
+</main>
+</body>
+</html>

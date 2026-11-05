@@ -1,0 +1,18 @@
+---
+layout: default
+title: Dokumenty – Benešov č.p. 1598
+---
+<h1>Dokumenty</h1>
+<p>Podklady, rozpis položek a pracovní poznámky k propočtu a dispozicím. Zdrojem jsou Markdown soubory projektu, web je jen zobrazuje.</p>
+{% comment %}ponytail: sekce jsou vyjmenované ručně; soubor v nové složce se objeví až po přidání řádku sem.{% endcomment %}
+{% assign sekce = "/propocet/podklady/|Podklady se zdroji;/propocet/polozky/|Položky rozpočtu;/propocet/|Propočet – postup;/propocet/overeni/|Propočet – ověření;/|Dispozice – fakta, postup, poznatky;/prace/overeni/|Dispozice – ověření" | split: ";" %}
+{% for s in sekce %}
+{% assign d = s | split: "|" %}
+{% assign stranky = site.pages | where: "dir", d[0] | where_exp: "p", "p.name contains '.md'" | sort: "name" %}
+{% if stranky.size > 0 %}
+<h2>{{ d[1] }}</h2>
+<ul>
+{% for p in stranky %}<li><a href="{{ p.url | relative_url }}">{{ p.title | default: p.name }}</a> <small><code>{{ p.path }}</code></small></li>
+{% endfor %}</ul>
+{% endif %}
+{% endfor %}
