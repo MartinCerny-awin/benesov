@@ -1,5 +1,7 @@
+<!doctype html>
+<html lang="cs">
 <meta charset="utf-8"><title>Byty č.p. 1598 Benešov</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600&display=swap">
 <style>
@@ -18,7 +20,7 @@
   --bg:#141a17; --paper:#1b231f; --ink:#e3e9e5; --muted:#9aa8a0; --line:#34413a;
   --wall:#d5ddd8; --corridor:#232c27; --common:#2c2a24; --living:#24392d; --kitchen:#3d3322; --wet:#223241; --store:#2a2d29;
   --window:#6db3e3; --accent:#7cc39d; --warn:#e09a5f; color-scheme:dark}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
 .wrap{max-width:1000px;margin:0 auto;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
 h1{font-family:var(--display);font-size:clamp(28px,5vw,40px);line-height:1.1;margin:0;text-wrap:balance}
 h2{font-family:var(--display);font-size:24px;margin:0;text-wrap:balance}
@@ -60,6 +62,22 @@ ul{margin:0;padding-left:20px;display:grid;gap:4px}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
 .grid2>div{display:grid;gap:6px;align-content:start;min-width:0}
 .note{font-size:13px;color:var(--muted)}
+/* Mobil: o stupeň větší text a menší okraje. Půdorysy mají pevnou min. šířku, posouvají se do stran (.plan). */
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding-block:20px 48px;gap:22px}
+  .sheet{padding:14px 14px 16px;gap:12px}
+  h2{font-size:21px}
+  h3{font-size:17px}
+  table{font-size:15px}
+  th,td{padding:7px 8px}
+  th{font-size:12.5px}
+  .disp{font-size:17px}
+  .mono{font-size:14px}
+  .note,.legend,.pill{font-size:14px}
+  .stamp{font-size:13px}
+  .grid2{grid-template-columns:1fr;gap:14px}
+}
 </style>
 
 <!-- horní menu: kopie z propocet/report.py (nav) -->

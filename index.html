@@ -1,5 +1,7 @@
+<!doctype html>
+<html lang="cs">
 <meta charset="utf-8"><title>Jana Nohy 1598</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
@@ -11,7 +13,7 @@
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141a1c;--paper:#1b2326;--ink:#e3e9ea;--soft:#9aa8ad;--rule:#33403f;--accent:#7cc0dc;--accent-soft:#1f3540;--pos:#6fcf8f;--neg:#f08a80;--warn:#e8b65a;--warn-bg:#3a2f18;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#141a1c;--paper:#1b2326;--ink:#e3e9ea;--soft:#9aa8ad;--rule:#33403f;--accent:#7cc0dc;--accent-soft:#1f3540;--pos:#6fcf8f;--neg:#f08a80;--warn:#e8b65a;--warn-bg:#3a2f18;color-scheme:dark}
-body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
 .wrap{max-width:1080px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:40px}
 h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.15;margin:0}
 h1{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:-.01em}
@@ -91,8 +93,33 @@ header.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-
 .scsw button[aria-pressed="true"]{background:var(--accent);color:var(--paper)}
 .scsw button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .sc{display:grid;gap:40px;min-width:0} .sc[hidden]{display:none}
-@media (max-width:560px){.scsw button{font-size:13px;padding:8px 10px}}
-@media (max-width:560px){h2{font-size:22px}.verdict p.big{font-size:17px}}
+/* Mobil: o stupeň větší text a menší okraje. Čísla v tabulkách zůstávají tabulková, široké tabulky se dál posouvají do stran (.scroll). */
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding-block:20px 48px;gap:32px}
+  h2{font-size:22px}
+  h3{font-size:17px}
+  .verdict{padding:14px 16px}
+  .verdict p.big{font-size:18px}
+  .kpi .v{font-size:20px}
+  .kpi .l{font-size:13px}
+  table{font-size:15px}
+  thead th{font-size:13px}
+  td.num{font-size:14.5px}
+  table.dense th,table.dense td{padding:7px 8px}
+  tr.sec th{font-size:12px}
+  tr.sub td{font-size:14px}
+  tr.sub td.num{font-size:13.5px}
+  .note{font-size:15px}
+  figcaption{font-size:13.5px}
+  .gallery{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+  footer{font-size:14px}
+  small{font-size:13px}
+  .eyebrow{font-size:13px}
+  .scsw button{font-size:14px;padding:10px 12px}
+  .tg-all{font-size:14px;padding:7px 12px}
+  #tip{font-size:14px}
+}
 </style>
 <style>
 .topnav{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule,var(--line))}
