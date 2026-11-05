@@ -5,7 +5,7 @@ Otázky u každé položky: **potřeba?** · **nadsazená?** · **svépomocí / 
 
 **Důležité pro všechny položky:** rozpis je dopočítaný na součet z vysoutěžených zakázek, takže každá dílčí položka je o **17,4 %** vyšší než vlastní odhad z `polozky/*.md` (který už obsahuje režii firmy 12 % a DPH). Rezerva v realistické variantě je zrušená (uživatel 5. 11.), takže těch 17 % dnes funguje jako rezerva. Navržené cílové ceny níže jsou ceny z trhu **bez** té přirážky; **Uživatel 5. 11.: přirážku nenechávat.** V souhrnu proto i položky, které tu nemají vlastní cíl, spadnou na vlastní odhad (web ÷ 1,174).
 
-Stav: [x] byty · [x] střecha, trhliny, statika · [ ] vytápění, rozvody, společné · [ ] nebytová část, byt B, projekt · [ ] koupě, přístup, parkování, rozdělení, financování, prodej · [ ] souhrn
+Stav: [x] byty · [x] střecha, trhliny, statika · [x] vytápění, rozvody, společné · [x] nebytová část, byt B, projekt · [ ] koupě, přístup, parkování, rozdělení, financování, prodej · [ ] souhrn
 
 ## 1. Byty A, B, C, D (264 m²)
 
@@ -41,3 +41,57 @@ Stav: [x] byty · [x] střecha, trhliny, statika · [ ] vytápění, rozvody, sp
 | **Celkem** | **3 013** | **2 625** | **−388** | |
 
 **Podhodnocené:** jen statika v případě mikropilot (+0,5 mil.). Střecha nepočítá spádový beton, kdyby strop byl ve špatném stavu (rezerva R2 0,3 mil. v modelu není).
+
+## 3. Vytápění, rozvody domu, společné prostory
+
+Tepelné čerpadlo, nádrž, osvětlení, hromosvod a zábradlí už jsou snížené (uživatel 5. 11. dopoledne); tady mají cíl = vlastní odhad bez přirážky.
+
+| Položka | Web | Cíl | Rozdíl | Potřeba / svépomoc / proč |
+|---|---:|---:|---:|---|
+| Tepelné čerpadlo 2 × 16 kW | 552 | 470 | −82 | Už snížené, jen bez přirážky. |
+| Jeřáb, podstavce, propojení na střeše | 46 | 39 | −7 | Bez přirážky. |
+| Akumulační nádrž, rozdělovač, čerpadla, regulace | 90 | 77 | −13 | Bez přirážky. |
+| Rozvody topení, izolace, vyvážení, 6 měřičů tepla | 259 | 150 | −109 | **Měřiče tepla po bytech nejdou**: dům z roku 1981 má svislé stoupačky, každý radiátor visí na jiné. Na rozúčtování (vyhl. 269/2015) stačí indikátory na radiátory, ~30 ks × 700 Kč = 21 tis. místo 6 × 8 tis. + montáž. Výměna „vadných úseků“ je bez důkazu, nechávám 100 tis. na kotelnu a tlakovou zkoušku. |
+| Demontáž 2 kotlů a rozvodů v kotelně | 62 | 20 | −42 | **Svépomocí** s kamarády, kotle a trubky do sběru (šrot částečně zaplatí kontejner). |
+| Odstranění komínového nástavce, zapravení střechy | 83 | 35 | −48 | Potřeba (komín bez kotlů je jen prostup, kudy teče). Rozebrat cihly nad střechou je 2–3 dny řemeslníka při práci na střeše; varianta: komín nechat a zakrýt stříškou ~15 tis. |
+| Topení ve 4 bytech: hlavice, proplach, výměna vadných těles | 138 | 70 | −68 | ~30 ventilů s hlavicemi po 1 tis. (hlavice **svépomocí**), proplach a tlaková zkouška 15 tis., 3–4 vadná tělesa po 4 tis. |
+| Stoupačky kanalizace (4 × 6 m) | 173 | 120 | −53 | Potřeba, když se dělají koupelny; materiál ~15 tis., zbytek bourání a zazdění. Dělá stejný **instalatér řemeslník** jako koupelny. Když kamera ukáže dobrou litinu, šlo by je nechat (−100 tis.). |
+| Stoupačky vody, hlavní vodoměr, napojení | 161 | 100 | −61 | Vodoměrná sestava stojí 10–15 tis., ne 50. Rozvody PPR jsou levný materiál, stejný instalatér. |
+| Kamera svodů, zapravení drážek, požární ucpávky | 80 | 50 | −30 | Kamera 8–15 tis. a ucpávky jsou potřeba (požární řešení), drážky zapravit **svépomocí**. |
+| Hlavní domovní a elektroměrový rozvaděč (8 měření) | 139 | 100 | −39 | **Potřeba** (skříň z 90. let, staré jističe ITV). Rozvaděč na 7–8 elektroměrů podle norem ČEZ s montáží 70–100 tis. |
+| Stoupací elektrické vedení | 93 | 80 | −13 | Potřeba (neuspořádané svazky vodičů), cena skoro v pořádku. |
+| Společné osvětlení, zvonky, telefon | 50 | 43 | −7 | Bez přirážky. |
+| Hromosvod: jímače zpět, revize | 31 | 26 | −5 | Bez přirážky. |
+| Revize a přívod k TČ na střechu | 85 | 45 | −40 | Kabel 5 × 10 mm² ~20 m, jistič a práce ~30 tis., revize hlavních rozvodů ~10–15 tis. |
+| Dlažba chodeb (30 m²) a oprava schodiště (24 m²) | 106 | 65 | −41 | Chodba 1. NP holý beton, 2. NP dřevotříska, je to potřeba. Dlažba s pokládkou a vyrovnáním ~1 500 Kč/m², schodiště jen očistit a protiskluz. |
+| Zábradlí, omítky, malba, dveře, schránky | 60 | 57 | −3 | Už snížené. |
+| **Celkem** | **2 207** | **1 527** | **−680** | Z toho −110 tis. je jen odebraná přirážka u položek snížených dopoledne. |
+
+**Podhodnocené:** elektrický příkon. Dvě TČ (příkon ~12 kW v mrazu) + dotopná patrona + 6 bytů s elektrickými bojlery chtějí spíš hlavní jistič 3 × 80 A než 3 × 63 A; podíl na připojení 500 Kč/A → +9 tis., s novým přívodem může být 150–400 tis. (riziko R8 v modelu jako náklad není). Projde se ve skupině „Elektřina: obnovení připojení“.
+
+## 4. Nebytová část → 2 byty 2+kk, byt B, projekt
+
+Tady přirážka 17,4 % není (rozpis odpovídá přímo vstupu modelu), takže cíl je čistě cena z trhu.
+
+| Položka | Web | Cíl | Rozdíl | Potřeba / svépomoc / proč |
+|---|---:|---:|---:|---|
+| Vyklizení, bourání příček a podlah, průzkum azbestu | 135 | 90 | −45 | Vyklizení dílny a skladů **svépomocí** + kontejnery; azbest jen průzkum. |
+| Zvětšení 5 okenních otvorů, sešití trhlin | 308 | 230 | −78 | **Potřeba** kvůli dennímu osvětlení obytných místností (1/10 podlahy). Podle návrhu statika to zvládne **zedník** (překlady), firma není nutná. Méně otvorů jen při jiné dispozici (např. 1+kk). |
+| Nová okna (12 ks, 5 velkých akustických) | 205 | 150 | −55 | Potřeba. Velké akustické ~16 tis., malé ~7 tis. vč. montáže + parapety; poptat spolu s okny bytů (jedna zakázka 33 oken = lepší cena). |
+| Vlhkost a podlaha: injektáž, sanační omítky, skladba podlahy, nášlapné vrstvy | 594 | 450 | −144 | Skladba podlahy s izolací je u bytu v přízemí **potřeba**. Injektáž a sanační omítky (~290 tis.) jen tam, kde **průzkum vlhkosti** (je v položce statik a průzkumy) ukáže mokré zdivo; počítám polovinu. Vinyl **svépomocí**. Když je zdivo mokré všude, je to zpátky na 594. |
+| 2 koupelny s WC a 2 kuchyňské linky | 540 | 480 | −60 | Stejné ceny jako v bytech nahoře: koupelna přes řemeslníky ~160 tis., linka ~80 tis. |
+| Rozvody: elektro, 2 elektroměry, voda, kanalizace, podlahové topení, větrání | 568 | 390 | −178 | **4 rekuperační jednotky nejsou potřeba** (−80): stačí okna a ventilátor v koupelně. **Radiátory místo podlahového topení** napojené na centrální TČ (−50). Elektroměry jsou už v rozvaděči „na 8 měření“ ve skupině rozvody domu, tady jen přívod (−45). |
+| Příčky, omítky, malby, 2 vstupní požární dveře, vnitřní dveře | 380 | 280 | −100 | Omítky 290 m² jsou skoro všechny stěny a stropy, část se kryje se sanačními omítkami. Malba **svépomocí**. Vstupní EI 30 dveře 20–30 tis. místo 35. |
+| Technická místnost TČ, požární oddělení bytů, úprava chodby | 176 | 150 | −26 | **Potřeba** (nádrž 1 000 l potřebuje ~6 m²; požární oddělení je podmínka povolení). |
+| Statik, požární řešení, akustika, osvětlení, průzkum vlhkosti, poplatky | 166 | 166 | 0 | Potřeba pro změnu užívání, cena v pořádku. |
+| *Architekt (projekt, povolení, dozor) – nepočítá se* | *(272)* | | | Dělá kamarád. |
+| **Nebytová část celkem** | **3 071** | **2 386** | **−685** | |
+| Byt B 2+1 → 3+1 | 0 | 0 | 0 | Uživatel 5. 11.: B zůstává 2+1, v modelu nula. |
+| Prováděcí projekt topení, vody, kanalizace, elektra | 201 | 110 | −91 | Na malý dům stačí projekt elektra (kvůli revizi) a topení; projekt TČ často dělá dodavatel TČ v ceně. Vodu a kanalizaci podle výkresu architekta zvládne instalatér. |
+| Požárně bezpečnostní řešení | 45 | 45 | 0 | Potřeba k povolení. |
+| Statik: posudek trhlin a návrh sanace | 111 | 111 | 0 | **Potřeba a nejlépe ještě před koupí**: rozhodne o 1,5 mil. na statiku. Spíš může být dražší, když chce monitoring trhlin. |
+| Koordinátor bezpečnosti práce | 25 | 25 | 0 | Ze zákona povinný, když na stavbě pracuje víc firem nebo řemeslníků najednou. |
+| Poplatky a vyjádření správců sítí | 8 | 8 | 0 | V pořádku. |
+| **Projekt celkem** | **390** | **299** | **−91** | |
+
+**Podhodnocené:** vlhkost v přízemí (když je mokré všechno zdivo, +144 zpět) a statik (monitoring trhlin 6–12 měsíců může přidat 30–60 tis.).
