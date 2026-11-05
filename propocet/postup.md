@@ -60,7 +60,7 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 - VK: banka bez služebnosti přístupu nepůjčí → realisticky 11–15 mil. vlastních zdrojů na začátku, pokud se přístup nevyřeší před koupí.
 
 ## Krok 5 – report
-- 2026-11-04: `report.html` generuje `report.py` z `model.py` (čísla vždy z modelu; po změně vstupů spustit `python3 model.py` a `python3 report.py` a znovu publikovat). Publikováno: https://claude.ai/artifact/49Hxpana14BCzs1h66JBLi
+- 2026-11-04: `report.html` generuje `report.py` z `model.py` (čísla vždy z modelu; po změně vstupů spustit `python3 model.py` a `python3 report.py` a `sh deploy-web.sh`). Web: https://benesov.noirloop.com
 - Závěr: za 8,326 mil. na přeprodej nekupovat; realisticky flipy 0,7–1,2 mil. (3–5 %), max. cena pro 20 % 2–6 mil., bod zvratu B 9,4 / B2h 10,3 mil.; D jen jako dlouhodobý nájem (IRR 6,4 %, závisí na růstu cen). Otočit to může: přístup zapsaný, statika OK, rekonstrukce −30 % nebo ceny bytů +20 %.
 
 ## Přepočet s ověřenými plochami (2026-11-04, na žádost mateřské session)
@@ -161,7 +161,7 @@ Zadání: `../prompt-propocet.md`. Společné zadání pro subagenty: `podklady/
 ## 4. 11. 2026 – report zjednodušen (požadavek uživatele)
 - Verze pojmenované „Bez nástavby“ (V1) a „S nástavbou“ (V2), popis obou nahoře; tabulky s dvouřádkovou hlavičkou (verze → firma / vlastní dodavatelé).
 - Nová tabulka „Rozpočet stavby po položkách“ (stav.md 5a + 5b + vybrané 5c, součet 5 813 tis. = vstup stredni; nebytová část z b2n-rozpocet.md; nástavba).
-- Odstraněno: současný stav domu (fotky), otázky k ověření. Srovnávací byty a domy přesunuty na srovnani.html, publikováno https://claude.ai/artifact/DcGMLnrBEhByfVXAVjizCP (odkaz v patičce reportu). Report 32 kB místo 660 kB.
+- Odstraněno: současný stav domu (fotky), otázky k ověření. Srovnávací byty a domy přesunuty na srovnani.html, na webu https://benesov.noirloop.com/srovnani.html. Report 32 kB místo 660 kB.
 
 ## 4. 11. 2026 – audit propočtu 5 subagenty a opravy (session „Agent pro ověření kalkulace“, schváleno uživatelem)
 - Audit: scénáře, mechanika kódu, vstupy + daně, report vs. model, návrhy zlepšení. Zpráva: `~/Obsidian/raw/sessions/2026-11-04-benesov-audit-propoctu.md`.
