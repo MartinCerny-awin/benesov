@@ -62,22 +62,22 @@ ul{margin:0;padding-left:20px;display:grid;gap:4px}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
 .grid2>div{display:grid;gap:6px;align-content:start;min-width:0}
 .note{font-size:13px;color:var(--muted)}
-/* Mobil: o stupeň větší text a menší okraje. Půdorysy mají pevnou min. šířku, posouvají se do stran (.plan). */
+/* Mobil: text o něco menší než na desktopu, aby se vedle popisu vešla i čísla. Půdorysy mají pevnou min. šířku, posouvají se do stran (.plan). */
 @media (max-width:560px){
-  body{font-size:16px}
+  body{font-size:15px}
   .wrap{padding-block:16px 48px;gap:22px;padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:max(10px,env(safe-area-inset-right,0px))}
   .sheet{padding:12px 10px 14px;gap:12px}
-  h2{font-size:21px}
-  h3{font-size:17px}
+  h2{font-size:20px}
+  h3{font-size:16px}
   /* Tabulky a půdorysy přes celou šířku okna, menší písmo – ať je vidět popis i čísla najednou. */
   .tbl,.plan{margin-inline:-10px}
-  table{font-size:14px}
-  th,td{padding:6px 6px}
-  th{font-size:11.5px}
-  .disp{font-size:17px}
-  .mono{font-size:14px}
-  .note,.legend,.pill{font-size:14px}
-  .stamp{font-size:13px}
+  table{font-size:13px}
+  th,td{padding:5px 6px}
+  th{font-size:11px}
+  .disp{font-size:16px}
+  .mono{font-size:13px}
+  .note,.legend,.pill{font-size:13px}
+  .stamp{font-size:12.5px}
   .grid2{grid-template-columns:1fr;gap:14px}
 }
 </style>
