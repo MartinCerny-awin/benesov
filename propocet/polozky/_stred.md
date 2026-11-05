@@ -152,6 +152,7 @@ Cíl: u každé nákladové položky z tabulky „1. Náklady“ v reportu posou
 ### 18. Prodej bytů – marketing na byt upraven (po zrušení realitky byl optimistický)
 - `provize` 0 = rozhodnutí uživatele 5. 11. (prodává sám), neměním.
 - `marketing_byt` 25 / 15 / 8 tis. počítal s realitkou, která část marketingu kryje z provize. Bez ní platí prodávající foto (~4), 3D prohlídku (~5), půdorys (~1,5) a placenou inzerci na portálech za 2–3 měsíce (~8–10 tis.) → **30 / 20 / 10 tis. na byt**. ODHAD, ceník bezrealitky.cz pro soukromníky se 5. 11. nenašel. Dopad: 6 bytů × 5 tis. = +30 tis. (V2 8 bytů +40 tis.).
+- **Oprava 5. 11. odpoledne:** foto, 3D a půdorys udělá uživatel sám → 0 Kč. Zbývá placená inzerce **4 měsíce na byt**: Sreality pro soukromníky 60 Kč/den (ceník 2015, novější nenalezen; ÚOHS 3/2026 vedl ke snížení cen) × 120 dní ≈ 7,2 tis. + bezrealitky ~1–2 tis. → **15 / 9 / 5 tis. na byt** (pes. s topováním 25 Kč/den).
 - `advokat_prodej` 40 / 25 / 10 tis. na byt (kupní smlouva + advokátní úschova; obvykle 15–30 tis., náklady si často dělí s kupujícím) – střed, beze změny.
 - Pozn. k času: `t_prodej_byty` 12 / 6 / 3 měs. – bez realitky může prodej trvat déle, 6 měs. na 6 bytů je spíš optimistické hranice středu. Neměním (mění úroky, ne cenu), jen poznámka.
 - Dopad real: V1 3,60 → **3,58**, V2 4,51 → **4,48** mil.
