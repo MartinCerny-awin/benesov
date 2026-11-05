@@ -5,7 +5,7 @@ Otázky u každé položky: **potřeba?** · **nadsazená?** · **svépomocí / 
 
 **Důležité pro všechny položky:** rozpis je dopočítaný na součet z vysoutěžených zakázek, takže každá dílčí položka je o **17,4 %** vyšší než vlastní odhad z `polozky/*.md` (který už obsahuje režii firmy 12 % a DPH). Rezerva v realistické variantě je zrušená (uživatel 5. 11.), takže těch 17 % dnes funguje jako rezerva. Navržené cílové ceny níže jsou ceny z trhu **bez** té přirážky; **Uživatel 5. 11.: přirážku nenechávat.** V souhrnu proto i položky, které tu nemají vlastní cíl, spadnou na vlastní odhad (web ÷ 1,174).
 
-Stav: [x] byty · [x] střecha, trhliny, statika · [x] vytápění, rozvody, společné · [x] nebytová část, byt B, projekt · [ ] koupě, přístup, parkování, rozdělení, financování, prodej · [ ] souhrn
+Stav: [x] byty · [x] střecha, trhliny, statika · [x] vytápění, rozvody, společné · [x] nebytová část, byt B, projekt · [x] koupě, přístup, parkování, rozdělení, financování, prodej, nástavba · [x] souhrn
 
 ## 1. Byty A, B, C, D (264 m²)
 
@@ -95,3 +95,45 @@ Tady přirážka 17,4 % není (rozpis odpovídá přímo vstupu modelu), takže 
 | **Projekt celkem** | **390** | **299** | **−91** | |
 
 **Podhodnocené:** vlhkost v přízemí (když je mokré všechno zdivo, +144 zpět) a statik (monitoring trhlin 6–12 měsíců může přidat 30–60 tis.).
+
+## 5. Koupě, přístup, parkování, elektřina, financování, prodej, ostatní, nástavba
+
+| Položka | Web | Cíl | Rozdíl | Potřeba / svépomoc / proč |
+|---|---:|---:|---:|---|
+| Koupě od ČD a poplatky | 8 330 | 8 330 | 0 | Pevná cena. |
+| Pozemek SPÚ: pruh k domu, geometrický plán, posudek, vklad, nájem | 126 | 126 | 0 | **Potřeba** (bez přístupu nejde úvěr ani prodej). Cenu určí znalec, geometrický plán a posudek jsou běžné ceny. |
+| Pozemek pro stání a vjezd (1 stání) | 110 | 110 | 0 | Cena podle znalce v pořádku. **Může být podhodnocené**: přestavbou nebytové části vzniknou 2 nové byty a úřad může chtít stání pro každý (+1 stání ≈ +90 tis. pozemek a +45 tis. dlažba). |
+| Parkovací stání: zámková dlažba, obrubníky, projekt | 90 | 55 | −35 | Dlažba s podkladem 900–1 300 Kč/m² místo 1 750. Pokládka zámkové dlažby jde dobře **svépomocí** (materiál ~25 tis.). |
+| Elektřina: obnovení připojení | 60 | 60 | 0 | **Potřeba.** Spíš **podhodnocené**: 2 TČ + patrona + 6 bytů chtějí jistič 3 × 80 A (+10 tis.) a když distributor zrušil přípojku, nový přívod 150–400 tis. (riziko R8 v nákladech není). |
+| Úroky 10,5 % a poplatek platformě 4 % | 1 382 | ~900 | ~−480 | **Úvěr se v modelu čerpá naplno** (65 % hodnoty), i když máte 8–15 mil. vlastních. Půjčit si jen to, co chybí: při LTV 30 % stačí vlastní 15,6 mil. místo 14,1 a čistý zisk je **+0,48 mil.** (model: LTV 0,65 → 3,04 mil., LTV 0,30 → 3,52 mil.). Bez úvěru 3,89 mil., ale to chce 21 mil. vlastních. Poplatek 4 % z čerpání je nejdražší kus. |
+| DPH z prodeje po odpočtu | 1 792 | — | — | Ze zákona. **Pozor ke svépomoci:** u firmy (plátce) si DPH 12 % z faktury odečtete, u řemeslníka neplátce ne a u vlastní práce není žádné. Úspora svépomocí je proto proti firmě o něco menší, než ukazují čísla s DPH (model to počítá správně přes podíl řemeslníků). |
+| Prodej: úschova a inzerce | 63 | 63 | 0 | V pořádku, už bez realitky. |
+| Energie a zabezpečení prázdného domu | 72 | 50 | −22 | Dům je odpojený od sítě; do připojení stačí staveništní elektřina od stavby. Drobnost. |
+| Pojištění a daň z nemovitých věcí | 40 | 40 | 0 | V pořádku. |
+| PENB | 15 | 15 | 0 | Povinný. |
+| S. r. o.: založení a účetnictví | 82 | 82 | 0 | 3 000 Kč měsíčně za účetní s DPH je už levné, svépomocí ne. |
+| Rozdělení na jednotky: advokát, geodet, katastr, SVJ | 70 | 70 | 0 | **Potřeba** pro prodej bytů zvlášť, ceny běžné. |
+| **Nástavba (jen varianta s nástavbou)** | 9 861 | — | — | **Nevyplatí se.** Model: náklady +10,7 mil., tržby +11,1 mil., čistý zisk jen **+0,23 mil.** (3,04 → 3,27) a prodej o 4 měsíce delší, k tomu mikropiloty pod domem, který se hýbe. Jednotlivé položky jsou spíš vysoké (nosná dřevěná konstrukce 17 tis./m² jen za konstrukci, rozvody 0,9 mil. na 2 byty), ale ani levnější nástavba (~8,5 mil.) by riziko nevyvážila. Doporučení: nedělat, nanejvýš prodat dům nebo poslední byt s projektem nástavby. |
+
+**Podhodnocené v této skupině:** elektrická přípojka (0,15–0,4 mil., když je zrušená) a druhé parkovací stání (~0,14 mil.).
+
+## Souhrn (realisticky, bez nástavby, tis. Kč s DPH)
+
+Koupelny B, C, D mezitím jiné sezení změnilo na obnovu (601 → 231 tis.), v souhrnu je jen odebraná přirážka (cíl 197).
+
+| Skupina | Web teď | Cíl | Rozdíl |
+|---|---:|---:|---:|
+| Byty A–D | 3 254 | 2 149 | −1 105 |
+| Střecha, trhliny (statika 1,5 mil. beze změny) | 3 013 | 2 625 | −388 |
+| Vytápění, rozvody domu, společné prostory | 2 206 | 1 527 | −679 |
+| Nebytová část → 2 byty | 3 071 | 2 386 | −685 |
+| Projekt, dozor, statik | 390 | 299 | −91 |
+| Parkování, energie prázdného domu | 162 | 105 | −57 |
+| **Stavba a služby celkem** | **12 096** | **9 091** | **−3 005** |
+| Financování: půjčit jen chybějící část (LTV 0,30) | | | zisk +0,48 mil. |
+
+Z toho svépomocí (drážky, vyklizení, demontáž kotlů, pokládka, malby, úklid, dveře, hlavice, dlažba stání) asi −0,6 mil.; přirážka 17,4 % asi −1,0 mil.; zbytek nadsazené ceny a dvakrát započtené položky.
+
+**Podhodnocené, nikde v nákladech:** elektrická přípojka 0,15–0,4 mil. (když je zrušená), druhé stání ~0,14 mil., statika s mikropilotami +0,5 mil., mokré zdivo v přízemí +0,14 mil.
+
+**Nástavba se nevyplatí** (+0,23 mil. zisku za +10,7 mil. nákladů).
