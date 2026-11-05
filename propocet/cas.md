@@ -26,14 +26,14 @@ Kolik hodin vaší vlastní práce čekám u každé podpoložky z rozpisu nákl
 | Byt B: 2+1 → 3+1 | 2,5 |  |
 | Nebytová část → 2 byty 2+kk | 103,5 | 64 |
 | Statické zajištění domu | 11 |  |
-| Projekt, dozor, statik | 9 |  |
+| Projekt, dozor, statik | 11 |  |
 | Parkovací stání: stavba | 21 | 16 |
 | Rozdělení na jednotky | 10 |  |
 | Financování, daně, prodej a provoz | 178 |  |
 | Průběžně po celou stavbu a po prodeji | 80 |  |
-| **Celkem (s architektem, bez nástavby)** | **737,5** | **223** |
+| **Celkem (s architektem, bez nástavby)** | **739,5** | **223** |
 | Cesty do Benešova a zpět (~63 cest po 2 h, odhad z Prahy) | 126 | |
-| **Celkem s cestami** | **863,5** | |
+| **Celkem s cestami** | **865,5** | |
 
 Celek odpovídá modelu bez nástavby: 6 bytů (A–D a 2 byty v přízemí), byt B 3+1, všechny prodané. Tohle se přičítá, jen když nastane:
 
@@ -43,7 +43,7 @@ Celek odpovídá modelu bez nástavby: 6 bytů (A–D a 2 byty v přízemí), by
 | Navíc, když 2 byty před prodejem pronajmete | 76 |  |
 | Navíc: ustupující podlaží (2 byty) | 84 |  |
 
-Pro představu: 863,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou hlavně drážky pro elektro, malby a vyklizení v přízemí, úklid, dveře a kotle. Kdo ji nechce dělat, zaplatí řemeslníky; v nákladech by to bylo dráž. Když řemeslníky nesežene a nekoordinuje architekt, je to největší položka ze všech a celkový čas skoro zdvojnásobí.
+Pro představu: 865,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou hlavně drážky pro elektro, malby a vyklizení v přízemí, úklid, dveře a kotle. Kdo ji nechce dělat, zaplatí řemeslníky; v nákladech by to bylo dráž. Když řemeslníky nesežene a nekoordinuje architekt, je to největší položka ze všech a celkový čas skoro zdvojnásobí.
 
 ## Koupě od ČD a elektřina (19,5 h)
 
@@ -324,7 +324,7 @@ Pro představu: 863,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou 
 | Zajištění: lokální zesílení základů – injektáž | 1 | Kontrola. |
 | Rezerva na rozsah podle posudku statika (30 %) | 0 | Jen peníze, žádná práce navíc. |
 
-## Projekt, dozor, statik (9 h)
+## Projekt, dozor, statik (11 h)
 
 | Podpoložka | Hodin | Co děláte vy |
 |---|--:|---|
@@ -338,6 +338,7 @@ Pro představu: 863,5 h je asi 108 osmihodinových dní. Svépomoc (223 h) jsou 
 | Koordinátor bezpečnosti práce: plán BOZP a oznámení | 1 | Podepsat oznámení na inspektorát práce (povinnost zadavatele). |
 | Koordinátor bezpečnosti práce: průběžná koordinace na stavbě | 0,5 | Převzít zápisy. |
 | Poplatky a vyjádření správců sítí | 1 | Zaplatit poplatky, podepsat plné moci architektovi. |
+| Technický dozor investora: kontrola kvality a faktur (asi 1,9 % stavby) | 2 | Vybrat dozor, podepsat smlouvu, číst jeho zápisy a schvalovat faktury podle nich. |
 
 ## Parkovací stání: stavba (21 h)
 
