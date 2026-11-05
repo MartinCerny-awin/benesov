@@ -137,3 +137,10 @@ Z toho svépomocí (drážky, vyklizení, demontáž kotlů, pokládka, malby, �
 **Podhodnocené, nikde v nákladech:** elektrická přípojka 0,15–0,4 mil. (když je zrušená), druhé stání ~0,14 mil., statika s mikropilotami +0,5 mil., mokré zdivo v přízemí +0,14 mil.
 
 **Nástavba se nevyplatí** (+0,23 mil. zisku za +10,7 mil. nákladů).
+
+## Promítnuto (5. 11. 2026, 13:51, uživatel: „Ano, promítni vše“)
+
+- Položky rozpisu v `report.py` (POL) na cílové ceny výše; kuchyně, dveře, sešití trhlin, stoupačky a zvětšení otvorů jsou řemeslník místo firmy.
+- `model.py`: `stredni` real 7 539,1 → 5 388,6 tis. (přirážka 17,4 % pryč, rozpis = součet položek), opt 4 292,1 → 3 087,3, pes beze změny; `stredni_sluzby` real 700 → 612,5 (`arch_sluzby` real 0,537); `strecha_v_rekonstrukci` real 863 → 813; `nebyt_zmeny` a `nebyt_druhy_byt` real a opt × 0,8006; `parkovani_1_stavba` 90 → 55, `parkovani_stavba` 120 → 75; `drzeni_mes` 3 000 → 2 000; nový přepínač `refinancovat` = 0 (po zapsání přístupu se zpětně nerefinancuje koupě a stavba).
+- Výsledek realisticky bez nástavby: čistý zisk 2,96 → **5,24 mil.**, náklady 24,3 → 20,8 mil., vlastní peníze 14,05 → 13,33 mil. S nástavbou 5,45 mil. (nástavba dál jen +0,2 mil.).
+- Nepromítnuté rizika (nejsou v nákladech): elektrická přípojka 0,15–0,4 mil., druhé stání ~0,14 mil., mikropiloty +0,5 mil., mokré zdivo v přízemí +0,14 mil.
