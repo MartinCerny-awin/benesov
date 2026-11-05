@@ -3,9 +3,9 @@
 Otázky u každé položky: **potřeba?** · **nadsazená?** · **svépomocí / řemeslník?** · **podhodnocená?**
 Čísla = realisticky, bez nástavby (V1), tis. Kč s DPH, jak je ukazuje web. Model se zatím **nemění**, změny navrhnu v souhrnu a promítnu po schválení.
 
-**Důležité pro všechny položky:** rozpis je dopočítaný na součet z vysoutěžených zakázek, takže každá dílčí položka je o **17,4 %** vyšší než vlastní odhad z `polozky/*.md` (který už obsahuje režii firmy 12 % a DPH). Rezerva v realistické variantě je zrušená (uživatel 5. 11.), takže těch 17 % dnes funguje jako rezerva. Navržené cílové ceny níže jsou ceny z trhu **bez** té přirážky; jestli ji nechat jako rezervu, je rozhodnutí do souhrnu.
+**Důležité pro všechny položky:** rozpis je dopočítaný na součet z vysoutěžených zakázek, takže každá dílčí položka je o **17,4 %** vyšší než vlastní odhad z `polozky/*.md` (který už obsahuje režii firmy 12 % a DPH). Rezerva v realistické variantě je zrušená (uživatel 5. 11.), takže těch 17 % dnes funguje jako rezerva. Navržené cílové ceny níže jsou ceny z trhu **bez** té přirážky; **Uživatel 5. 11.: přirážku nenechávat.** V souhrnu proto i položky, které tu nemají vlastní cíl, spadnou na vlastní odhad (web ÷ 1,174).
 
-Stav: [x] byty · [ ] střecha, trhliny, statika · [ ] vytápění, rozvody, společné · [ ] nebytová část, byt B, projekt · [ ] koupě, přístup, parkování, rozdělení, financování, prodej · [ ] souhrn
+Stav: [x] byty · [x] střecha, trhliny, statika · [ ] vytápění, rozvody, společné · [ ] nebytová část, byt B, projekt · [ ] koupě, přístup, parkování, rozdělení, financování, prodej · [ ] souhrn
 
 ## 1. Byty A, B, C, D (264 m²)
 
@@ -27,3 +27,17 @@ Stav: [x] byty · [ ] střecha, trhliny, statika · [ ] vytápění, rozvody, sp
 | **Byty celkem** | **3 624** | **2 432** | **−1 192** | Z toho asi −400 tis. jen díky svépomoci (drážky, vyklizení, pokládka, malba, úklid, dveře), zbytek je nadsazení nebo dvojí započtení. |
 
 **Podhodnocené:** nic zásadního. Pozor jen na okna v bytě A (stav.md je bere za dřevěná, rozpocet-2 za plastová; ±40 tis.) a na elektro v A (rozvaděč neprohlédnut).
+
+## 2. Střecha, sanace trhlin, statika
+
+| Položka | Web | Cíl | Rozdíl | Potřeba / svépomoc / proč |
+|---|---:|---:|---:|---|
+| Střecha celkem (215 m²: bourání, parozábrana, spádový PIR, PVC fólie, atika, vpusti, prostupy) | 1 063 | 850 | −213 | **Potřeba** (zatéká, plísně v B a C; zateplení střechy je při opravě povinné a zmenší TČ). 1 063 tis. = 4 940 Kč/m² s DPH; trh za plnou rekonstrukci ploché střechy 2 500–3 500 Kč/m² bez DPH, se spádovým PIR ~3 500 → ~850 tis. Dvě možné úspory podle sond: když je staré souvrství suché, nechat ho jako parozábranu (−100 až −150 tis. za bourání a parozábranu); když má strop spád, stačí rovné desky místo spádových klínů (−50 tis.). **Svépomocí ne**: záruka na zatékání do bytů kupců musí být od jedné firmy. |
+| Sešití trhlin nerezovou spirálou (70 m) | 270 | 160 | −110 | **Potřeba** (trhliny se hýbou), ale až po posudku statika. Materiál ~35 tis. (tyče 160 Kč/m, malta), zbytek je práce: drážka, malta, tyč. Podle návrhu statika to zvládne **zedník řemeslník**, firma není nutná. |
+| Injektáž a vyspárování drobných trhlin (50 m) | 54 | 40 | −14 | Drobnost, řemeslník. |
+| Plošina k trhlinám na fasádě | 15 | 15 | 0 | V pořádku. |
+| Opadaná omítka, vysprávka vnitřních trhlin, penetrace a úklid | 111 | 60 | −51 | **Svépomocí** nebo s omítkami bytů (perlinka a štuk). Částečně se kryje s „omítkami a zapravením“ a „drobnými opravami“ v bytech. |
+| Statické zajištění domu (geologie, táhla, ztužení, základy, rezerva 30 %) | 1 500 | 1 500 | 0 | **Rozhodnutí uživatele 5. 11.: pevně 1,5 mil.** bez posudku, neměním. Pro informaci: vlastní odhad prací je 0,8 mil. včetně 30% rezervy, takže dalších 0,7 mil. je čistá rezerva. Může být i **podhodnocené**: když posudek řekne mikropiloty, je to ~2 mil. Tady je největší nejistota celého rozpočtu, posudek statika před koupí ji vyřeší. |
+| **Celkem** | **3 013** | **2 625** | **−388** | |
+
+**Podhodnocené:** jen statika v případě mikropilot (+0,5 mil.). Střecha nepočítá spádový beton, kdyby strop byl ve špatném stavu (rezerva R2 0,3 mil. v modelu není).
