@@ -4,7 +4,7 @@ title: Dělení zisku – Benešov č.p. 1598
 
 # Dělení zisku s architektem Ondřejem
 
-Návrh z 6. 11. 2026 (varianta E). Martin dává peníze a nese riziko, architekt Ondřej přinesl nápad, zkušenosti a víc času. Čísla jsou **čistý zisk po vyplacení** v mil. Kč (po dani s. r. o. a z dividendy, stejně jako v propočtu) a počítají se z aktuálního modelu.
+Návrh z 6. 11. 2026 (varianta E). Martin dává peníze a nese riziko, architekt Ondřej přinesl nápad, zkušenosti a víc času. Čísla jsou **čistě po vyplacení** v mil. Kč a počítají se z aktuálního modelu: dividendy po dani s. r. o. a z dividendy, u Ondřeje navíc jeho faktura za hodiny po jeho dani (v propočtu je v nákladech). Čistý zisk je proto vyšší než řádek Čistý zisk po vyplacení v propočtu, který obsahuje jen dividendy.
 
 ## Pravidla
 
@@ -23,11 +23,11 @@ Nástavba se řídí stejnými pravidly; rozhodne se o ní až po statikovi a po
 | Scénář | Čistý zisk | Martin | Ondřej | Ondřej vloží 3,5 mil.: Martin | Ondřej vloží 3,5 mil.: Ondřej |
 |---|--:|--:|--:|--:|--:|
 | 6 bytů, pesimisticky | −2,85 | −2,85 | 0 | −2,19 | −0,66 |
-| 6 bytů, realisticky | 6,14 | 4,66 | 1,56 | 3,42 | 2,80 |
-| 6 bytů, optimisticky | 9,73 | 6,91 | 2,89 | 5,11 | 4,70 |
+| 6 bytů, realisticky | 6,22 | 4,66 | 1,56 | 3,42 | 2,80 |
+| 6 bytů, optimisticky | 9,81 | 6,91 | 2,89 | 5,11 | 4,70 |
 | s nástavbou, pesimisticky | −4,45 | −4,45 | 0 | −3,60 | −0,85 |
-| s nástavbou, realisticky | 7,59 | 5,70 | 2,01 | 4,24 | 3,47 |
-| s nástavbou, optimisticky | 14,49 | 10,17 | 4,45 | 7,15 | 7,47 |
+| s nástavbou, realisticky | 7,72 | 5,70 | 2,01 | 4,24 | 3,47 |
+| s nástavbou, optimisticky | 14,62 | 10,17 | 4,45 | 7,15 | 7,47 |
 
 Když Ondřej vloží 3,5 mil. 3 měsíce po koupi, firma jimi vrátí stejnou část Martinových peněz. Od té chvíle mají jeho peníze stejná práva jako Martinovy: vrácení, 15 % ročně, díl ze 70 % zbytku podle peněz × měsíců a stejný podíl na ztrátě.
 
@@ -37,12 +37,12 @@ Když Ondřej vloží 3,5 mil. 3 měsíce po koupi, firma jimi vrátí stejnou �
 
 | Scénář | Doba navíc | Čistý zisk | Martin | Ondřej |
 |---|--:|--:|--:|--:|
-| 6 bytů | 0 měs. | 6,14 | 4,66 | 1,56 |
-| 6 bytů | 6 měs. | 6,20 | 4,84 | 1,45 |
-| 6 bytů | 12 měs. | 6,26 | 5,03 | 1,34 |
-| s nástavbou | 0 měs. | 7,59 | 5,70 | 2,01 |
-| s nástavbou | 6 měs. | 7,46 | 5,78 | 1,82 |
-| s nástavbou | 12 měs. | 7,34 | 5,87 | 1,62 |
+| 6 bytů | 0 měs. | 6,22 | 4,66 | 1,56 |
+| 6 bytů | 6 měs. | 6,29 | 4,84 | 1,45 |
+| 6 bytů | 12 měs. | 6,36 | 5,03 | 1,34 |
+| s nástavbou | 0 měs. | 7,72 | 5,70 | 2,01 |
+| s nástavbou | 6 měs. | 7,60 | 5,78 | 1,82 |
+| s nástavbou | 12 měs. | 7,50 | 5,87 | 1,62 |
 
 ## Srovnání variant
 
