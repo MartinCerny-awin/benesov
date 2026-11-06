@@ -4,14 +4,14 @@ title: Dělení zisku – Benešov č.p. 1598
 
 # Dělení zisku s architektem Ondřejem
 
-Návrh z 6. 11. 2026 (varianta E). Martin dává peníze a nese riziko, architekt Ondřej přinesl nápad, zkušenosti a víc času. Čísla jsou **čistě po vyplacení** v mil. Kč a počítají se z aktuálního modelu: dividendy po dani s. r. o. a z dividendy, u Ondřeje navíc jeho faktura za hodiny po jeho dani (v propočtu je v nákladech). Čistý zisk je proto vyšší než řádek Čistý zisk po vyplacení v propočtu, který obsahuje jen dividendy.
+Dohoda z 6. 11. 2026: 15 % ročně z peněz, hodiny obou a zbytek 60 : 40. Martin dává peníze a nese riziko, architekt Ondřej přinesl nápad, zkušenosti a víc času. Čísla jsou **čistě po vyplacení** v mil. Kč a počítají se z aktuálního modelu: dividendy po dani s. r. o. a z dividendy, u Ondřeje navíc jeho faktura za hodiny po jeho dani (v propočtu je v nákladech). Čistý zisk je proto vyšší než řádek Čistý zisk po vyplacení v propočtu, který obsahuje jen dividendy.
 
 ## Pravidla
 
 1. Z peněz po prodeji se zaplatí všechny náklady, úvěr a daně firmy.
 2. Vrátí se vložené peníze (poměrně, když vkládá i Ondřej).
 3. Kdo vložil peníze, dostane **15 % ročně** z peněz, které jsou v projektu (8 % za peníze, 7 % za riziko), i když se stavba zpozdí. Zároveň oba dostanou zaplacenou práci: velké úkoly pevnou cenou podle odhadu (shánění řemeslníků, koordinace, prodej…), ostatní **600 Kč/h**, cesty **200 Kč/h**, pro oba stejně. Když zisk nestačí, krátí se všem stejným poměrem.
-4. Zbytek: **30 % Ondřejovi** za nápad a zkušenosti, **70 % podle peněz a doby, po kterou byly v projektu**, jako odměna za riziko.
+4. Zbytek: **40 % Ondřejovi** za nápad a zkušenosti, **60 % podle peněz a doby, po kterou byly v projektu**, jako odměna za riziko.
 5. Ztrátu nesou vložené peníze, za práci se pak nic nevyplatí.
 
 Ondřej svou práci fakturuje (náklad firmy, sníží její daň), ostatní se vyplácí dividendou. Když se stavba zpozdí, platí se dozor, koordinace a kontrolní dny navíc za každý měsíc: Ondřejovi asi 15 tis., Martinovi asi 3 tis. Kč. Kratší stavba se nestrhává.
@@ -23,13 +23,13 @@ Nástavba se řídí stejnými pravidly; rozhodne se o ní až po statikovi a po
 | Scénář | Čistý zisk | Martin | Ondřej | Ondřej vloží 3,5 mil.: Martin | Ondřej vloží 3,5 mil.: Ondřej |
 |---|--:|--:|--:|--:|--:|
 | 6 bytů, pesimisticky | −2,85 | −2,85 | 0 | −2,19 | −0,66 |
-| 6 bytů, realisticky | 6,22 | 4,66 | 1,56 | 3,42 | 2,80 |
-| 6 bytů, optimisticky | 9,81 | 6,91 | 2,89 | 5,11 | 4,70 |
+| 6 bytů, realisticky | 6,22 | 4,26 | 1,96 | 3,13 | 3,09 |
+| 6 bytů, optimisticky | 9,81 | 6,08 | 3,73 | 4,50 | 5,31 |
 | s nástavbou, pesimisticky | −4,45 | −4,45 | 0 | −3,60 | −0,85 |
-| s nástavbou, realisticky | 7,72 | 5,70 | 2,01 | 4,24 | 3,47 |
-| s nástavbou, optimisticky | 14,62 | 10,17 | 4,45 | 7,15 | 7,47 |
+| s nástavbou, realisticky | 7,72 | 5,23 | 2,48 | 3,90 | 3,81 |
+| s nástavbou, optimisticky | 14,62 | 8,89 | 5,73 | 6,26 | 8,36 |
 
-Když Ondřej vloží 3,5 mil. 3 měsíce po koupi, firma jimi vrátí stejnou část Martinových peněz. Od té chvíle mají jeho peníze stejná práva jako Martinovy: vrácení, 15 % ročně, díl ze 70 % zbytku podle peněz × měsíců a stejný podíl na ztrátě.
+Když Ondřej vloží 3,5 mil. 3 měsíce po koupi, firma jimi vrátí stejnou část Martinových peněz. Od té chvíle mají jeho peníze stejná práva jako Martinovy: vrácení, 15 % ročně, díl ze 60 % zbytku podle peněz × měsíců a stejný podíl na ztrátě.
 
 ## Zpoždění
 
@@ -37,12 +37,12 @@ Když Ondřej vloží 3,5 mil. 3 měsíce po koupi, firma jimi vrátí stejnou �
 
 | Scénář | Doba navíc | Čistý zisk | Martin | Ondřej |
 |---|--:|--:|--:|--:|
-| 6 bytů | 0 měs. | 6,22 | 4,66 | 1,56 |
-| 6 bytů | 6 měs. | 6,29 | 4,84 | 1,45 |
-| 6 bytů | 12 měs. | 6,36 | 5,03 | 1,34 |
-| s nástavbou | 0 měs. | 7,72 | 5,70 | 2,01 |
-| s nástavbou | 6 měs. | 7,60 | 5,78 | 1,82 |
-| s nástavbou | 12 měs. | 7,50 | 5,87 | 1,62 |
+| 6 bytů | 0 měs. | 6,22 | 4,26 | 1,96 |
+| 6 bytů | 6 měs. | 6,29 | 4,50 | 1,79 |
+| 6 bytů | 12 měs. | 6,36 | 4,75 | 1,61 |
+| s nástavbou | 0 měs. | 7,72 | 5,23 | 2,48 |
+| s nástavbou | 6 měs. | 7,60 | 5,40 | 2,21 |
+| s nástavbou | 12 měs. | 7,50 | 5,58 | 1,92 |
 
 ## Srovnání variant
 
@@ -54,7 +54,8 @@ Martin / Ondřej, čistý zisk v mil. Kč, bez nástavby.
 | B 8 % + hodiny, zbytek 70 : 30 | −2,85 / 0 | 4,42 / 1,80 | 6,80 / 3,01 |
 | D pevně 65 : 35, nic se nepočítá | −2,85 / 0 | 3,99 / 2,15 | 6,32 / 3,40 |
 | E 15 % + hodiny, zbytek 70 : 30 | −2,85 / 0 | 4,66 / 1,56 | 6,91 / 2,89 |
-| E + Ondřej vloží 3,5 mil. | −2,19 / −0,66 | 3,42 / 2,80 | 5,11 / 4,70 |
+| F 15 % + hodiny, zbytek 60 : 40 (dohoda) | −2,85 / 0 | 4,26 / 1,96 | 6,08 / 3,73 |
+| F + Ondřej vloží 3,5 mil. | −2,19 / −0,66 | 3,13 / 3,09 | 4,50 / 5,31 |
 
 ## Firma
 
