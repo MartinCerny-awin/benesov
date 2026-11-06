@@ -20,14 +20,22 @@ Nástavba se řídí stejnými pravidly; rozhodne se o ní až po statikovi a po
 
 ## Výsledek
 
-| Scénář | Čistý zisk | Martin | Ondřej | Ondřej vloží 3,5 mil.: Martin | Ondřej vloží 3,5 mil.: Ondřej |
-|---|--:|--:|--:|--:|--:|
-| 6 bytů, pesimisticky | −2,85 | −2,85 | 0 | −2,19 | −0,66 |
-| 6 bytů, realisticky | 6,22 | 4,66 | 1,56 | 3,42 | 2,80 |
-| 6 bytů, optimisticky | 9,81 | 6,91 | 2,89 | 5,11 | 4,70 |
-| s nástavbou, pesimisticky | −4,45 | −4,45 | 0 | −3,60 | −0,85 |
-| s nástavbou, realisticky | 7,72 | 5,70 | 2,01 | 4,24 | 3,47 |
-| s nástavbou, optimisticky | 14,62 | 10,17 | 4,45 | 7,15 | 7,47 |
+Čistý zisk po vyplacení v mil. Kč. Pod ním šedě, kolik kdo má v projektu nejvíc najednou (koupě a stavba, než se načerpá úvěr a začnou prodeje).
+
+<table>
+<thead>
+<tr><th rowspan='2'>Scénář</th><th rowspan='2' style='text-align:right'>Celkem</th><th colspan='2' style='text-align:center'>Vkládá jen Martin</th><th colspan='2' style='text-align:center'>Ondřej 3,5 mil., Martin zbytek</th></tr>
+<tr><th style='text-align:right'>Martin</th><th style='text-align:right'>Ondřej</th><th style='text-align:right'>Martin</th><th style='text-align:right'>Ondřej</th></tr>
+</thead>
+<tbody>
+<tr><td>6 bytů, pesimisticky</td><td style='text-align:right'>−2,85</td><td style='text-align:right'>−2,85<br><small>vloží 19,0</small></td><td style='text-align:right'>0<br><small>nevkládá</small></td><td style='text-align:right'>−2,19<br><small>vloží 15,5</small></td><td style='text-align:right'>−0,66<br><small>vloží 3,5</small></td></tr>
+<tr><td>6 bytů, realisticky</td><td style='text-align:right'>6,22</td><td style='text-align:right'>4,66<br><small>vloží 12,8</small></td><td style='text-align:right'>1,56<br><small>nevkládá</small></td><td style='text-align:right'>3,42<br><small>vloží 9,3</small></td><td style='text-align:right'>2,80<br><small>vloží 3,5</small></td></tr>
+<tr><td>6 bytů, optimisticky</td><td style='text-align:right'>9,81</td><td style='text-align:right'>6,91<br><small>vloží 10,6</small></td><td style='text-align:right'>2,89<br><small>nevkládá</small></td><td style='text-align:right'>5,11<br><small>vloží 8,5</small></td><td style='text-align:right'>4,70<br><small>vloží 3,5</small></td></tr>
+<tr><td>s nástavbou, pesimisticky</td><td style='text-align:right'>−4,45</td><td style='text-align:right'>−4,45<br><small>vloží 26,2</small></td><td style='text-align:right'>0<br><small>nevkládá</small></td><td style='text-align:right'>−3,60<br><small>vloží 22,7</small></td><td style='text-align:right'>−0,85<br><small>vloží 3,5</small></td></tr>
+<tr><td>s nástavbou, realisticky</td><td style='text-align:right'>7,72</td><td style='text-align:right'>5,70<br><small>vloží 14,2</small></td><td style='text-align:right'>2,01<br><small>nevkládá</small></td><td style='text-align:right'>4,24<br><small>vloží 10,7</small></td><td style='text-align:right'>3,47<br><small>vloží 3,5</small></td></tr>
+<tr><td>s nástavbou, optimisticky</td><td style='text-align:right'>14,62</td><td style='text-align:right'>10,17<br><small>vloží 9,8</small></td><td style='text-align:right'>4,45<br><small>nevkládá</small></td><td style='text-align:right'>7,15<br><small>vloží 8,6</small></td><td style='text-align:right'>7,47<br><small>vloží 3,5</small></td></tr>
+</tbody>
+</table>
 
 Když Ondřej vloží 3,5 mil. 3 měsíce po koupi, firma jimi vrátí stejnou část Martinových peněz. Od té chvíle mají jeho peníze stejná práva jako Martinovy: vrácení, 15 % ročně, díl ze 70 % zbytku podle peněz × měsíců a stejný podíl na ztrátě.
 
