@@ -52,24 +52,4 @@ Když Ondřej vloží 3,5 mil. 3 měsíce po koupi, firma jimi vrátí stejnou �
 | s nástavbou | 6 měs. | 7,60 | 5,78 | 1,82 |
 | s nástavbou | 12 měs. | 7,50 | 5,87 | 1,62 |
 
-## Srovnání variant
-
-Martin / Ondřej, čistý zisk v mil. Kč, bez nástavby.
-
-| Varianta | Pesimisticky | Realisticky | Optimisticky |
-|---|--:|--:|--:|
-| A 15 % + hodiny, zbytek 50 : 50 | −2,85 / 0 | 3,87 / 2,35 | 5,24 / 4,57 |
-| B 8 % + hodiny, zbytek 70 : 30 | −2,85 / 0 | 4,42 / 1,80 | 6,80 / 3,01 |
-| D pevně 65 : 35, nic se nepočítá | −2,85 / 0 | 3,99 / 2,15 | 6,32 / 3,40 |
-| F 15 % + hodiny, zbytek 60 : 40 | −2,85 / 0 | 4,26 / 1,96 | 6,08 / 3,73 |
-| E 15 % + hodiny, zbytek 70 : 30 (dohoda) | −2,85 / 0 | 4,66 / 1,56 | 6,91 / 2,89 |
-| E + Ondřej vloží 3,5 mil. | −2,19 / −0,66 | 3,42 / 2,80 | 5,11 / 4,70 |
-
-## Firma
-
-- Nová s. r. o. jen na tento dům. Kvůli nabídce ČD (do 16. 11. 2026 12:00, s výpisem z obchodního rejstříku) ji Martin založí hned sám, Ondřej vstoupí po podpisu smlouvy společníků.
-- Peníze do firmy jako zápůjčka nebo příplatek, ne do základního kapitálu. Úkoly a hodiny fakturou, zbytek dividendou.
-- Hlasování: většina Martin. Peníze se dělí podle pořadí výplat ve smlouvě společníků (vzorec), ne podle podílů ve firmě.
-- Smlouvy a daně ověřit s advokátem a daňovým poradcem.
-
 <small>Odhad hodin: Martin 681,5 h, Ondřej 894 h vč. cest (s nástavbou Martin +93 h, Ondřej +512,5 h), ze stránky <a href="/propocet/cas.html">Čas</a>, kde je u každé položky, kdo ji dělá. Výpočet: <code>propocet/podil.py</code>. Nejde o finanční ani daňové poradenství.</small>
