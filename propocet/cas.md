@@ -4,7 +4,7 @@ title: Můj čas – odhad hodin po podpoložkách
 
 # Můj čas – odhad hodin po podpoložkách
 
-Kolik hodin vaší vlastní práce čekám u každé podpoložky z rozpisu nákladů (realisticky). Počítám s tím, že kamarád architekt shání a koordinuje řemeslníky a dělá technický dozor. Vy vybíráte a schvalujete, kupujete materiál pro řemeslníky (štítek R v reportu), přebíráte práci, jednáte s úřady a děláte práce svépomocí. Cesty do Benešova nejsou v položkách, jsou zvlášť dole.
+Kolik hodin vaší vlastní práce čekám u každé podpoložky z rozpisu nákladů (realisticky). Počítám s tím, že architekt Ondřej shání a koordinuje řemeslníky a dělá technický dozor. Vy vybíráte a schvalujete, kupujete materiál pro řemeslníky (štítek R v reportu), přebíráte práci, jednáte s úřady a děláte práce svépomocí. Cesty do Benešova nejsou v položkách, jsou zvlášť dole.
 
 ## Souhrn
 
@@ -55,7 +55,7 @@ Co může dělat jen architekt, co jen Martin a co kdokoliv z vás dvou, takže 
 | Kdo | Hodin | Proč a co |
 |---|--:|---|
 | **Jen architekt** | 390 | Projekt a povolení potřebují autorizaci, zaměření a technický dozor odbornost: zaměření stávajícího stavu; projekt stavebních úprav (ohlášení nebo povolení); zaměření, projekt, povolení změny užívání a technický dozor. |
-| **Jen Martin** | 36 | Firmu zakládá sám a podává nabídku ČD do 16. 11. (kamarád vstoupí až po smlouvě společníků), úvěr jedná a ručí jednatel. |
+| **Jen Martin** | 36 | Firmu zakládá sám a podává nabídku ČD do 16. 11. (Ondřej vstoupí až po smlouvě společníků), úvěr jedná a ručí jednatel. |
 | **Kdokoliv, dá se rozdělit** | 1149,5 | Všechno ostatní vč. cest (126 h): výběr a nákup materiálu, přebírání prací, úřady, prodej, svépomoc (223 h) a shánění a koordinace řemeslníků (320 h, teď počítané architektovi). |
 | **Celkem vy a architekt** | **1575,5** | Bez nástavby. |
 | Navíc s nástavbou | 605,5 | Architekt 500 h (projekt, povolení, dozor), kdokoliv 105,5 h (výběr, kontroly a prodej 3 bytů). |
@@ -460,7 +460,7 @@ Co může dělat jen architekt, co jen Martin a co kdokoliv z vás dvou, takže 
 
 ## Čas architekta (710 h bez nástavby, s nástavbou +500 h)
 
-Kamarád architekt pracuje zdarma. Jeho hodiny jsou hrubý odhad, v propočtu se přičítají k vašim.
+Architekt Ondřej pracuje zdarma. Jeho hodiny jsou hrubý odhad, v propočtu se přičítají k vašim.
 
 | Položka | Hodin | Kdo | Co dělá architekt |
 |---|--:|---|---|

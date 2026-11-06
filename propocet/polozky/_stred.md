@@ -71,7 +71,7 @@ Cíl: u každé nákladové položky z tabulky „1. Náklady“ v reportu posou
 - Nezávislý overeni/rozpocet-2.md ř. 130: společné prostory 95/165/260 tis. (schránky a zvonky má v portálu) → model bez schránek 211 vs 165 = +28 %. Dlažba 2 400 Kč/m² vč. podkladu je horní část (dlažba položená 1 200–1 800 + podklad na dřevotřísce ~500), zábradlí 1 600 Kč/bm za očištění a nátěr je vysoko (obvykle 600–1 000), malba 190 Kč/m² vs rozpocet-2 80 Kč/m² (ale s opravami omítek).
 - Real **220 → 185 tis.** bez DPH (dlažba 2 000 Kč/m², zábradlí 25, omítky a malba 30 tis.; dveře a schránky beze změny). Model: `stredni` real 7 652 → **7 604 tis.** (−44 stavba, −4 služby), `stredni_sluzby` 671 → **667 tis.** Report: 101 + 142 tis.
 - Dopad real: V1 2,70 → **2,74**, V2 3,04 → 3,07 mil.
-- Pozn.: mezi položkami 6 a 7 vzrostl V1 2,31 → 2,70 bez mé změny – jiná session přidala neplacenou práci kamaráda architekta (`arch_sluzby`, `arch_nebyt`, `arch_nastavba`, uživatel 5. 11.). Zohlednit u položky 13 (projekt).
+- Pozn.: mezi položkami 6 a 7 vzrostl V1 2,31 → 2,70 bez mé změny – jiná session přidala neplacenou práci architekta Ondřeje (`arch_sluzby`, `arch_nebyt`, `arch_nastavba`, uživatel 5. 11.). Zohlednit u položky 13 (projekt).
 
 ### 8. Byty A, B, C, D – upraveno po řádcích (celek −5 %, ale několik řádků mimo střed oběma směry)
 - Skupina (V1, s DPH) 3,51 mil. = 2 675 tis. bez DPH (byty.md). Srovnání řádků s nezávislým overeni/rozpocet-2.md (ř. 80–97):
@@ -124,13 +124,13 @@ Cíl: u každé nákladové položky z tabulky „1. Náklady“ v reportu posou
 ### 13. Projekt, dozor, statik (`stredni_sluzby`) – vráceno na 700 tis. (střed)
 - Rozpis projekt-rezerva.md 733 tis. s DPH: zaměření 40, projekt stavebních úprav 160, prováděcí TZB 200, PBŘ 45, statik 110, TDS 145 (1,9 %), BOZP 25, poplatky 8. Nezávislý overeni/rozpocet-2.md ř. 132 (bez DPH): zaměření 60, projekt + rozpočet 380, statik 90, TDS + BOZP 2,5 % stavby ≈ 667 tis. bez DPH = **~0,81 mil. s DPH**.
 - Při položkách 3, 4, 7, 8 jsem služby snižoval úměrně stavbě (700 → 666 tis.). To nebylo správně: projekt se cení podle rozsahu, ne podle ceny stavby, škáluje jen TDS. → `stredni_sluzby` real zpět na **700 tis.**, `stredni` real 7 590 → **7 624 tis.** V V1 je to s inflací a plochou ~0,73 mil. = rozpis, mezi modelem a rozpocet-2 (0,81). Pes 1,28 / opt 0,30 beze změny.
-- Kamarád architekt (`arch_sluzby` 47 %: zaměření, projekt stavebních úprav, TDS) – rozhodnutí uživatele, report ukazuje v závorkách; neměním.
+- Architekt Ondřej (`arch_sluzby` 47 %: zaměření, projekt stavebních úprav, TDS) – rozhodnutí uživatele, report ukazuje v závorkách; neměním.
 - Dopad real: V1 3,67 → **3,65**, V2 4,60 → **4,58** mil.
 
 ### 14. Vlastní dodavatelé: úspora proti firmě – beze změny (všechny vstupy jsou středy)
 - Report teď počítá směs (`MIX` v report.py, jiná session): každá položka stavby má štítek firma / řemeslník a parametry platí jen pro řemeslnické položky.
 - Vstupy real a jejich rozpětí: přirážka GD 12 % (8–18), podíl materiálu 50 % (45–55), sleva práce neplátců 10 % (0–20), podíl práce plátců 25 % (0–50), koordinace 4 % (3–5), stavba +1 měs. (0–2), pes rezerva +5 p.b. Real je ve všech případech uprostřed. Zdroje nejsou (ODHAD), takže není důvod je posouvat jedním směrem.
-- Prodloužení o 1 měsíc jsem zvažoval zvednout na 2 (koordinace řemesel bez GD se obvykle protáhne). Koordinaci ale teď dělá kamarád architekt (`arch_kc["koordinace"]`), proto beze změny.
+- Prodloužení o 1 měsíc jsem zvažoval zvednout na 2 (koordinace řemesel bez GD se obvykle protáhne). Koordinaci ale teď dělá architekt Ondřej (`arch_kc["koordinace"]`), proto beze změny.
 - Pozn.: materiál kupovaný investorem s DPH 21 % místo 12 % a odpočet DPH u plátce jsou v modelu správně.
 
 ### 15. Rezerva – beze změny (zadání a rozhodnutí uživatele)

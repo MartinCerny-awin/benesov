@@ -84,7 +84,7 @@ Tady přirážka 17,4 % není (rozpis odpovídá přímo vstupu modelu), takže 
 | Příčky, omítky, malby, 2 vstupní požární dveře, vnitřní dveře | 380 | 280 | −100 | Omítky 290 m² jsou skoro všechny stěny a stropy, část se kryje se sanačními omítkami. Malba **svépomocí**. Vstupní EI 30 dveře 20–30 tis. místo 35. |
 | Technická místnost TČ, požární oddělení bytů, úprava chodby | 176 | 150 | −26 | **Potřeba** (nádrž 1 000 l potřebuje ~6 m²; požární oddělení je podmínka povolení). |
 | Statik, požární řešení, akustika, osvětlení, průzkum vlhkosti, poplatky | 166 | 166 | 0 | Potřeba pro změnu užívání, cena v pořádku. |
-| *Architekt (projekt, povolení, dozor) – nepočítá se* | *(272)* | | | Dělá kamarád. |
+| *Architekt (projekt, povolení, dozor) – nepočítá se* | *(272)* | | | Dělá Ondřej. |
 | **Nebytová část celkem** | **3 071** | **2 386** | **−685** | |
 | Byt B 2+1 → 3+1 | 0 | 0 | 0 | Uživatel 5. 11.: B zůstává 2+1, v modelu nula. |
 | Prováděcí projekt topení, vody, kanalizace, elektra | 201 | 110 | −91 | Na malý dům stačí projekt elektra (kvůli revizi) a topení; projekt TČ často dělá dodavatel TČ v ceně. Vodu a kanalizaci podle výkresu architekta zvládne instalatér. |

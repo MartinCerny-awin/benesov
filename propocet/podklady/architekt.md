@@ -1,4 +1,4 @@
-# Kamarád architekt: co jeho práce ušetří
+# Architekt Ondřej: co jeho práce ušetří
 
 Stav propočtu k 5. 11. 2026 (čísla z `report.py`, realistický scénář). Na webu není.
 

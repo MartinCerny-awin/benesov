@@ -1,0 +1,10 @@
+<style>
+.topnav{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule,var(--line))}
+.topnav div{max-width:1080px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;align-items:center;gap:0 20px;font:500 14px/1.2 var(--f-body,var(--body)),system-ui,sans-serif}
+.topnav b{margin-right:auto;font-weight:600}
+.topnav a{color:var(--soft,var(--muted));text-decoration:none;padding:13px 0 11px;border-bottom:2px solid transparent}
+.topnav a:hover{color:var(--ink)} .topnav a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+.topnav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:480px){.topnav b{display:none}.topnav div{justify-content:space-between}}
+@media (max-width:560px){.topnav{position:static}.topnav div{padding:0 max(10px,env(safe-area-inset-left,0px))}}
+</style><nav class="topnav" aria-label="Stránky"><div><b>Jana Nohy 1598</b><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Propočet</a><a href="/dispozice.html"{% if page.url == "/dispozice.html" %} aria-current="page"{% endif %}>Dispozice</a><a href="/srovnani.html"{% if page.url == "/srovnani.html" %} aria-current="page"{% endif %}>Srovnání cen</a><a href="/propocet/cas.html"{% if page.url == "/propocet/cas.html" %} aria-current="page"{% endif %}>Můj čas</a><a href="/harmonogram.html"{% if page.url == "/harmonogram.html" %} aria-current="page"{% endif %}>Harmonogram</a><a href="/propocet/podil.html"{% if page.url == "/propocet/podil.html" %} aria-current="page"{% endif %}>Dělení zisku</a><a href="/dokumenty.html"{% if page.url == "/dokumenty.html" %} aria-current="page"{% endif %}>Dokumenty</a></div></nav>

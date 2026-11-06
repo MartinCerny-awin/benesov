@@ -12,7 +12,7 @@ Kontroluješ **jednu nákladovou položku** propočtu koupě, rekonstrukce a pro
 - Zděný bytový dům z roku 1981, 2 NP, plochá střecha, bez sklepa a výtahu, zastavěná plocha 239 m². Pozemek = jen půdorys, přístup přes pozemek SPÚ 2128/3. Odpojený od elektřiny, kotle na tuhá paliva, plyn není.
 - Byty A 4+1 80 m² (1. NP, už zrekonstruovaná koupelna), B 2+1 67 m² (zůstává 2+1), C 3+1 75 m², D 1+1 42 m² (2. NP) = 264 m². Nebytová část v 1. NP (dílna, sklady, kotelna) 86 m² → 2 byty 2+kk po ~40 m². Verze **bez nástavby** = 6 bytů, 344 m²; **s nástavbou** + ustupující podlaží se 2 byty (120 m²).
 - Trhliny 2–3 mm přes obě podlaží a sokl, vyplněná trhlina se znovu otevřela → sedání asi pokračuje.
-- Kupuje fyzická osoba, prodává po bytech sama (bez realitky), registrace k DPH (§ 56: rekonstrukce > 30 % a prodej do 23 měs. → prodej bytů s DPH 12 %, odpočet DPH na vstupu). Architekt je kamarád zdarma.
+- Kupuje fyzická osoba, prodává po bytech sama (bez realitky), registrace k DPH (§ 56: rekonstrukce > 30 % a prodej do 23 měs. → prodej bytů s DPH 12 %, odpočet DPH na vstupu). Architekt je Ondřej zdarma.
 - Stavba se dělá kombinací firma + řemeslníci (štítek u každé dílčí položky). Řemeslník neplátce: z jeho práce se DPH neodečítá, z materiálu se odečte 21 %. Svépomoc proto ušetří méně, než ukazují čísla s DPH – zohledni to.
 
 ## Důležité o číslech na webu

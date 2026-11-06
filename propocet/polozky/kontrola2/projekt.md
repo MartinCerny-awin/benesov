@@ -9,7 +9,7 @@ Web real bez nástavby: **390 tis.** = 201 + 45 + 111 + 25 + 8. Zaměření, pro
 | Prováděcí projekt ÚT, ZTI, elektro | 201 | **160** | 230–100 | ÚT/elektro/ZTI částečně ano (viz 2a) | Zúžit na ÚT+elektro+hromosvod, TČ návrh v ceně dodavatele: ~120 (−40). Svépomoc nelze (autorizace) | ODHAD: 4–6 % z TZB částí 2,75 mil. (vytápění 1 230 + rozvody 810 + byty elektro/voda 707); vytápěcí projekt jen 5–15 tis. (vytapeni.tzb-info.cz, hledání 5. 11. 2026) |
 | Požárně bezpečnostní řešení | 45 | **35** | 50–25 | Ano, jen jedno pro celý dům | Jedno PBŘ s nebytovou částí v jednom zadání, 30–35 | ODHAD; veřejný ceník bytového domu nenalezen (pbr.cz/cenik, daibau.cz/ceny/pozarni_ochrana, 5. 11. 2026: rekonstrukce „na nabídku“) |
 | Statik: posudek trhlin, návrh sanace | 111 | **100** | 160–70 | Ano (aktivní trhliny, W05/W11; bez posudku neprodáte bezpečně ani nedostanete povolení sanace) | Jedna nabídka s pevnou cenou, terče a odečty dělá statik; 80 | rozpad v 2b; stav.md 5b/5c ř. 188, 219 |
-| Koordinátor BOZP | 25 | **60** | 90–35 | Ano (více zhotovitelů, 3 a víc firem) | Požádat kamaráda architekta, jestli má osvědčení koordinátora: 0–15; jinak 40 za minimum návštěv | 309/2006 Sb. § 14–15; ceny viz 2c |
+| Koordinátor BOZP | 25 | **60** | 90–35 | Ano (více zhotovitelů, 3 a víc firem) | Požádat architekta Ondřeje, jestli má osvědčení koordinátora: 0–15; jinak 40 za minimum návštěv | 309/2006 Sb. § 14–15; ceny viz 2c |
 | Poplatky, vyjádření správců sítí | 8 | **15** | 25–8 | Ano | – | ODHAD; geodet skutečného provedení + správní poplatky, viz 3 |
 | **Součet** | **390** | **370** | 555–238 | | **~290 (−26 %)** | |
 
@@ -43,7 +43,7 @@ Web real bez nástavby: **390 tis.** = 201 + 45 + 111 + 25 + 8. Zaměření, pro
 | Můj real (firma + řemeslníci, služby se stejně platí 21 % DPH) | 370 | −5 % |
 | Nejlevnější rozumná (zúžený DPS 120, PBŘ 35, statik 80, koordinátor 40, poplatky 12) | ~290 | −26 % |
 
-Svépomoc u žádné položky: projekt, PBŘ, statik a koordinátor vyžadují autorizaci nebo osvědčení. Jediná legální úspora je kamarád architekt jako koordinátor, pokud má osvědčení (−25 až −60).
+Svépomoc u žádné položky: projekt, PBŘ, statik a koordinátor vyžadují autorizaci nebo osvědčení. Jediná legální úspora je architekt Ondřej jako koordinátor, pokud má osvědčení (−25 až −60).
 
 ## 5. Doporučení
 
